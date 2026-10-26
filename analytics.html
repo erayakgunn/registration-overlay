@@ -30,6 +30,16 @@
 
     <section class="stats" id="statCards" aria-label="Özet"></section>
 
+    <section class="panel intro-card">
+      <p class="eyebrow">Nasıl okunur?</p>
+      <ul class="intro-list">
+        <li><strong>Özet tablo:</strong> farklı oturum (farklı tarih) ve aynı oturum (aynı gün tekrarı) için Dice ortalamaları.</li>
+        <li><strong>Histogram:</strong> tüm pair'lerin Dice dağılımı; yeşil kesikli çizgi ortalamayı gösterir. X ekseni Dice, Y ekseni pair sayısı.</li>
+        <li><strong>Isı haritası — Dice:</strong> iki serinin hizalama sonrası <em>mutlak</em> Dice değeri. Kırmızı düşük, yeşil yüksek örtüşme. Diyagonal siyah = serinin kendisi. Bu bir "iyileşme" haritası değildir; zaten yüksek Dice'lı bir çift, iyileşme olmasa da yeşil kalır.</li>
+        <li><strong>Isı haritası — Kazanç:</strong> registration sonrası Dice artışı (after − before). Aynı oturumda 0 (nötr), farklı oturumda yüksek.</li>
+      </ul>
+    </section>
+
     <section class="analytics-grid">
       <article class="panel">
         <div class="panel-heading">
@@ -52,17 +62,29 @@
 
       <article class="panel wide">
         <div class="panel-heading">
-          <div><p class="eyebrow">Matris</p><h2>Dice ısı haritası</h2></div>
-          <div class="segmented" id="heatOrgan" role="group" aria-label="Organ">
-            <button type="button" data-organ="aorta" class="active">Aorta</button>
-            <button type="button" data-organ="spleen">Spleen</button>
+          <div><p class="eyebrow">Matris</p><h2 id="heatTitle">Dice ısı haritası</h2></div>
+          <div class="heat-controls">
+            <div class="segmented" id="heatMetric" role="group" aria-label="Metrik">
+              <button type="button" data-metric="dice" class="active">Dice</button>
+              <button type="button" data-metric="gain">Kazanç</button>
+            </div>
+            <div class="segmented" id="heatOrgan" role="group" aria-label="Organ">
+              <button type="button" data-organ="aorta" class="active">Aorta</button>
+              <button type="button" data-organ="spleen">Spleen</button>
+            </div>
           </div>
         </div>
         <div class="heat-wrap" id="heatWrap">
           <canvas id="heatCanvas"></canvas>
           <div class="heat-tip" id="heatTip"></div>
         </div>
+        <div class="heat-legend">
+          <span id="legendMin">0.88 · düşük</span>
+          <div class="heat-gradient" id="legendGradient"></div>
+          <span id="legendMax">1.00 · yüksek</span>
+        </div>
         <p class="heat-caption" id="heatCaption"></p>
+        <p class="scope-note" id="heatExplain"></p>
       </article>
 
       <article class="panel wide">

@@ -167,25 +167,50 @@
     ctx.textBaseline = "bottom";
     ctx.fillText("Dice", margin.left + plotW / 2, height - 4);
 
-    $("#histCaption").textContent = `${histOrgan === "aorta" ? "Aorta" : "Spleen"} · ${ds.n_pairs} pair · aralık ${fmt(x0, 3)}–${fmt(x1, 3)} · ortalama ${fmt(mean, 3)}`;
+    $("#histCaption").textContent = `${histOrgan === "aorta" ? "Aorta" : "Spleen"} · ${ds.n_pairs} pair · aralık ${fmt(x0, 3)}–${fmt(x1, 3)} · ortalama ${fmt(mean, 3)} · X: Dice, Y: pair sayısı`;
   }
 
   let heatOrgan = "aorta";
+  let heatMetric = "dice";
+
+  function gainColor(v) {
+    if (v == null || !isFinite(v)) return "#0a1622";
+    if (v < -0.001) return "#8a3b3b";
+    if (v <= 0.001) return "#26323f";
+    const t = Math.max(0, Math.min(1, v / 1.0));
+    const lo = [255, 190, 105];
+    const hi = [53, 224, 161];
+    const c = lo.map((v0, i) => Math.round(v0 + (hi[i] - v0) * t));
+    return `rgb(${c[0]},${c[1]},${c[2]})`;
+  }
+
   function renderHeat() {
-    const matrix = ds.dice[heatOrgan];
+    const isDice = heatMetric === "dice";
+    const matrix = isDice ? ds.dice[heatOrgan] : ds.gain[heatOrgan];
     const n = matrix.length;
     const cell = n > 80 ? 7 : 8;
     const canvas = $("#heatCanvas");
     const size = n * cell;
     const ctx = fit(canvas, size, size);
+    const colorOf = isDice ? diceColor : gainColor;
     for (let i = 0; i < n; i += 1) {
       for (let j = 0; j < n; j += 1) {
         const v = matrix[i][j];
-        ctx.fillStyle = i === j ? "#0a1622" : diceColor(v);
+        ctx.fillStyle = i === j ? "#0a1622" : colorOf(v);
         ctx.fillRect(j * cell, i * cell, cell - 0.5, cell - 0.5);
       }
     }
-    $("#heatCaption").textContent = `${heatOrgan === "aorta" ? "Aorta" : "Spleen"} · ${n}×${n} seri · hücre üzerine gelince çift bilgisi. Renk: kırmızı düşük, yeşil yüksek Dice.`;
+    const organLabel = heatOrgan === "aorta" ? "Aorta" : "Spleen";
+    $("#heatTitle").textContent = isDice ? "Dice ısı haritası" : "Kazanç ısı haritası";
+    $("#legendMin").textContent = isDice ? "0.88 · düşük" : "0 · değişim yok";
+    $("#legendMax").textContent = isDice ? "1.00 · yüksek" : "1.00 · yüksek kazanç";
+    $("#legendGradient").style.background = isDice
+      ? "linear-gradient(90deg, #ff5858, #ffbe69, #35e0a1)"
+      : "linear-gradient(90deg, #26323f, #ffbe69, #35e0a1)";
+    $("#heatCaption").textContent = `${organLabel} · ${n}×${n} seri · hücre üzerine gelince çift bilgisi.`;
+    $("#heatExplain").innerHTML = isDice
+      ? "<strong>Bu harita mutlak Dice'ı gösterir, kazanç değil.</strong> Her hücre, satır ve sütundaki iki serinin hizalama sonrası örtüşmesidir (diyagonal = serinin kendisi). Renk ölçeği sabittir: kırmızı ≈0.88 ve altı, yeşil ≈0.99–1.00. Zaten yüksek Dice'lı bir çift, 'iyileşme yok' diye kırmızı görünmez; rengi doğrudan Dice değerinden gelir. Kazanç için üstteki <em>Kazanç</em> sekmesine geçin."
+      : "<strong>Kazanç = registration sonrası Dice − öncesi Dice.</strong> Yeşil = Dice arttı, koyu = değişim yok (aynı oturum çiftleri), kırmızı = azaldı. Farklı oturum çiftlerinde rigid/landmark registration'ın katkısını gösterir.";
 
     const tip = $("#heatTip");
     canvas.onmousemove = (event) => {
@@ -194,7 +219,7 @@
       const i = Math.floor((event.clientY - rect.top) / cell);
       if (i < 0 || j < 0 || i >= n || j >= n || i === j) { tip.style.opacity = "0"; return; }
       const v = matrix[i][j];
-      tip.textContent = `${ds.series[i]} ↔ ${ds.series[j]} · ${fmt(v, 4)}`;
+      tip.textContent = `${ds.series[i]} ↔ ${ds.series[j]} · ${isDice ? "Dice" : "Kazanç"} ${fmt(v, 4)}`;
       tip.style.left = `${event.clientX + 12}px`;
       tip.style.top = `${event.clientY + 12}px`;
       tip.style.opacity = "1";
@@ -261,6 +286,13 @@
 
   bindToggle("#histOrgan", (v) => { histOrgan = v; }, renderHist);
   bindToggle("#heatOrgan", (v) => { heatOrgan = v; }, renderHeat);
+  $("#heatMetric").addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-metric]");
+    if (!button) return;
+    $$("#heatMetric button").forEach((b) => b.classList.toggle("active", b === button));
+    heatMetric = button.dataset.metric;
+    renderHeat();
+  });
 
   renderCards();
   renderSummary();
