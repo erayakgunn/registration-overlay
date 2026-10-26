@@ -151,3 +151,33 @@ table.analytics tr:hover td { background: rgba(53, 224, 161, 0.04); }
 @media (max-width: 900px) {
   .analytics-grid { grid-template-columns: 1fr; }
 }
+
+.outlier-notes {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.outlier-note {
+  margin-top: 8px;
+  padding: 9px 11px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(5, 15, 25, 0.42);
+}
+
+.outlier-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.outlier-head span { color: var(--muted); font-size: 11px; }
+
+.outlier-note p {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 11.5px;
+  line-height: 1.5;
+}

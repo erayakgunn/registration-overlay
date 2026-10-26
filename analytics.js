@@ -274,6 +274,17 @@
       <tbody>${rows}</tbody></table>`;
   }
 
+  function renderNotes() {
+    const notes = ds.notes || [];
+    const box = $("#outlierNotes");
+    if (!notes.length) { box.innerHTML = ""; return; }
+    box.innerHTML = `<p class="mini-label">Aykırı seriler ve neden düşük</p>` +
+      notes.map((n) => `<div class="outlier-note">
+        <div class="outlier-head"><strong>${n.series}</strong><span>ort. Dice ${fmt(n.mean, 3)}</span></div>
+        <p>${n.reason}</p>
+      </div>`).join("");
+  }
+
   function bindToggle(selector, setter, render) {
     $(selector).addEventListener("click", (event) => {
       const button = event.target.closest("button[data-organ]");
@@ -300,5 +311,6 @@
   renderHeat();
   renderDates();
   renderDiag();
+  renderNotes();
   window.addEventListener("resize", () => { renderHist(); renderDates(); });
 })();
