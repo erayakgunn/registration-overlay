@@ -27,6 +27,7 @@
           <span class="mini-label">Fixed referans</span>
           <strong id="fixedRef">20260805_t1</strong>
         </div>
+        <a class="ghost-button" id="analyticsLink" href="analytics.html?dataset=sep">Analiz</a>
         <button class="ghost-button" id="printButton" type="button">Yazdır</button>
       </div>
     </header>
@@ -232,6 +233,8 @@
   <script>
     (() => {
       const key = new URLSearchParams(location.search).get("dataset") || "sep";
+      const analyticsLink = document.getElementById("analyticsLink");
+      if (analyticsLink) analyticsLink.href = `analytics.html?dataset=${key}`;
       const meta = (window.DATASETS && window.DATASETS[key]) || {};
       const label = meta.label || key.toUpperCase();
       document.querySelectorAll(".dataset-link").forEach((link) => {
