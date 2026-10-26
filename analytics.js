@@ -96,7 +96,7 @@
     const width = Math.max(320, canvas.parentElement.clientWidth - 4);
     const height = 300;
     const ctx = fit(canvas, width, height);
-    const margin = { left: 54, right: 18, top: 20, bottom: 56 };
+    const margin = { left: 62, right: 18, top: 20, bottom: 64 };
     const plotW = width - margin.left - margin.right;
     const plotH = height - margin.top - margin.bottom;
     const counts = hist.counts;
@@ -117,7 +117,7 @@
       ctx.fillStyle = "rgba(154,178,206,0.75)";
       ctx.textAlign = "right";
       ctx.textBaseline = "middle";
-      ctx.fillText(String(Math.round(maxCount * (1 - g / 4))), margin.left - 8, y);
+      ctx.fillText(String(Math.round(maxCount * (1 - g / 4))), margin.left - 10, y);
     }
 
     // Bars.
@@ -145,7 +145,7 @@
       ctx.beginPath(); ctx.moveTo(x, margin.top + plotH); ctx.lineTo(x, margin.top + plotH + 5); ctx.stroke();
       ctx.fillStyle = "rgba(154,178,206,0.85)";
       ctx.textAlign = t === 0 ? "left" : t === ticks - 1 ? "right" : "center";
-      ctx.fillText(fmt(v, 3), x, margin.top + plotH + 8);
+      ctx.fillText(fmt(v, 3), x, margin.top + plotH + 12);
     }
 
     // Mean marker.
