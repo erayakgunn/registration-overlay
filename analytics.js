@@ -94,41 +94,80 @@
     const hist = ds.hist[histOrgan];
     const canvas = $("#histCanvas");
     const width = Math.max(320, canvas.parentElement.clientWidth - 4);
-    const height = 280;
+    const height = 300;
     const ctx = fit(canvas, width, height);
-    const margin = { left: 44, right: 12, top: 14, bottom: 34 };
+    const margin = { left: 54, right: 18, top: 20, bottom: 56 };
     const plotW = width - margin.left - margin.right;
     const plotH = height - margin.top - margin.bottom;
     const counts = hist.counts;
     const edges = hist.edges;
     const maxCount = Math.max(...counts, 1);
     const barW = plotW / counts.length;
-
-    ctx.strokeStyle = "rgba(154,178,206,0.18)";
+    const x0 = edges[0];
+    const x1 = edges[edges.length - 1];
+    const sx = (v) => margin.left + ((v - x0) / (x1 - x0)) * plotW;
+    ctx.font = "10px system-ui, sans-serif";
     ctx.lineWidth = 1;
+
+    // Horizontal grid + y-axis counts.
     for (let g = 0; g <= 4; g += 1) {
       const y = margin.top + (plotH * g) / 4;
+      ctx.strokeStyle = "rgba(154,178,206,0.16)";
       ctx.beginPath(); ctx.moveTo(margin.left, y); ctx.lineTo(width - margin.right, y); ctx.stroke();
-      const val = Math.round(maxCount * (1 - g / 4));
-      ctx.fillStyle = "rgba(154,178,206,0.7)";
-      ctx.font = "10px system-ui, sans-serif";
+      ctx.fillStyle = "rgba(154,178,206,0.75)";
       ctx.textAlign = "right";
-      ctx.fillText(String(val), margin.left - 6, y + 3);
+      ctx.textBaseline = "middle";
+      ctx.fillText(String(Math.round(maxCount * (1 - g / 4))), margin.left - 8, y);
     }
+
+    // Bars.
     counts.forEach((count, i) => {
       const h = (count / maxCount) * plotH;
       const x = margin.left + i * barW + 1;
       ctx.fillStyle = diceColor((edges[i] + edges[i + 1]) / 2);
       ctx.fillRect(x, margin.top + plotH - h, Math.max(1, barW - 2), h);
     });
+
+    // X axis line.
+    ctx.strokeStyle = "rgba(154,178,206,0.5)";
+    ctx.beginPath();
+    ctx.moveTo(margin.left, margin.top + plotH);
+    ctx.lineTo(width - margin.right, margin.top + plotH);
+    ctx.stroke();
+
+    // X ticks with readable labels.
+    const ticks = 6;
+    ctx.textBaseline = "top";
+    for (let t = 0; t < ticks; t += 1) {
+      const v = x0 + ((x1 - x0) * t) / (ticks - 1);
+      const x = sx(v);
+      ctx.strokeStyle = "rgba(154,178,206,0.5)";
+      ctx.beginPath(); ctx.moveTo(x, margin.top + plotH); ctx.lineTo(x, margin.top + plotH + 5); ctx.stroke();
+      ctx.fillStyle = "rgba(154,178,206,0.85)";
+      ctx.textAlign = t === 0 ? "left" : t === ticks - 1 ? "right" : "center";
+      ctx.fillText(fmt(v, 3), x, margin.top + plotH + 8);
+    }
+
+    // Mean marker.
+    const total = counts.reduce((a, b) => a + b, 0) || 1;
+    const mean = counts.reduce((acc, c, i) => acc + (c * (edges[i] + edges[i + 1])) / 2, 0) / total;
+    const mx = sx(mean);
+    ctx.strokeStyle = "rgba(53,224,161,0.9)";
+    ctx.setLineDash([4, 4]);
+    ctx.beginPath(); ctx.moveTo(mx, margin.top); ctx.lineTo(mx, margin.top + plotH); ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle = "#35e0a1";
+    ctx.textAlign = mx > width / 2 ? "right" : "left";
+    ctx.textBaseline = "top";
+    ctx.fillText(`ort. ${fmt(mean, 3)}`, mx + (mx > width / 2 ? -6 : 6), margin.top + 2);
+
+    // Axis title.
     ctx.fillStyle = "rgba(154,178,206,0.8)";
-    ctx.font = "11px system-ui, sans-serif";
     ctx.textAlign = "center";
-    ctx.fillText(fmt(edges[0], 3), margin.left + barW / 2, height - 12);
-    ctx.fillText(fmt(edges[edges.length - 1], 3), width - margin.right - barW / 2, height - 12);
-    ctx.textAlign = "left";
-    ctx.fillText("Dice", margin.left, height - 12);
-    $("#histCaption").textContent = `${histOrgan === "aorta" ? "Aorta" : "Spleen"} · ${ds.n_pairs} pair · aralık ${fmt(edges[0], 3)}–${fmt(edges[edges.length - 1], 3)}`;
+    ctx.textBaseline = "bottom";
+    ctx.fillText("Dice", margin.left + plotW / 2, height - 4);
+
+    $("#histCaption").textContent = `${histOrgan === "aorta" ? "Aorta" : "Spleen"} · ${ds.n_pairs} pair · aralık ${fmt(x0, 3)}–${fmt(x1, 3)} · ortalama ${fmt(mean, 3)}`;
   }
 
   let heatOrgan = "aorta";
