@@ -156,12 +156,17 @@
             <h3 id="viewLabel">Aorta · aksiyel · z 82</h3>
           </div>
           <div class="mode-toggle" id="modeToggle" role="group" aria-label="Görünüm modu">
-            <button type="button" data-mode="slider" class="active">Slider</button>
+            <button type="button" data-mode="three">Ham | Centroid | Rigid</button>
+            <button type="button" data-mode="slider">Slider</button>
             <button type="button" data-mode="side">Yan yana</button>
           </div>
         </div>
 
         <div class="compare slider" id="compare">
+          <div class="pane raw-pane">
+            <img id="imgRaw" alt="Ham: işlenmemiş moving görüntü" draggable="false">
+            <span class="image-tag tag-raw">HAM · işlenmemiş</span>
+          </div>
           <div class="pane before-pane">
             <img id="imgBefore" alt="Önce: centroid öteleme sonrası çakıştırma" draggable="false">
             <span class="image-tag tag-before">ÖNCE · centroid</span>

@@ -14,7 +14,7 @@
     sliceMode: "all",
     sliceIndex: 1,
     allIndex: 0,
-    mode: "slider",
+    mode: "three",
     split: 50,
     galleryQuery: "",
     gallerySort: "date",
@@ -65,8 +65,9 @@
     compare: $("#compare"),
     afterPane: $("#afterPane"),
     compareDivider: $("#compareDivider"),
-    imgBefore: $("#imgBefore"),
-    imgAfter: $("#imgAfter"),
+  imgBefore: $("#imgBefore"),
+  imgAfter: $("#imgAfter"),
+  imgRaw: $("#imgRaw"),
     splitRange: $("#splitRange"),
     sliderRow: $("#sliderRow"),
     modeToggle: $("#modeToggle"),
@@ -355,13 +356,16 @@
     const index = activeIndex();
     const view = list[index] ?? list[0];
     const organLabel = ORGAN_LABEL[state.organ];
-    refs.viewEyebrow.textContent = isAllMode()
-      ? "Tüm kesitler"
-      : state.mode === "side" ? "Yan yana" : "Önce / sonra";
+    refs.viewEyebrow.textContent = state.mode === "three"
+      ? "Ham / centroid / rigid"
+      : isAllMode()
+        ? "Tüm kesitler"
+        : state.mode === "side" ? "Yan yana" : "Önce / sonra";
     refs.viewLabel.textContent = `${organLabel} · ${PLANE_LABEL[state.plane].toLowerCase()} · ${view.label}`;
     refs.viewMeta.textContent = `${data.fixed} fixed · ${item.series} moving`;
     refs.imgBefore.src = view.before;
     refs.imgAfter.src = view.after;
+    refs.imgRaw.src = view.raw || view.before;
     refs.imgBefore.alt = `${item.series} · ${organLabel} · ${view.label} · önce`;
     refs.imgAfter.alt = `${item.series} · ${organLabel} · ${view.label} · sonra`;
 
@@ -398,9 +402,10 @@
 
     refs.compare.classList.toggle("slider", state.mode === "slider");
     refs.compare.classList.toggle("side", state.mode === "side");
-    refs.compareDivider.style.display = state.mode === "side" ? "none" : "";
-    refs.splitRange.disabled = state.mode === "side";
-    refs.sliderRow.style.display = state.mode === "side" ? "none" : "";
+    refs.compare.classList.toggle("three", state.mode === "three");
+    refs.compareDivider.style.display = state.mode === "slider" ? "" : "none";
+    refs.splitRange.disabled = state.mode !== "slider";
+    refs.sliderRow.style.display = state.mode === "slider" ? "" : "none";
   }
 
   function averageGainOf(item) {

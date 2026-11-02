@@ -944,6 +944,22 @@ h3 {
 .side .before-pane { border-radius: 14px 4px 4px 14px; }
 .side .after-pane { border-radius: 4px 14px 14px 4px; }
 
+.compare.three {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  aspect-ratio: 3 / 1;
+  cursor: default;
+}
+
+.three .pane { position: relative; inset: auto; min-width: 0; }
+.three .raw-pane { border-radius: 14px 4px 4px 14px; }
+.three .before-pane { border-radius: 4px; }
+.three .after-pane { clip-path: none !important; border-radius: 4px 14px 14px 4px; }
+.three .compare-divider { display: none; }
+.compare:not(.three) .raw-pane { display: none; }
+.tag-raw { left: 12px; color: #ffd28a; }
+
 .after-pane {
   clip-path: inset(0 0 0 var(--split));
 }
