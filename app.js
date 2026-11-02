@@ -14,7 +14,7 @@
     sliceMode: "all",
     sliceIndex: 1,
     allIndex: 0,
-    mode: "three",
+    mode: (data.beforeLabel || "").toLowerCase().includes("identity") ? "slider" : "three",
     split: 50,
     galleryQuery: "",
     gallerySort: "date",
@@ -68,6 +68,8 @@
   imgBefore: $("#imgBefore"),
   imgAfter: $("#imgAfter"),
   imgRaw: $("#imgRaw"),
+  tagBefore: $("#tagBefore"),
+  tagAfter: $("#tagAfter"),
     splitRange: $("#splitRange"),
     sliderRow: $("#sliderRow"),
     modeToggle: $("#modeToggle"),
@@ -366,6 +368,9 @@
     refs.imgBefore.src = view.before;
     refs.imgAfter.src = view.after;
     refs.imgRaw.src = view.raw || view.before;
+    const isIdentityBefore = (data.beforeLabel || "").toLowerCase().includes("identity");
+    if (refs.tagBefore) refs.tagBefore.textContent = `ÖNCE · ${isIdentityBefore ? "identity" : "centroid"}`;
+    if (refs.tagAfter) refs.tagAfter.textContent = `SONRA · ${(data.afterLabel || "").toLowerCase().includes("registered") ? "registered" : "rigid"}`;
     refs.imgBefore.alt = `${item.series} · ${organLabel} · ${view.label} · önce`;
     refs.imgAfter.alt = `${item.series} · ${organLabel} · ${view.label} · sonra`;
 
