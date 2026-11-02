@@ -22,6 +22,7 @@
         <div class="dataset-switch" id="datasetSwitch" role="group" aria-label="Dataset">
           <a class="dataset-link" data-dataset="sep" href="?dataset=sep">SEP</a>
           <a class="dataset-link" data-dataset="pcct" href="?dataset=pcct">PCCT</a>
+          <a class="dataset-link" data-dataset="zurich" href="?dataset=zurich">Zürich</a>
         </div>
         <div class="ref-chip">
           <span class="mini-label">Fixed referans</span>
@@ -234,7 +235,10 @@
     (() => {
       const key = new URLSearchParams(location.search).get("dataset") || "sep";
       const analyticsLink = document.getElementById("analyticsLink");
-      if (analyticsLink) analyticsLink.href = `analytics.html?dataset=${key}`;
+      if (analyticsLink) {
+        if (key === "zurich") analyticsLink.style.display = "none";
+        else analyticsLink.href = `analytics.html?dataset=${key}`;
+      }
       const meta = (window.DATASETS && window.DATASETS[key]) || {};
       const label = meta.label || key.toUpperCase();
       document.querySelectorAll(".dataset-link").forEach((link) => {
@@ -244,11 +248,15 @@
       if (mark) mark.textContent = label;
       const footerLeft = document.getElementById("footerLeft");
       if (footerLeft && window.CASES) {
-        footerLeft.textContent = `${label} Phantom · Aorta label 52 · Spleen label 1 · Fixed ${window.CASES.fixed}`;
+        footerLeft.textContent = key === "zurich"
+          ? `${label} · Test-retest · Fixed ${window.CASES.fixed}`
+          : `${label} Phantom · Aorta label 52 · Spleen label 1 · Fixed ${window.CASES.fixed}`;
       }
       const scopeNote = document.getElementById("scopeNote");
       if (scopeNote && window.CASES) {
-        scopeNote.innerHTML = `<strong>Rigid sonrası sınır ve sonraki adım.</strong> Bu çalışmada fixed ${window.CASES.fixed} referansına ${window.CASES.cases.length} moving take için centroid-öteleme ön hizalaması ve rigid (bone/landmark) registration uygulandı; Dice, centroid farkı, HD95 ve ASSD hesaplandı. Rigid sonrası global hizalama çoğu vakada 1 mm altında kaldı; kalan Dice farkı ağırlıklı olarak boundary/şekil ve segmentasyon kaynaklı. Daha yüksek doğruluk için iki yol öne çıkar: deformable registration veya segmentasyon düzeltmesi/re-segmentation. Deformable farklı bir yöntemdir; Dice’ı yükseltse bile rigid başarısıyla doğrudan karşılaştırılamaz. Re-segmentation ise ground truth’u değiştirir; tüm fixed/moving veriye aynı protokolle uygulanmalı ve observer variability/ek maliyet getirir.`;
+        scopeNote.innerHTML = key === "zurich"
+          ? `<strong>Zürich test-retest.</strong> Aynı oturumdaki 1 test + 9 retest, take1 referansına göre karşılaştırıldı; before = identity, after = rigid/landmark. Test-retest verisi zaten hizalı olduğundan Dice değişimi küçüktür; asıl fark cross-date karşılaştırmasında ortaya çıkar. VOI Dice registration QC metriği değildir.`
+          : `<strong>Rigid sonrası sınır ve sonraki adım.</strong> Bu çalışmada fixed ${window.CASES.fixed} referansına ${window.CASES.cases.length} moving take için centroid-öteleme ön hizalaması ve rigid (bone/landmark) registration uygulandı; Dice, centroid farkı, HD95 ve ASSD hesaplandı. Rigid sonrası global hizalama çoğu vakada 1 mm altında kaldı; kalan Dice farkı ağırlıklı olarak boundary/şekil ve segmentasyon kaynaklı. Daha yüksek doğruluk için iki yol öne çıkar: deformable registration veya segmentasyon düzeltmesi/re-segmentation. Deformable farklı bir yöntemdir; Dice’ı yükseltse bile rigid başarısıyla doğrudan karşılaştırılamaz. Re-segmentation ise ground truth’u değiştirir; tüm fixed/moving veriye aynı protokolle uygulanmalı ve observer variability/ek maliyet getirir.`;
       }
     })();
   </script>

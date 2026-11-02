@@ -19205,6 +19205,11572 @@ window.DATASETS = {
       }
     ],
     "label": "PCCT"
+  },
+  "zurich": {
+    "fixed": "take1",
+    "beforeLabel": "Identity (no registration)",
+    "afterLabel": "Registered (rigid/landmark)",
+    "label": "Zürich",
+    "cases": [
+      {
+        "id": "zpcct_1_2",
+        "day": "20260929",
+        "take": 2,
+        "series": "PCCT 120kV 100mAs 1mm MonoE70keV t2",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_MonoE70keV_take1_recon1mm_s11",
+        "title": "PCCT 120kV 100mAs 1mm MonoE70keV t2",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.955→0.962; Spleen 0.969→0.975.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 102,
+        "summary": "PCCT 120kV 100mAs 1mm MonoE70keV t2 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.95508,
+            "after": 0.9624
+          },
+          "spleen": {
+            "before": 0.96866,
+            "after": 0.97454
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_1_2/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_2/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_1_2/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_2/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 293",
+                "before": "assets/zurich/zpcct_1_2/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_2/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_1_2/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_2/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_1_2/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_2/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 335",
+                "before": "assets/zurich/zpcct_1_2/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_2/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2,
+            "hd95": 1.0,
+            "assd": 0.2103
+          },
+          "spleen": {
+            "centroid": 0.5092,
+            "hd95": 1.0,
+            "assd": 0.245
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_1_2/gallery.jpg"
+      },
+      {
+        "id": "zpcct_1_3",
+        "day": "20260929",
+        "take": 3,
+        "series": "PCCT 120kV 100mAs 1mm MonoE70keV t3",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_MonoE70keV_take1_recon1mm_s19",
+        "title": "PCCT 120kV 100mAs 1mm MonoE70keV t3",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.922→0.921; Spleen 0.957→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 103,
+        "summary": "PCCT 120kV 100mAs 1mm MonoE70keV t3 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.92212,
+            "after": 0.92109
+          },
+          "spleen": {
+            "before": 0.95749,
+            "after": 0.96265
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_1_3/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_3/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_1_3/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_3/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 293",
+                "before": "assets/zurich/zpcct_1_3/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_3/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_1_3/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_3/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_1_3/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_3/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 335",
+                "before": "assets/zurich/zpcct_1_3/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_3/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.8478,
+            "hd95": 1.1719,
+            "assd": 0.4205
+          },
+          "spleen": {
+            "centroid": 0.4352,
+            "hd95": 1.159,
+            "assd": 0.3422
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_vertebrae",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_1_3/gallery.jpg"
+      },
+      {
+        "id": "zpcct_1_4",
+        "day": "20260929",
+        "take": 4,
+        "series": "PCCT 120kV 100mAs 1mm MonoE70keV t4",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_MonoE70keV_take1_recon1mm_s27",
+        "title": "PCCT 120kV 100mAs 1mm MonoE70keV t4",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.947→0.947; Spleen 0.969→0.969.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 104,
+        "summary": "PCCT 120kV 100mAs 1mm MonoE70keV t4 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94673,
+            "after": 0.94673
+          },
+          "spleen": {
+            "before": 0.96937,
+            "after": 0.96937
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_1_4/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_4/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_1_4/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_4/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 293",
+                "before": "assets/zurich/zpcct_1_4/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_4/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_1_4/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_4/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_1_4/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_4/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 335",
+                "before": "assets/zurich/zpcct_1_4/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_4/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.363,
+            "hd95": 1.0,
+            "assd": 0.2883
+          },
+          "spleen": {
+            "centroid": 0.3789,
+            "hd95": 1.0,
+            "assd": 0.2782
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_1_4/gallery.jpg"
+      },
+      {
+        "id": "zpcct_1_5",
+        "day": "20260929",
+        "take": 5,
+        "series": "PCCT 120kV 100mAs 1mm MonoE70keV t5",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_MonoE70keV_take1_recon1mm_s34",
+        "title": "PCCT 120kV 100mAs 1mm MonoE70keV t5",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.934→0.929; Spleen 0.962→0.964.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 105,
+        "summary": "PCCT 120kV 100mAs 1mm MonoE70keV t5 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.93425,
+            "after": 0.92872
+          },
+          "spleen": {
+            "before": 0.96216,
+            "after": 0.96448
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_1_5/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_5/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_1_5/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_5/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 293",
+                "before": "assets/zurich/zpcct_1_5/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_5/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_1_5/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_5/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_1_5/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_5/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 335",
+                "before": "assets/zurich/zpcct_1_5/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_5/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4243,
+            "hd95": 1.1719,
+            "assd": 0.3758
+          },
+          "spleen": {
+            "centroid": 0.5412,
+            "hd95": 1.0,
+            "assd": 0.3172
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_vertebrae",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_1_5/gallery.jpg"
+      },
+      {
+        "id": "zpcct_1_6",
+        "day": "20260929",
+        "take": 6,
+        "series": "PCCT 120kV 100mAs 1mm MonoE70keV t6",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_MonoE70keV_take1_recon1mm_s42",
+        "title": "PCCT 120kV 100mAs 1mm MonoE70keV t6",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.938→0.939; Spleen 0.961→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 106,
+        "summary": "PCCT 120kV 100mAs 1mm MonoE70keV t6 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.93753,
+            "after": 0.93883
+          },
+          "spleen": {
+            "before": 0.96088,
+            "after": 0.96738
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_1_6/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_6/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_1_6/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_6/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 293",
+                "before": "assets/zurich/zpcct_1_6/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_6/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_1_6/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_6/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_1_6/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_6/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 335",
+                "before": "assets/zurich/zpcct_1_6/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_6/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3733,
+            "hd95": 1.159,
+            "assd": 0.3444
+          },
+          "spleen": {
+            "centroid": 0.4822,
+            "hd95": 1.0,
+            "assd": 0.3054
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_vertebrae",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_1_6/gallery.jpg"
+      },
+      {
+        "id": "zpcct_1_7",
+        "day": "20260929",
+        "take": 7,
+        "series": "PCCT 120kV 100mAs 1mm MonoE70keV t7",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_MonoE70keV_take1_recon1mm_s50",
+        "title": "PCCT 120kV 100mAs 1mm MonoE70keV t7",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.933→0.933; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 107,
+        "summary": "PCCT 120kV 100mAs 1mm MonoE70keV t7 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.93349,
+            "after": 0.93349
+          },
+          "spleen": {
+            "before": 0.96334,
+            "after": 0.96334
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_1_7/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_7/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_1_7/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_7/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 293",
+                "before": "assets/zurich/zpcct_1_7/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_7/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_1_7/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_7/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_1_7/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_7/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 335",
+                "before": "assets/zurich/zpcct_1_7/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_7/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 1.11,
+            "hd95": 1.0,
+            "assd": 0.369
+          },
+          "spleen": {
+            "centroid": 0.5428,
+            "hd95": 1.0,
+            "assd": 0.3663
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_1_7/gallery.jpg"
+      },
+      {
+        "id": "zpcct_1_8",
+        "day": "20260929",
+        "take": 8,
+        "series": "PCCT 120kV 100mAs 1mm MonoE70keV t8",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_MonoE70keV_take1_recon1mm_s58",
+        "title": "PCCT 120kV 100mAs 1mm MonoE70keV t8",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.950→0.961; Spleen 0.967→0.973.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 108,
+        "summary": "PCCT 120kV 100mAs 1mm MonoE70keV t8 → take1",
+        "method": "Centroid translation",
+        "scores": {
+          "aorta": {
+            "before": 0.94984,
+            "after": 0.96077
+          },
+          "spleen": {
+            "before": 0.96678,
+            "after": 0.97255
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_1_8/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_8/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_1_8/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_8/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 293",
+                "before": "assets/zurich/zpcct_1_8/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_8/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_1_8/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_8/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_1_8/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_8/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 335",
+                "before": "assets/zurich/zpcct_1_8/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_8/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3415,
+            "hd95": 1.0,
+            "assd": 0.2341
+          },
+          "spleen": {
+            "centroid": 0.4178,
+            "hd95": 1.0,
+            "assd": 0.2938
+          }
+        },
+        "registration": {
+          "method": "centroid_translation_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_1_8/gallery.jpg"
+      },
+      {
+        "id": "zpcct_1_9",
+        "day": "20260929",
+        "take": 9,
+        "series": "PCCT 120kV 100mAs 1mm MonoE70keV t9",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_MonoE70keV_take1_recon1mm_s66",
+        "title": "PCCT 120kV 100mAs 1mm MonoE70keV t9",
+        "fixed": "take1",
+        "tone": "mint",
+        "tag": "Test-retest",
+        "note": "Aorta 0.942→0.960; Spleen 0.967→0.974.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 109,
+        "summary": "PCCT 120kV 100mAs 1mm MonoE70keV t9 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.94174,
+            "after": 0.96047
+          },
+          "spleen": {
+            "before": 0.96672,
+            "after": 0.97422
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_1_9/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_9/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_1_9/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_9/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 293",
+                "before": "assets/zurich/zpcct_1_9/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_9/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_1_9/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_9/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_1_9/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_9/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 335",
+                "before": "assets/zurich/zpcct_1_9/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_9/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.9126,
+            "hd95": 1.0,
+            "assd": 0.235
+          },
+          "spleen": {
+            "centroid": 0.482,
+            "hd95": 1.0,
+            "assd": 0.2746
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_1_9/gallery.jpg"
+      },
+      {
+        "id": "zpcct_1_10",
+        "day": "20260929",
+        "take": 10,
+        "series": "PCCT 120kV 100mAs 1mm MonoE70keV t10",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_MonoE70keV_take1_recon1mm_s75",
+        "title": "PCCT 120kV 100mAs 1mm MonoE70keV t10",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.921→0.919; Spleen 0.963→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 110,
+        "summary": "PCCT 120kV 100mAs 1mm MonoE70keV t10 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.92125,
+            "after": 0.91851
+          },
+          "spleen": {
+            "before": 0.96336,
+            "after": 0.96722
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_1_10/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_10/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_1_10/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_10/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 293",
+                "before": "assets/zurich/zpcct_1_10/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_10/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_1_10/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_1_10/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_1_10/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_1_10/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 335",
+                "before": "assets/zurich/zpcct_1_10/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_1_10/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.5532,
+            "hd95": 1.1719,
+            "assd": 0.432
+          },
+          "spleen": {
+            "centroid": 0.4019,
+            "hd95": 1.0,
+            "assd": 0.2898
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_1_10/gallery.jpg"
+      },
+      {
+        "id": "zpcct_2_2",
+        "day": "20260929",
+        "take": 2,
+        "series": "PCCT 120kV 100mAs 1mm PolyE t2",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_PolyE_take1_recon1mm_s10",
+        "title": "PCCT 120kV 100mAs 1mm PolyE t2",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.930→0.934; Spleen 0.963→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 202,
+        "summary": "PCCT 120kV 100mAs 1mm PolyE t2 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.93035,
+            "after": 0.93351
+          },
+          "spleen": {
+            "before": 0.96289,
+            "after": 0.96721
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_2_2/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_2/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_2_2/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_2/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 292",
+                "before": "assets/zurich/zpcct_2_2/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_2/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_2_2/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_2/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_2_2/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_2/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 336",
+                "before": "assets/zurich/zpcct_2_2/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_2/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.8029,
+            "hd95": 1.1719,
+            "assd": 0.351
+          },
+          "spleen": {
+            "centroid": 0.4613,
+            "hd95": 1.159,
+            "assd": 0.3037
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_2_2/gallery.jpg"
+      },
+      {
+        "id": "zpcct_2_3",
+        "day": "20260929",
+        "take": 3,
+        "series": "PCCT 120kV 100mAs 1mm PolyE t3",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_PolyE_take1_recon1mm_s18",
+        "title": "PCCT 120kV 100mAs 1mm PolyE t3",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.934→0.939; Spleen 0.963→0.970.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 203,
+        "summary": "PCCT 120kV 100mAs 1mm PolyE t3 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.93404,
+            "after": 0.93882
+          },
+          "spleen": {
+            "before": 0.96273,
+            "after": 0.97008
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_2_3/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_3/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_2_3/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_3/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 292",
+                "before": "assets/zurich/zpcct_2_3/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_3/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_2_3/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_3/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_2_3/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_3/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 336",
+                "before": "assets/zurich/zpcct_2_3/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_3/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.7486,
+            "hd95": 1.0,
+            "assd": 0.3279
+          },
+          "spleen": {
+            "centroid": 0.5079,
+            "hd95": 1.0,
+            "assd": 0.2778
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_vertebrae",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_2_3/gallery.jpg"
+      },
+      {
+        "id": "zpcct_2_4",
+        "day": "20260929",
+        "take": 4,
+        "series": "PCCT 120kV 100mAs 1mm PolyE t4",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_PolyE_take1_recon1mm_s26",
+        "title": "PCCT 120kV 100mAs 1mm PolyE t4",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.924→0.924; Spleen 0.965→0.965.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 204,
+        "summary": "PCCT 120kV 100mAs 1mm PolyE t4 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92437,
+            "after": 0.92437
+          },
+          "spleen": {
+            "before": 0.96538,
+            "after": 0.96538
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_2_4/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_4/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_2_4/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_4/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 292",
+                "before": "assets/zurich/zpcct_2_4/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_4/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_2_4/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_4/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_2_4/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_4/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 336",
+                "before": "assets/zurich/zpcct_2_4/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_4/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.9497,
+            "hd95": 1.1719,
+            "assd": 0.3957
+          },
+          "spleen": {
+            "centroid": 0.3871,
+            "hd95": 1.0,
+            "assd": 0.3095
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_2_4/gallery.jpg"
+      },
+      {
+        "id": "zpcct_2_5",
+        "day": "20260929",
+        "take": 5,
+        "series": "PCCT 120kV 100mAs 1mm PolyE t5",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_PolyE_take1_recon1mm_s41",
+        "title": "PCCT 120kV 100mAs 1mm PolyE t5",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.921→0.924; Spleen 0.958→0.964.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 205,
+        "summary": "PCCT 120kV 100mAs 1mm PolyE t5 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.92142,
+            "after": 0.92408
+          },
+          "spleen": {
+            "before": 0.9582,
+            "after": 0.96357
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_2_5/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_5/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_2_5/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_5/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 292",
+                "before": "assets/zurich/zpcct_2_5/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_5/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_2_5/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_5/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_2_5/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_5/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 336",
+                "before": "assets/zurich/zpcct_2_5/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_5/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.7408,
+            "hd95": 1.1719,
+            "assd": 0.3973
+          },
+          "spleen": {
+            "centroid": 0.6623,
+            "hd95": 1.159,
+            "assd": 0.3281
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_vertebrae",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_2_5/gallery.jpg"
+      },
+      {
+        "id": "zpcct_2_6",
+        "day": "20260929",
+        "take": 6,
+        "series": "PCCT 120kV 100mAs 1mm PolyE t6",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_PolyE_take1_recon1mm_s49",
+        "title": "PCCT 120kV 100mAs 1mm PolyE t6",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.925→0.925; Spleen 0.960→0.960.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 206,
+        "summary": "PCCT 120kV 100mAs 1mm PolyE t6 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92472,
+            "after": 0.92472
+          },
+          "spleen": {
+            "before": 0.96,
+            "after": 0.96
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_2_6/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_6/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_2_6/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_6/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 292",
+                "before": "assets/zurich/zpcct_2_6/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_6/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_2_6/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_6/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_2_6/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_6/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 336",
+                "before": "assets/zurich/zpcct_2_6/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_6/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.5039,
+            "hd95": 1.1719,
+            "assd": 0.4076
+          },
+          "spleen": {
+            "centroid": 0.4707,
+            "hd95": 1.159,
+            "assd": 0.3908
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_2_6/gallery.jpg"
+      },
+      {
+        "id": "zpcct_2_7",
+        "day": "20260929",
+        "take": 7,
+        "series": "PCCT 120kV 100mAs 1mm PolyE t7",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_PolyE_take1_recon1mm_s57",
+        "title": "PCCT 120kV 100mAs 1mm PolyE t7",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.963→0.963; Spleen 0.970→0.970.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 207,
+        "summary": "PCCT 120kV 100mAs 1mm PolyE t7 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.96342,
+            "after": 0.96342
+          },
+          "spleen": {
+            "before": 0.96954,
+            "after": 0.96954
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_2_7/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_7/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_2_7/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_7/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 292",
+                "before": "assets/zurich/zpcct_2_7/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_7/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_2_7/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_7/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_2_7/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_7/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 336",
+                "before": "assets/zurich/zpcct_2_7/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_7/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6632,
+            "hd95": 1.1719,
+            "assd": 0.2113
+          },
+          "spleen": {
+            "centroid": 0.4195,
+            "hd95": 1.0,
+            "assd": 0.3246
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_2_7/gallery.jpg"
+      },
+      {
+        "id": "zpcct_2_8",
+        "day": "20260929",
+        "take": 8,
+        "series": "PCCT 120kV 100mAs 1mm PolyE t8",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_PolyE_take1_recon1mm_s65",
+        "title": "PCCT 120kV 100mAs 1mm PolyE t8",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.942→0.938; Spleen 0.965→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 208,
+        "summary": "PCCT 120kV 100mAs 1mm PolyE t8 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.94248,
+            "after": 0.93827
+          },
+          "spleen": {
+            "before": 0.96546,
+            "after": 0.96287
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_2_8/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_8/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_2_8/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_8/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 292",
+                "before": "assets/zurich/zpcct_2_8/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_8/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_2_8/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_8/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_2_8/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_8/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 336",
+                "before": "assets/zurich/zpcct_2_8/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_8/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2218,
+            "hd95": 1.0,
+            "assd": 0.3338
+          },
+          "spleen": {
+            "centroid": 0.2511,
+            "hd95": 1.0,
+            "assd": 0.366
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_vertebrae",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_2_8/gallery.jpg"
+      },
+      {
+        "id": "zpcct_2_9",
+        "day": "20260929",
+        "take": 9,
+        "series": "PCCT 120kV 100mAs 1mm PolyE t9",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_PolyE_take1_recon1mm_s70",
+        "title": "PCCT 120kV 100mAs 1mm PolyE t9",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.951→0.952; Spleen 0.968→0.977.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 209,
+        "summary": "PCCT 120kV 100mAs 1mm PolyE t9 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.95109,
+            "after": 0.95235
+          },
+          "spleen": {
+            "before": 0.96849,
+            "after": 0.9772
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_2_9/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_9/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_2_9/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_9/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 292",
+                "before": "assets/zurich/zpcct_2_9/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_9/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_2_9/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_9/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_2_9/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_9/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 336",
+                "before": "assets/zurich/zpcct_2_9/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_9/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.8134,
+            "hd95": 1.0,
+            "assd": 0.2582
+          },
+          "spleen": {
+            "centroid": 0.4844,
+            "hd95": 1.0,
+            "assd": 0.2178
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_vertebrae",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_2_9/gallery.jpg"
+      },
+      {
+        "id": "zpcct_2_10",
+        "day": "20260929",
+        "take": 10,
+        "series": "PCCT 120kV 100mAs 1mm PolyE t10",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_1_PolyE_take1_recon1mm_s74",
+        "title": "PCCT 120kV 100mAs 1mm PolyE t10",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.953→0.953; Spleen 0.973→0.973.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 210,
+        "summary": "PCCT 120kV 100mAs 1mm PolyE t10 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.95334,
+            "after": 0.95334
+          },
+          "spleen": {
+            "before": 0.9729,
+            "after": 0.9729
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_2_10/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_10/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 93",
+                "before": "assets/zurich/zpcct_2_10/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_10/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 292",
+                "before": "assets/zurich/zpcct_2_10/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_10/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_2_10/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_2_10/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_2_10/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_2_10/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 336",
+                "before": "assets/zurich/zpcct_2_10/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_2_10/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6637,
+            "hd95": 1.1719,
+            "assd": 0.2537
+          },
+          "spleen": {
+            "centroid": 0.4021,
+            "hd95": 1.1719,
+            "assd": 0.2524
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_2_10/gallery.jpg"
+      },
+      {
+        "id": "zpcct_3_2",
+        "day": "20260929",
+        "take": 2,
+        "series": "PCCT 120kV 100mAs 3mm MonoE70keV t2",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_MonoE70keV_take1_recon3mm_s17",
+        "title": "PCCT 120kV 100mAs 3mm MonoE70keV t2",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.932→0.932; Spleen 0.956→0.956.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 302,
+        "summary": "PCCT 120kV 100mAs 3mm MonoE70keV t2 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.93159,
+            "after": 0.93159
+          },
+          "spleen": {
+            "before": 0.95634,
+            "after": 0.95634
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_3_2/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_2/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_3_2/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_2/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_3_2/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_2/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_3_2/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_2/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_3_2/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_2/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_3_2/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_2/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 1.279,
+            "hd95": 2.1126,
+            "assd": 0.3983
+          },
+          "spleen": {
+            "centroid": 1.2606,
+            "hd95": 1.7578,
+            "assd": 0.3472
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_3_2/gallery.jpg"
+      },
+      {
+        "id": "zpcct_3_3",
+        "day": "20260929",
+        "take": 3,
+        "series": "PCCT 120kV 100mAs 3mm MonoE70keV t3",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_MonoE70keV_take1_recon3mm_s25",
+        "title": "PCCT 120kV 100mAs 3mm MonoE70keV t3",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.950→0.945; Spleen 0.970→0.972.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 303,
+        "summary": "PCCT 120kV 100mAs 3mm MonoE70keV t3 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.94959,
+            "after": 0.94473
+          },
+          "spleen": {
+            "before": 0.96962,
+            "after": 0.9717
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_3_3/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_3/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_3_3/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_3/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_3_3/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_3/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_3_3/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_3/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_3_3/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_3/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_3_3/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_3/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.5074,
+            "hd95": 1.1719,
+            "assd": 0.2241
+          },
+          "spleen": {
+            "centroid": 0.6558,
+            "hd95": 1.1719,
+            "assd": 0.1606
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_3_3/gallery.jpg"
+      },
+      {
+        "id": "zpcct_3_4",
+        "day": "20260929",
+        "take": 4,
+        "series": "PCCT 120kV 100mAs 3mm MonoE70keV t4",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_MonoE70keV_take1_recon3mm_s33",
+        "title": "PCCT 120kV 100mAs 3mm MonoE70keV t4",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.921→0.921; Spleen 0.953→0.953.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 304,
+        "summary": "PCCT 120kV 100mAs 3mm MonoE70keV t4 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.9207,
+            "after": 0.9207
+          },
+          "spleen": {
+            "before": 0.9526,
+            "after": 0.9526
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_3_4/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_4/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_3_4/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_4/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_3_4/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_4/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_3_4/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_4/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_3_4/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_4/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_3_4/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_4/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 1.4088,
+            "hd95": 1.7578,
+            "assd": 0.4427
+          },
+          "spleen": {
+            "centroid": 1.3503,
+            "hd95": 1.7578,
+            "assd": 0.3656
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_3_4/gallery.jpg"
+      },
+      {
+        "id": "zpcct_3_5",
+        "day": "20260929",
+        "take": 5,
+        "series": "PCCT 120kV 100mAs 3mm MonoE70keV t5",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_MonoE70keV_take1_recon3mm_s40",
+        "title": "PCCT 120kV 100mAs 3mm MonoE70keV t5",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.906→0.906; Spleen 0.946→0.946.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 305,
+        "summary": "PCCT 120kV 100mAs 3mm MonoE70keV t5 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.9057,
+            "after": 0.9057
+          },
+          "spleen": {
+            "before": 0.94588,
+            "after": 0.94588
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_3_5/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_5/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_3_5/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_5/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_3_5/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_5/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_3_5/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_5/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_3_5/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_5/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_3_5/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_5/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 1.3174,
+            "hd95": 2.3438,
+            "assd": 0.4875
+          },
+          "spleen": {
+            "centroid": 1.3289,
+            "hd95": 1.7578,
+            "assd": 0.4045
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_3_5/gallery.jpg"
+      },
+      {
+        "id": "zpcct_3_6",
+        "day": "20260929",
+        "take": 6,
+        "series": "PCCT 120kV 100mAs 3mm MonoE70keV t6",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_MonoE70keV_take1_recon3mm_s48",
+        "title": "PCCT 120kV 100mAs 3mm MonoE70keV t6",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.940→0.946; Spleen 0.968→0.972.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 306,
+        "summary": "PCCT 120kV 100mAs 3mm MonoE70keV t6 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.93989,
+            "after": 0.94622
+          },
+          "spleen": {
+            "before": 0.96837,
+            "after": 0.97164
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_3_6/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_6/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_3_6/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_6/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_3_6/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_6/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_3_6/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_6/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_3_6/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_6/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_3_6/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_6/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.7046,
+            "hd95": 1.1719,
+            "assd": 0.2244
+          },
+          "spleen": {
+            "centroid": 0.729,
+            "hd95": 1.1719,
+            "assd": 0.1959
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_3_6/gallery.jpg"
+      },
+      {
+        "id": "zpcct_3_7",
+        "day": "20260929",
+        "take": 7,
+        "series": "PCCT 120kV 100mAs 3mm MonoE70keV t7",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_MonoE70keV_take1_recon3mm_s56",
+        "title": "PCCT 120kV 100mAs 3mm MonoE70keV t7",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.927→0.933; Spleen 0.964→0.965.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 307,
+        "summary": "PCCT 120kV 100mAs 3mm MonoE70keV t7 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.92733,
+            "after": 0.93282
+          },
+          "spleen": {
+            "before": 0.96388,
+            "after": 0.9653
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_3_7/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_7/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_3_7/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_7/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_3_7/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_7/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_3_7/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_7/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_3_7/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_7/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_3_7/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_7/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.7204,
+            "hd95": 1.1719,
+            "assd": 0.2808
+          },
+          "spleen": {
+            "centroid": 0.5526,
+            "hd95": 1.1719,
+            "assd": 0.1975
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_3_7/gallery.jpg"
+      },
+      {
+        "id": "zpcct_3_8",
+        "day": "20260929",
+        "take": 8,
+        "series": "PCCT 120kV 100mAs 3mm MonoE70keV t8",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_MonoE70keV_take1_recon3mm_s64",
+        "title": "PCCT 120kV 100mAs 3mm MonoE70keV t8",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.930→0.934; Spleen 0.967→0.970.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 308,
+        "summary": "PCCT 120kV 100mAs 3mm MonoE70keV t8 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.92981,
+            "after": 0.93395
+          },
+          "spleen": {
+            "before": 0.96743,
+            "after": 0.96957
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_3_8/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_8/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_3_8/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_8/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_3_8/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_8/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_3_8/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_8/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_3_8/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_8/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_3_8/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_8/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.5791,
+            "hd95": 1.1719,
+            "assd": 0.2696
+          },
+          "spleen": {
+            "centroid": 0.2084,
+            "hd95": 0.8286,
+            "assd": 0.1613
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_vertebrae",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_3_8/gallery.jpg"
+      },
+      {
+        "id": "zpcct_3_9",
+        "day": "20260929",
+        "take": 9,
+        "series": "PCCT 120kV 100mAs 3mm MonoE70keV t9",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_MonoE70keV_take1_recon3mm_s73",
+        "title": "PCCT 120kV 100mAs 3mm MonoE70keV t9",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.926→0.926; Spleen 0.967→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 309,
+        "summary": "PCCT 120kV 100mAs 3mm MonoE70keV t9 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92564,
+            "after": 0.92564
+          },
+          "spleen": {
+            "before": 0.96688,
+            "after": 0.96688
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_3_9/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_9/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_3_9/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_9/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_3_9/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_9/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_3_9/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_9/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_3_9/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_9/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_3_9/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_9/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3487,
+            "hd95": 1.1719,
+            "assd": 0.2805
+          },
+          "spleen": {
+            "centroid": 0.2627,
+            "hd95": 0.5859,
+            "assd": 0.1577
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_3_9/gallery.jpg"
+      },
+      {
+        "id": "zpcct_3_10",
+        "day": "20260929",
+        "take": 10,
+        "series": "PCCT 120kV 100mAs 3mm MonoE70keV t10",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_MonoE70keV_take1_recon3mm_s81",
+        "title": "PCCT 120kV 100mAs 3mm MonoE70keV t10",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.924→0.924; Spleen 0.966→0.966.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 310,
+        "summary": "PCCT 120kV 100mAs 3mm MonoE70keV t10 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92367,
+            "after": 0.92367
+          },
+          "spleen": {
+            "before": 0.96589,
+            "after": 0.96589
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_3_10/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_10/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_3_10/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_10/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_3_10/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_10/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_3_10/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_3_10/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_3_10/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_3_10/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_3_10/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_3_10/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3215,
+            "hd95": 1.1719,
+            "assd": 0.2962
+          },
+          "spleen": {
+            "centroid": 0.2656,
+            "hd95": 0.5859,
+            "assd": 0.1672
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_3_10/gallery.jpg"
+      },
+      {
+        "id": "zpcct_4_2",
+        "day": "20260929",
+        "take": 2,
+        "series": "PCCT 120kV 100mAs 3mm PolyE t2",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_PolyE_take1_recon3mm_s16",
+        "title": "PCCT 120kV 100mAs 3mm PolyE t2",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.927→0.927; Spleen 0.956→0.956.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 402,
+        "summary": "PCCT 120kV 100mAs 3mm PolyE t2 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92708,
+            "after": 0.92708
+          },
+          "spleen": {
+            "before": 0.95582,
+            "after": 0.95582
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_4_2/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_2/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_4_2/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_2/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_4_2/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_2/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_4_2/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_2/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_4_2/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_2/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_4_2/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_2/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 1.541,
+            "hd95": 3.0,
+            "assd": 0.4482
+          },
+          "spleen": {
+            "centroid": 1.2638,
+            "hd95": 1.7578,
+            "assd": 0.3518
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_4_2/gallery.jpg"
+      },
+      {
+        "id": "zpcct_4_3",
+        "day": "20260929",
+        "take": 3,
+        "series": "PCCT 120kV 100mAs 3mm PolyE t3",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_PolyE_take1_recon3mm_s24",
+        "title": "PCCT 120kV 100mAs 3mm PolyE t3",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.949→0.943; Spleen 0.970→0.969.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 403,
+        "summary": "PCCT 120kV 100mAs 3mm PolyE t3 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.94929,
+            "after": 0.94313
+          },
+          "spleen": {
+            "before": 0.97,
+            "after": 0.96948
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_4_3/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_3/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_4_3/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_3/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_4_3/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_3/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_4_3/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_3/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_4_3/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_3/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_4_3/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_3/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4086,
+            "hd95": 1.1719,
+            "assd": 0.226
+          },
+          "spleen": {
+            "centroid": 0.6985,
+            "hd95": 1.1719,
+            "assd": 0.1819
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_4_3/gallery.jpg"
+      },
+      {
+        "id": "zpcct_4_4",
+        "day": "20260929",
+        "take": 4,
+        "series": "PCCT 120kV 100mAs 3mm PolyE t4",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_PolyE_take1_recon3mm_s32",
+        "title": "PCCT 120kV 100mAs 3mm PolyE t4",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.920→0.920; Spleen 0.953→0.953.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 404,
+        "summary": "PCCT 120kV 100mAs 3mm PolyE t4 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.91965,
+            "after": 0.91965
+          },
+          "spleen": {
+            "before": 0.95257,
+            "after": 0.95257
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_4_4/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_4/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_4_4/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_4/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_4_4/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_4/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_4_4/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_4/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_4_4/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_4/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_4_4/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_4/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 1.5823,
+            "hd95": 3.0,
+            "assd": 0.4682
+          },
+          "spleen": {
+            "centroid": 1.3488,
+            "hd95": 1.7578,
+            "assd": 0.3636
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_4_4/gallery.jpg"
+      },
+      {
+        "id": "zpcct_4_5",
+        "day": "20260929",
+        "take": 5,
+        "series": "PCCT 120kV 100mAs 3mm PolyE t5",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_PolyE_take1_recon3mm_s39",
+        "title": "PCCT 120kV 100mAs 3mm PolyE t5",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.904→0.904; Spleen 0.946→0.946.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 405,
+        "summary": "PCCT 120kV 100mAs 3mm PolyE t5 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.90447,
+            "after": 0.90447
+          },
+          "spleen": {
+            "before": 0.94573,
+            "after": 0.94573
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_4_5/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_5/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_4_5/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_5/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_4_5/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_5/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_4_5/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_5/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_4_5/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_5/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_4_5/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_5/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 1.4693,
+            "hd95": 3.0,
+            "assd": 0.5131
+          },
+          "spleen": {
+            "centroid": 1.3152,
+            "hd95": 1.7578,
+            "assd": 0.4012
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_4_5/gallery.jpg"
+      },
+      {
+        "id": "zpcct_4_6",
+        "day": "20260929",
+        "take": 6,
+        "series": "PCCT 120kV 100mAs 3mm PolyE t6",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_PolyE_take1_recon3mm_s47",
+        "title": "PCCT 120kV 100mAs 3mm PolyE t6",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.940→0.942; Spleen 0.969→0.973.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 406,
+        "summary": "PCCT 120kV 100mAs 3mm PolyE t6 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.93961,
+            "after": 0.94228
+          },
+          "spleen": {
+            "before": 0.96886,
+            "after": 0.9725
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_4_6/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_6/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_4_6/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_6/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_4_6/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_6/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_4_6/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_6/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_4_6/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_6/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_4_6/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_6/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.7618,
+            "hd95": 1.1719,
+            "assd": 0.2394
+          },
+          "spleen": {
+            "centroid": 0.6992,
+            "hd95": 1.1719,
+            "assd": 0.187
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_4_6/gallery.jpg"
+      },
+      {
+        "id": "zpcct_4_7",
+        "day": "20260929",
+        "take": 7,
+        "series": "PCCT 120kV 100mAs 3mm PolyE t7",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_PolyE_take1_recon3mm_s55",
+        "title": "PCCT 120kV 100mAs 3mm PolyE t7",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.927→0.930; Spleen 0.964→0.965.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 407,
+        "summary": "PCCT 120kV 100mAs 3mm PolyE t7 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.92699,
+            "after": 0.9303
+          },
+          "spleen": {
+            "before": 0.96388,
+            "after": 0.96489
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_4_7/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_7/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_4_7/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_7/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_4_7/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_7/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_4_7/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_7/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_4_7/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_7/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_4_7/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_7/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6532,
+            "hd95": 1.1719,
+            "assd": 0.2878
+          },
+          "spleen": {
+            "centroid": 0.531,
+            "hd95": 1.1719,
+            "assd": 0.1969
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_4_7/gallery.jpg"
+      },
+      {
+        "id": "zpcct_4_8",
+        "day": "20260929",
+        "take": 8,
+        "series": "PCCT 120kV 100mAs 3mm PolyE t8",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_PolyE_take1_recon3mm_s63",
+        "title": "PCCT 120kV 100mAs 3mm PolyE t8",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.929→0.933; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 408,
+        "summary": "PCCT 120kV 100mAs 3mm PolyE t8 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.92938,
+            "after": 0.93273
+          },
+          "spleen": {
+            "before": 0.96755,
+            "after": 0.96817
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_4_8/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_8/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_4_8/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_8/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_4_8/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_8/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_4_8/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_8/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_4_8/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_8/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_4_8/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_8/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6209,
+            "hd95": 1.1719,
+            "assd": 0.2746
+          },
+          "spleen": {
+            "centroid": 0.3933,
+            "hd95": 0.8286,
+            "assd": 0.1683
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_vertebrae",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_4_8/gallery.jpg"
+      },
+      {
+        "id": "zpcct_4_9",
+        "day": "20260929",
+        "take": 9,
+        "series": "PCCT 120kV 100mAs 3mm PolyE t9",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_PolyE_take1_recon3mm_s72",
+        "title": "PCCT 120kV 100mAs 3mm PolyE t9",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.926→0.926; Spleen 0.967→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 409,
+        "summary": "PCCT 120kV 100mAs 3mm PolyE t9 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92565,
+            "after": 0.92565
+          },
+          "spleen": {
+            "before": 0.96697,
+            "after": 0.96697
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_4_9/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_9/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_4_9/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_9/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_4_9/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_9/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_4_9/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_9/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_4_9/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_9/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_4_9/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_9/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.471,
+            "hd95": 1.1719,
+            "assd": 0.2759
+          },
+          "spleen": {
+            "centroid": 0.2658,
+            "hd95": 0.5859,
+            "assd": 0.1574
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_4_9/gallery.jpg"
+      },
+      {
+        "id": "zpcct_4_10",
+        "day": "20260929",
+        "take": 10,
+        "series": "PCCT 120kV 100mAs 3mm PolyE t10",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_100_300_3_PolyE_take1_recon3mm_s80",
+        "title": "PCCT 120kV 100mAs 3mm PolyE t10",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.976→0.976; Spleen 0.989→0.989.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 410,
+        "summary": "PCCT 120kV 100mAs 3mm PolyE t10 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.97573,
+            "after": 0.97573
+          },
+          "spleen": {
+            "before": 0.9887,
+            "after": 0.9887
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 19",
+                "before": "assets/zurich/zpcct_4_10/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_10/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 29",
+                "before": "assets/zurich/zpcct_4_10/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_10/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 298",
+                "before": "assets/zurich/zpcct_4_10/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_10/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 25",
+                "before": "assets/zurich/zpcct_4_10/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_4_10/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 32",
+                "before": "assets/zurich/zpcct_4_10/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_4_10/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_4_10/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_4_10/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4837,
+            "hd95": 1.1719,
+            "assd": 0.1257
+          },
+          "spleen": {
+            "centroid": 0.2469,
+            "hd95": 0.5859,
+            "assd": 0.0667
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_4_10/gallery.jpg"
+      },
+      {
+        "id": "zpcct_5_2",
+        "day": "20260929",
+        "take": 2,
+        "series": "PCCT 120kV 300mAs 1mm MonoE70keV t2",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_MonoE70keV_take1_recon1mm_s15",
+        "title": "PCCT 120kV 300mAs 1mm MonoE70keV t2",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.935→0.935; Spleen 0.966→0.966.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 502,
+        "summary": "PCCT 120kV 300mAs 1mm MonoE70keV t2 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.9352,
+            "after": 0.9352
+          },
+          "spleen": {
+            "before": 0.96631,
+            "after": 0.96631
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_5_2/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_2/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_5_2/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_2/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_5_2/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_2/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_5_2/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_2/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_5_2/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_2/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_5_2/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_2/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6189,
+            "hd95": 1.1597,
+            "assd": 0.3503
+          },
+          "spleen": {
+            "centroid": 0.4105,
+            "hd95": 1.0,
+            "assd": 0.3315
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_5_2/gallery.jpg"
+      },
+      {
+        "id": "zpcct_5_3",
+        "day": "20260929",
+        "take": 3,
+        "series": "PCCT 120kV 300mAs 1mm MonoE70keV t3",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_MonoE70keV_take1_recon1mm_s23",
+        "title": "PCCT 120kV 300mAs 1mm MonoE70keV t3",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.953→0.953; Spleen 0.971→0.971.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 503,
+        "summary": "PCCT 120kV 300mAs 1mm MonoE70keV t3 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.95328,
+            "after": 0.95328
+          },
+          "spleen": {
+            "before": 0.97138,
+            "after": 0.97138
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_5_3/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_3/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_5_3/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_3/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_5_3/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_3/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_5_3/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_3/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_5_3/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_3/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_5_3/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_3/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6436,
+            "hd95": 1.0,
+            "assd": 0.2699
+          },
+          "spleen": {
+            "centroid": 0.4106,
+            "hd95": 1.0,
+            "assd": 0.2947
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_5_3/gallery.jpg"
+      },
+      {
+        "id": "zpcct_5_4",
+        "day": "20260929",
+        "take": 4,
+        "series": "PCCT 120kV 300mAs 1mm MonoE70keV t4",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_MonoE70keV_take1_recon1mm_s31",
+        "title": "PCCT 120kV 300mAs 1mm MonoE70keV t4",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.942→0.942; Spleen 0.967→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 504,
+        "summary": "PCCT 120kV 300mAs 1mm MonoE70keV t4 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94165,
+            "after": 0.94165
+          },
+          "spleen": {
+            "before": 0.96699,
+            "after": 0.96699
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_5_4/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_4/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_5_4/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_4/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_5_4/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_4/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_5_4/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_4/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_5_4/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_4/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_5_4/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_4/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.127,
+            "hd95": 1.0,
+            "assd": 0.32
+          },
+          "spleen": {
+            "centroid": 0.2195,
+            "hd95": 1.0,
+            "assd": 0.3231
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_5_4/gallery.jpg"
+      },
+      {
+        "id": "zpcct_5_5",
+        "day": "20260929",
+        "take": 5,
+        "series": "PCCT 120kV 300mAs 1mm MonoE70keV t5",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_MonoE70keV_take1_recon1mm_s38",
+        "title": "PCCT 120kV 300mAs 1mm MonoE70keV t5",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.946→0.946; Spleen 0.970→0.970.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 505,
+        "summary": "PCCT 120kV 300mAs 1mm MonoE70keV t5 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94578,
+            "after": 0.94578
+          },
+          "spleen": {
+            "before": 0.96968,
+            "after": 0.96968
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_5_5/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_5/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_5_5/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_5/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_5_5/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_5/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_5_5/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_5/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_5_5/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_5/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_5_5/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_5/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3516,
+            "hd95": 1.1719,
+            "assd": 0.3074
+          },
+          "spleen": {
+            "centroid": 0.342,
+            "hd95": 1.0,
+            "assd": 0.3064
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_5_5/gallery.jpg"
+      },
+      {
+        "id": "zpcct_5_6",
+        "day": "20260929",
+        "take": 6,
+        "series": "PCCT 120kV 300mAs 1mm MonoE70keV t6",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_MonoE70keV_take1_recon1mm_s46",
+        "title": "PCCT 120kV 300mAs 1mm MonoE70keV t6",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.940→0.940; Spleen 0.965→0.965.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 506,
+        "summary": "PCCT 120kV 300mAs 1mm MonoE70keV t6 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94007,
+            "after": 0.94007
+          },
+          "spleen": {
+            "before": 0.96507,
+            "after": 0.96507
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_5_6/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_6/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_5_6/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_6/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_5_6/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_6/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_5_6/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_6/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_5_6/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_6/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_5_6/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_6/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4034,
+            "hd95": 1.159,
+            "assd": 0.3223
+          },
+          "spleen": {
+            "centroid": 0.2879,
+            "hd95": 1.0,
+            "assd": 0.3409
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_5_6/gallery.jpg"
+      },
+      {
+        "id": "zpcct_5_7",
+        "day": "20260929",
+        "take": 7,
+        "series": "PCCT 120kV 300mAs 1mm MonoE70keV t7",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_MonoE70keV_take1_recon1mm_s53",
+        "title": "PCCT 120kV 300mAs 1mm MonoE70keV t7",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.968→0.968; Spleen 0.983→0.983.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 507,
+        "summary": "PCCT 120kV 300mAs 1mm MonoE70keV t7 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.96819,
+            "after": 0.96819
+          },
+          "spleen": {
+            "before": 0.9826,
+            "after": 0.9826
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_5_7/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_7/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_5_7/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_7/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_5_7/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_7/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_5_7/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_7/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_5_7/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_7/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_5_7/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_7/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.1911,
+            "hd95": 0.5859,
+            "assd": 0.172
+          },
+          "spleen": {
+            "centroid": 0.1846,
+            "hd95": 1.0,
+            "assd": 0.1568
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_5_7/gallery.jpg"
+      },
+      {
+        "id": "zpcct_5_8",
+        "day": "20260929",
+        "take": 8,
+        "series": "PCCT 120kV 300mAs 1mm MonoE70keV t8",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_MonoE70keV_take1_recon1mm_s62",
+        "title": "PCCT 120kV 300mAs 1mm MonoE70keV t8",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.916→0.916; Spleen 0.958→0.959.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 508,
+        "summary": "PCCT 120kV 300mAs 1mm MonoE70keV t8 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.91644,
+            "after": 0.91644
+          },
+          "spleen": {
+            "before": 0.95753,
+            "after": 0.95945
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_5_8/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_8/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_5_8/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_8/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_5_8/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_8/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_5_8/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_8/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_5_8/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_8/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_5_8/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_8/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.7165,
+            "hd95": 1.0,
+            "assd": 0.445
+          },
+          "spleen": {
+            "centroid": 0.5195,
+            "hd95": 1.0,
+            "assd": 0.3685
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_5_8/gallery.jpg"
+      },
+      {
+        "id": "zpcct_5_9",
+        "day": "20260929",
+        "take": 9,
+        "series": "PCCT 120kV 300mAs 1mm MonoE70keV t9",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_MonoE70keV_take1_recon1mm_s69",
+        "title": "PCCT 120kV 300mAs 1mm MonoE70keV t9",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.921→0.921; Spleen 0.960→0.960.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 509,
+        "summary": "PCCT 120kV 300mAs 1mm MonoE70keV t9 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.9209,
+            "after": 0.9209
+          },
+          "spleen": {
+            "before": 0.96001,
+            "after": 0.96001
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_5_9/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_9/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_5_9/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_9/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_5_9/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_9/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_5_9/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_9/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_5_9/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_9/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_5_9/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_9/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.1348,
+            "hd95": 1.159,
+            "assd": 0.4239
+          },
+          "spleen": {
+            "centroid": 0.0825,
+            "hd95": 1.0,
+            "assd": 0.3808
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_5_9/gallery.jpg"
+      },
+      {
+        "id": "zpcct_5_10",
+        "day": "20260929",
+        "take": 10,
+        "series": "PCCT 120kV 300mAs 1mm MonoE70keV t10",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_MonoE70keV_take1_recon1mm_s79",
+        "title": "PCCT 120kV 300mAs 1mm MonoE70keV t10",
+        "fixed": "take1",
+        "tone": "mint",
+        "tag": "Test-retest",
+        "note": "Aorta 0.940→0.956; Spleen 0.965→0.973.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 510,
+        "summary": "PCCT 120kV 300mAs 1mm MonoE70keV t10 → take1",
+        "method": "Centroid translation",
+        "scores": {
+          "aorta": {
+            "before": 0.9399,
+            "after": 0.95601
+          },
+          "spleen": {
+            "before": 0.96541,
+            "after": 0.97256
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_5_10/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_10/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_5_10/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_10/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_5_10/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_10/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_5_10/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_5_10/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_5_10/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_5_10/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_5_10/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_5_10/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4467,
+            "hd95": 1.1719,
+            "assd": 0.2527
+          },
+          "spleen": {
+            "centroid": 0.5353,
+            "hd95": 1.0,
+            "assd": 0.2885
+          }
+        },
+        "registration": {
+          "method": "centroid_translation_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_5_10/gallery.jpg"
+      },
+      {
+        "id": "zpcct_6_2",
+        "day": "20260929",
+        "take": 2,
+        "series": "PCCT 120kV 300mAs 1mm PolyE t2",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_PolyE_take1_recon1mm_s14",
+        "title": "PCCT 120kV 300mAs 1mm PolyE t2",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.935→0.935; Spleen 0.966→0.966.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 602,
+        "summary": "PCCT 120kV 300mAs 1mm PolyE t2 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.93518,
+            "after": 0.93518
+          },
+          "spleen": {
+            "before": 0.96625,
+            "after": 0.96625
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_6_2/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_2/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_6_2/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_2/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_6_2/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_2/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_6_2/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_2/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_6_2/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_2/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_6_2/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_2/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6111,
+            "hd95": 1.1719,
+            "assd": 0.3508
+          },
+          "spleen": {
+            "centroid": 0.4132,
+            "hd95": 1.0,
+            "assd": 0.3325
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_6_2/gallery.jpg"
+      },
+      {
+        "id": "zpcct_6_3",
+        "day": "20260929",
+        "take": 3,
+        "series": "PCCT 120kV 300mAs 1mm PolyE t3",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_PolyE_take1_recon1mm_s22",
+        "title": "PCCT 120kV 300mAs 1mm PolyE t3",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.954→0.954; Spleen 0.971→0.971.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 603,
+        "summary": "PCCT 120kV 300mAs 1mm PolyE t3 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.95447,
+            "after": 0.95447
+          },
+          "spleen": {
+            "before": 0.97148,
+            "after": 0.97148
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_6_3/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_3/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_6_3/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_3/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_6_3/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_3/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_6_3/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_3/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_6_3/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_3/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_6_3/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_3/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6147,
+            "hd95": 1.0,
+            "assd": 0.264
+          },
+          "spleen": {
+            "centroid": 0.404,
+            "hd95": 1.0,
+            "assd": 0.2938
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_6_3/gallery.jpg"
+      },
+      {
+        "id": "zpcct_6_4",
+        "day": "20260929",
+        "take": 4,
+        "series": "PCCT 120kV 300mAs 1mm PolyE t4",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_PolyE_take1_recon1mm_s30",
+        "title": "PCCT 120kV 300mAs 1mm PolyE t4",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.942→0.942; Spleen 0.967→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 604,
+        "summary": "PCCT 120kV 300mAs 1mm PolyE t4 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94171,
+            "after": 0.94171
+          },
+          "spleen": {
+            "before": 0.96714,
+            "after": 0.96714
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_6_4/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_4/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_6_4/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_4/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_6_4/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_4/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_6_4/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_4/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_6_4/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_4/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_6_4/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_4/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.0974,
+            "hd95": 1.0,
+            "assd": 0.3208
+          },
+          "spleen": {
+            "centroid": 0.2257,
+            "hd95": 1.0,
+            "assd": 0.3217
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_6_4/gallery.jpg"
+      },
+      {
+        "id": "zpcct_6_5",
+        "day": "20260929",
+        "take": 5,
+        "series": "PCCT 120kV 300mAs 1mm PolyE t5",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_PolyE_take1_recon1mm_s37",
+        "title": "PCCT 120kV 300mAs 1mm PolyE t5",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.945→0.945; Spleen 0.970→0.970.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 605,
+        "summary": "PCCT 120kV 300mAs 1mm PolyE t5 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94514,
+            "after": 0.94514
+          },
+          "spleen": {
+            "before": 0.96959,
+            "after": 0.96959
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_6_5/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_5/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_6_5/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_5/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_6_5/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_5/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_6_5/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_5/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_6_5/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_5/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_6_5/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_5/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4007,
+            "hd95": 1.1719,
+            "assd": 0.3118
+          },
+          "spleen": {
+            "centroid": 0.3478,
+            "hd95": 1.0,
+            "assd": 0.3077
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_6_5/gallery.jpg"
+      },
+      {
+        "id": "zpcct_6_6",
+        "day": "20260929",
+        "take": 6,
+        "series": "PCCT 120kV 300mAs 1mm PolyE t6",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_PolyE_take1_recon1mm_s45",
+        "title": "PCCT 120kV 300mAs 1mm PolyE t6",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.941→0.941; Spleen 0.965→0.965.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 606,
+        "summary": "PCCT 120kV 300mAs 1mm PolyE t6 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94114,
+            "after": 0.94114
+          },
+          "spleen": {
+            "before": 0.96516,
+            "after": 0.96516
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_6_6/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_6/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_6_6/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_6/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_6_6/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_6/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_6_6/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_6/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_6_6/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_6/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_6_6/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_6/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3202,
+            "hd95": 1.159,
+            "assd": 0.3157
+          },
+          "spleen": {
+            "centroid": 0.2751,
+            "hd95": 1.0,
+            "assd": 0.34
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_6_6/gallery.jpg"
+      },
+      {
+        "id": "zpcct_6_7",
+        "day": "20260929",
+        "take": 7,
+        "series": "PCCT 120kV 300mAs 1mm PolyE t7",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_PolyE_take1_recon1mm_s54",
+        "title": "PCCT 120kV 300mAs 1mm PolyE t7",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.969→0.969; Spleen 0.983→0.983.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 607,
+        "summary": "PCCT 120kV 300mAs 1mm PolyE t7 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.96865,
+            "after": 0.96865
+          },
+          "spleen": {
+            "before": 0.98257,
+            "after": 0.98257
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_6_7/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_7/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_6_7/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_7/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_6_7/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_7/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_6_7/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_7/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_6_7/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_7/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_6_7/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_7/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2015,
+            "hd95": 0.5859,
+            "assd": 0.1695
+          },
+          "spleen": {
+            "centroid": 0.1778,
+            "hd95": 1.0,
+            "assd": 0.1572
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_6_7/gallery.jpg"
+      },
+      {
+        "id": "zpcct_6_8",
+        "day": "20260929",
+        "take": 8,
+        "series": "PCCT 120kV 300mAs 1mm PolyE t8",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_PolyE_take1_recon1mm_s61",
+        "title": "PCCT 120kV 300mAs 1mm PolyE t8",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.917→0.917; Spleen 0.958→0.958.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 608,
+        "summary": "PCCT 120kV 300mAs 1mm PolyE t8 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.91695,
+            "after": 0.91695
+          },
+          "spleen": {
+            "before": 0.9575,
+            "after": 0.9575
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_6_8/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_8/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_6_8/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_8/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_6_8/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_8/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_6_8/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_8/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_6_8/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_8/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_6_8/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_8/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6033,
+            "hd95": 1.0,
+            "assd": 0.4419
+          },
+          "spleen": {
+            "centroid": 0.358,
+            "hd95": 1.0,
+            "assd": 0.4018
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_6_8/gallery.jpg"
+      },
+      {
+        "id": "zpcct_6_9",
+        "day": "20260929",
+        "take": 9,
+        "series": "PCCT 120kV 300mAs 1mm PolyE t9",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_PolyE_take1_recon1mm_s71",
+        "title": "PCCT 120kV 300mAs 1mm PolyE t9",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.921→0.921; Spleen 0.960→0.960.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 609,
+        "summary": "PCCT 120kV 300mAs 1mm PolyE t9 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.92099,
+            "after": 0.92099
+          },
+          "spleen": {
+            "before": 0.96004,
+            "after": 0.96004
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_6_9/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_9/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_6_9/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_9/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_6_9/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_9/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_6_9/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_9/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_6_9/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_9/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_6_9/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_9/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.1166,
+            "hd95": 1.159,
+            "assd": 0.4239
+          },
+          "spleen": {
+            "centroid": 0.0795,
+            "hd95": 1.0,
+            "assd": 0.3804
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_6_9/gallery.jpg"
+      },
+      {
+        "id": "zpcct_6_10",
+        "day": "20260929",
+        "take": 10,
+        "series": "PCCT 120kV 300mAs 1mm PolyE t10",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_120_300_300_1_PolyE_take1_recon1mm_s78",
+        "title": "PCCT 120kV 300mAs 1mm PolyE t10",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.928→0.938; Spleen 0.962→0.962.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 610,
+        "summary": "PCCT 120kV 300mAs 1mm PolyE t10 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.92775,
+            "after": 0.93821
+          },
+          "spleen": {
+            "before": 0.96158,
+            "after": 0.96158
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 60",
+                "before": "assets/zurich/zpcct_6_10/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_10/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zpcct_6_10/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_10/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zpcct_6_10/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_10/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 79",
+                "before": "assets/zurich/zpcct_6_10/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_6_10/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 98",
+                "before": "assets/zurich/zpcct_6_10/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_6_10/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 339",
+                "before": "assets/zurich/zpcct_6_10/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_6_10/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6426,
+            "hd95": 1.1719,
+            "assd": 0.3419
+          },
+          "spleen": {
+            "centroid": 0.2417,
+            "hd95": 1.0,
+            "assd": 0.3698
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_vertebrae",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zpcct_6_10/gallery.jpg"
+      },
+      {
+        "id": "zpcct_7_2",
+        "day": "20260929",
+        "take": 2,
+        "series": "PCCT 140kV 100mAs 1mm MonoE70keV t2",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_MonoE70keV_take1_recon1mm_s13",
+        "title": "PCCT 140kV 100mAs 1mm MonoE70keV t2",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.918→0.918; Spleen 0.959→0.959.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 702,
+        "summary": "PCCT 140kV 100mAs 1mm MonoE70keV t2 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.91829,
+            "after": 0.91829
+          },
+          "spleen": {
+            "before": 0.95852,
+            "after": 0.95852
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_7_2/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_2/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zpcct_7_2/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_2/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_7_2/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_2/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_7_2/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_2/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_7_2/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_2/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zpcct_7_2/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_2/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4308,
+            "hd95": 1.0,
+            "assd": 0.4301
+          },
+          "spleen": {
+            "centroid": 0.2686,
+            "hd95": 1.0,
+            "assd": 0.395
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_7_2/gallery.jpg"
+      },
+      {
+        "id": "zpcct_7_3",
+        "day": "20260929",
+        "take": 3,
+        "series": "PCCT 140kV 100mAs 1mm MonoE70keV t3",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_MonoE70keV_take1_recon1mm_s21",
+        "title": "PCCT 140kV 100mAs 1mm MonoE70keV t3",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.925→0.925; Spleen 0.961→0.961.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 703,
+        "summary": "PCCT 140kV 100mAs 1mm MonoE70keV t3 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92482,
+            "after": 0.92482
+          },
+          "spleen": {
+            "before": 0.96058,
+            "after": 0.96058
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_7_3/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_3/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zpcct_7_3/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_3/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_7_3/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_3/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_7_3/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_3/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_7_3/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_3/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zpcct_7_3/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_3/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.279,
+            "hd95": 1.1719,
+            "assd": 0.4041
+          },
+          "spleen": {
+            "centroid": 0.4045,
+            "hd95": 1.0,
+            "assd": 0.3852
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_7_3/gallery.jpg"
+      },
+      {
+        "id": "zpcct_7_4",
+        "day": "20260929",
+        "take": 4,
+        "series": "PCCT 140kV 100mAs 1mm MonoE70keV t4",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_MonoE70keV_take1_recon1mm_s29",
+        "title": "PCCT 140kV 100mAs 1mm MonoE70keV t4",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.922→0.922; Spleen 0.961→0.961.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 704,
+        "summary": "PCCT 140kV 100mAs 1mm MonoE70keV t4 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92205,
+            "after": 0.92205
+          },
+          "spleen": {
+            "before": 0.96117,
+            "after": 0.96117
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_7_4/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_4/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zpcct_7_4/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_4/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_7_4/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_4/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_7_4/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_4/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_7_4/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_4/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zpcct_7_4/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_4/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.5369,
+            "hd95": 1.1719,
+            "assd": 0.4178
+          },
+          "spleen": {
+            "centroid": 0.5605,
+            "hd95": 1.0,
+            "assd": 0.3945
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_7_4/gallery.jpg"
+      },
+      {
+        "id": "zpcct_7_5",
+        "day": "20260929",
+        "take": 5,
+        "series": "PCCT 140kV 100mAs 1mm MonoE70keV t5",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_MonoE70keV_take1_recon1mm_s36",
+        "title": "PCCT 140kV 100mAs 1mm MonoE70keV t5",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.954→0.954; Spleen 0.970→0.970.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 705,
+        "summary": "PCCT 140kV 100mAs 1mm MonoE70keV t5 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.9541,
+            "after": 0.9541
+          },
+          "spleen": {
+            "before": 0.97002,
+            "after": 0.97002
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_7_5/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_5/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zpcct_7_5/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_5/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_7_5/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_5/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_7_5/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_5/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_7_5/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_5/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zpcct_7_5/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_5/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 1.0249,
+            "hd95": 1.0,
+            "assd": 0.2633
+          },
+          "spleen": {
+            "centroid": 0.2953,
+            "hd95": 1.0,
+            "assd": 0.3146
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_7_5/gallery.jpg"
+      },
+      {
+        "id": "zpcct_7_6",
+        "day": "20260929",
+        "take": 6,
+        "series": "PCCT 140kV 100mAs 1mm MonoE70keV t6",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_MonoE70keV_take1_recon1mm_s44",
+        "title": "PCCT 140kV 100mAs 1mm MonoE70keV t6",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.924→0.924; Spleen 0.961→0.961.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 706,
+        "summary": "PCCT 140kV 100mAs 1mm MonoE70keV t6 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92447,
+            "after": 0.92447
+          },
+          "spleen": {
+            "before": 0.96074,
+            "after": 0.96074
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_7_6/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_6/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zpcct_7_6/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_6/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_7_6/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_6/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_7_6/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_6/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_7_6/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_6/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zpcct_7_6/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_6/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6972,
+            "hd95": 1.159,
+            "assd": 0.4009
+          },
+          "spleen": {
+            "centroid": 0.3169,
+            "hd95": 1.0,
+            "assd": 0.3873
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_7_6/gallery.jpg"
+      },
+      {
+        "id": "zpcct_7_7",
+        "day": "20260929",
+        "take": 7,
+        "series": "PCCT 140kV 100mAs 1mm MonoE70keV t7",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_MonoE70keV_take1_recon1mm_s52",
+        "title": "PCCT 140kV 100mAs 1mm MonoE70keV t7",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.912→0.912; Spleen 0.957→0.957.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 707,
+        "summary": "PCCT 140kV 100mAs 1mm MonoE70keV t7 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.91221,
+            "after": 0.91221
+          },
+          "spleen": {
+            "before": 0.95729,
+            "after": 0.95729
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_7_7/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_7/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zpcct_7_7/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_7/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_7_7/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_7/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_7_7/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_7/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_7_7/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_7/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zpcct_7_7/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_7/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.7853,
+            "hd95": 1.1719,
+            "assd": 0.462
+          },
+          "spleen": {
+            "centroid": 0.235,
+            "hd95": 1.0,
+            "assd": 0.4066
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_7_7/gallery.jpg"
+      },
+      {
+        "id": "zpcct_7_8",
+        "day": "20260929",
+        "take": 8,
+        "series": "PCCT 140kV 100mAs 1mm MonoE70keV t8",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_MonoE70keV_take1_recon1mm_s60",
+        "title": "PCCT 140kV 100mAs 1mm MonoE70keV t8",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.944→0.944; Spleen 0.975→0.975.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 708,
+        "summary": "PCCT 140kV 100mAs 1mm MonoE70keV t8 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94448,
+            "after": 0.94448
+          },
+          "spleen": {
+            "before": 0.97458,
+            "after": 0.97458
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_7_8/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_8/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zpcct_7_8/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_8/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_7_8/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_8/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_7_8/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_8/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_7_8/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_8/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zpcct_7_8/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_8/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.1997,
+            "hd95": 1.0,
+            "assd": 0.2882
+          },
+          "spleen": {
+            "centroid": 0.1852,
+            "hd95": 0.8286,
+            "assd": 0.2256
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_7_8/gallery.jpg"
+      },
+      {
+        "id": "zpcct_7_9",
+        "day": "20260929",
+        "take": 9,
+        "series": "PCCT 140kV 100mAs 1mm MonoE70keV t9",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_MonoE70keV_take1_recon1mm_s68",
+        "title": "PCCT 140kV 100mAs 1mm MonoE70keV t9",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.915→0.915; Spleen 0.957→0.957.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 709,
+        "summary": "PCCT 140kV 100mAs 1mm MonoE70keV t9 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.91547,
+            "after": 0.91547
+          },
+          "spleen": {
+            "before": 0.95687,
+            "after": 0.95687
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_7_9/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_9/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zpcct_7_9/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_9/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_7_9/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_9/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_7_9/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_9/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_7_9/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_9/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zpcct_7_9/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_9/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 1.0894,
+            "hd95": 1.0,
+            "assd": 0.4502
+          },
+          "spleen": {
+            "centroid": 0.4438,
+            "hd95": 1.0,
+            "assd": 0.4225
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_7_9/gallery.jpg"
+      },
+      {
+        "id": "zpcct_7_10",
+        "day": "20260929",
+        "take": 10,
+        "series": "PCCT 140kV 100mAs 1mm MonoE70keV t10",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_MonoE70keV_take1_recon1mm_s77",
+        "title": "PCCT 140kV 100mAs 1mm MonoE70keV t10",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.940→0.940; Spleen 0.966→0.966.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 710,
+        "summary": "PCCT 140kV 100mAs 1mm MonoE70keV t10 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.9399,
+            "after": 0.9399
+          },
+          "spleen": {
+            "before": 0.96631,
+            "after": 0.96631
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_7_10/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_10/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zpcct_7_10/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_10/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_7_10/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_10/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_7_10/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_7_10/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_7_10/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_7_10/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zpcct_7_10/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_7_10/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2444,
+            "hd95": 1.1719,
+            "assd": 0.3143
+          },
+          "spleen": {
+            "centroid": 0.588,
+            "hd95": 1.159,
+            "assd": 0.3198
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_7_10/gallery.jpg"
+      },
+      {
+        "id": "zpcct_8_2",
+        "day": "20260929",
+        "take": 2,
+        "series": "PCCT 140kV 100mAs 1mm PolyE t2",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_PolyE_take1_recon1mm_s12",
+        "title": "PCCT 140kV 100mAs 1mm PolyE t2",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.919→0.919; Spleen 0.959→0.959.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 802,
+        "summary": "PCCT 140kV 100mAs 1mm PolyE t2 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.91894,
+            "after": 0.91894
+          },
+          "spleen": {
+            "before": 0.95874,
+            "after": 0.95874
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_8_2/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_2/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 91",
+                "before": "assets/zurich/zpcct_8_2/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_2/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_8_2/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_2/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_8_2/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_2/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_8_2/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_2/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_8_2/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_2/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2275,
+            "hd95": 1.0,
+            "assd": 0.4267
+          },
+          "spleen": {
+            "centroid": 0.2712,
+            "hd95": 1.0,
+            "assd": 0.3944
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_8_2/gallery.jpg"
+      },
+      {
+        "id": "zpcct_8_3",
+        "day": "20260929",
+        "take": 3,
+        "series": "PCCT 140kV 100mAs 1mm PolyE t3",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_PolyE_take1_recon1mm_s20",
+        "title": "PCCT 140kV 100mAs 1mm PolyE t3",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.925→0.925; Spleen 0.960→0.960.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 803,
+        "summary": "PCCT 140kV 100mAs 1mm PolyE t3 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92464,
+            "after": 0.92464
+          },
+          "spleen": {
+            "before": 0.96042,
+            "after": 0.96042
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_8_3/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_3/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 91",
+                "before": "assets/zurich/zpcct_8_3/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_3/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_8_3/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_3/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_8_3/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_3/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_8_3/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_3/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_8_3/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_3/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2147,
+            "hd95": 1.1719,
+            "assd": 0.4047
+          },
+          "spleen": {
+            "centroid": 0.4077,
+            "hd95": 1.0,
+            "assd": 0.3884
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_8_3/gallery.jpg"
+      },
+      {
+        "id": "zpcct_8_4",
+        "day": "20260929",
+        "take": 4,
+        "series": "PCCT 140kV 100mAs 1mm PolyE t4",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_PolyE_take1_recon1mm_s28",
+        "title": "PCCT 140kV 100mAs 1mm PolyE t4",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.923→0.923; Spleen 0.961→0.961.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 804,
+        "summary": "PCCT 140kV 100mAs 1mm PolyE t4 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92254,
+            "after": 0.92254
+          },
+          "spleen": {
+            "before": 0.96122,
+            "after": 0.96122
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_8_4/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_4/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 91",
+                "before": "assets/zurich/zpcct_8_4/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_4/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_8_4/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_4/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_8_4/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_4/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_8_4/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_4/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_8_4/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_4/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4162,
+            "hd95": 1.1719,
+            "assd": 0.4169
+          },
+          "spleen": {
+            "centroid": 0.5584,
+            "hd95": 1.0,
+            "assd": 0.394
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_8_4/gallery.jpg"
+      },
+      {
+        "id": "zpcct_8_5",
+        "day": "20260929",
+        "take": 5,
+        "series": "PCCT 140kV 100mAs 1mm PolyE t5",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_PolyE_take1_recon1mm_s35",
+        "title": "PCCT 140kV 100mAs 1mm PolyE t5",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.955→0.955; Spleen 0.970→0.970.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 805,
+        "summary": "PCCT 140kV 100mAs 1mm PolyE t5 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.9554,
+            "after": 0.9554
+          },
+          "spleen": {
+            "before": 0.97034,
+            "after": 0.97034
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_8_5/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_5/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 91",
+                "before": "assets/zurich/zpcct_8_5/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_5/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_8_5/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_5/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_8_5/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_5/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_8_5/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_5/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_8_5/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_5/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.727,
+            "hd95": 1.0,
+            "assd": 0.2554
+          },
+          "spleen": {
+            "centroid": 0.2831,
+            "hd95": 1.0,
+            "assd": 0.3121
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_8_5/gallery.jpg"
+      },
+      {
+        "id": "zpcct_8_6",
+        "day": "20260929",
+        "take": 6,
+        "series": "PCCT 140kV 100mAs 1mm PolyE t6",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_PolyE_take1_recon1mm_s43",
+        "title": "PCCT 140kV 100mAs 1mm PolyE t6",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.925→0.925; Spleen 0.961→0.961.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 806,
+        "summary": "PCCT 140kV 100mAs 1mm PolyE t6 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92532,
+            "after": 0.92532
+          },
+          "spleen": {
+            "before": 0.96074,
+            "after": 0.96074
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_8_6/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_6/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 91",
+                "before": "assets/zurich/zpcct_8_6/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_6/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_8_6/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_6/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_8_6/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_6/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_8_6/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_6/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_8_6/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_6/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3488,
+            "hd95": 1.159,
+            "assd": 0.3963
+          },
+          "spleen": {
+            "centroid": 0.3311,
+            "hd95": 1.0,
+            "assd": 0.3884
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_8_6/gallery.jpg"
+      },
+      {
+        "id": "zpcct_8_7",
+        "day": "20260929",
+        "take": 7,
+        "series": "PCCT 140kV 100mAs 1mm PolyE t7",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_PolyE_take1_recon1mm_s51",
+        "title": "PCCT 140kV 100mAs 1mm PolyE t7",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.912→0.912; Spleen 0.957→0.957.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 807,
+        "summary": "PCCT 140kV 100mAs 1mm PolyE t7 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.91232,
+            "after": 0.91232
+          },
+          "spleen": {
+            "before": 0.95699,
+            "after": 0.95699
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_8_7/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_7/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 91",
+                "before": "assets/zurich/zpcct_8_7/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_7/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_8_7/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_7/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_8_7/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_7/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_8_7/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_7/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_8_7/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_7/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6381,
+            "hd95": 1.1719,
+            "assd": 0.4625
+          },
+          "spleen": {
+            "centroid": 0.253,
+            "hd95": 1.159,
+            "assd": 0.4091
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_8_7/gallery.jpg"
+      },
+      {
+        "id": "zpcct_8_8",
+        "day": "20260929",
+        "take": 8,
+        "series": "PCCT 140kV 100mAs 1mm PolyE t8",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_PolyE_take1_recon1mm_s59",
+        "title": "PCCT 140kV 100mAs 1mm PolyE t8",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.945→0.945; Spleen 0.975→0.975.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 808,
+        "summary": "PCCT 140kV 100mAs 1mm PolyE t8 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94495,
+            "after": 0.94495
+          },
+          "spleen": {
+            "before": 0.97453,
+            "after": 0.97453
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_8_8/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_8/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 91",
+                "before": "assets/zurich/zpcct_8_8/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_8/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_8_8/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_8/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_8_8/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_8/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_8_8/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_8/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_8_8/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_8/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.1721,
+            "hd95": 1.0,
+            "assd": 0.2861
+          },
+          "spleen": {
+            "centroid": 0.1796,
+            "hd95": 1.0,
+            "assd": 0.2269
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_8_8/gallery.jpg"
+      },
+      {
+        "id": "zpcct_8_9",
+        "day": "20260929",
+        "take": 9,
+        "series": "PCCT 140kV 100mAs 1mm PolyE t9",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_PolyE_take1_recon1mm_s67",
+        "title": "PCCT 140kV 100mAs 1mm PolyE t9",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.926→0.926; Spleen 0.961→0.961.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 809,
+        "summary": "PCCT 140kV 100mAs 1mm PolyE t9 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92579,
+            "after": 0.92579
+          },
+          "spleen": {
+            "before": 0.96051,
+            "after": 0.96051
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_8_9/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_9/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 91",
+                "before": "assets/zurich/zpcct_8_9/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_9/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_8_9/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_9/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_8_9/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_9/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_8_9/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_9/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_8_9/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_9/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3676,
+            "hd95": 1.1719,
+            "assd": 0.4095
+          },
+          "spleen": {
+            "centroid": 0.2993,
+            "hd95": 1.159,
+            "assd": 0.388
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_8_9/gallery.jpg"
+      },
+      {
+        "id": "zpcct_8_10",
+        "day": "20260929",
+        "take": 10,
+        "series": "PCCT 140kV 100mAs 1mm PolyE t10",
+        "seriesFull": "USZ_Siemens_Healthineers_NAEOTOM_Alpha_20260929_Q3_Qr40f_140_100_300_1_PolyE_take1_recon1mm_s76",
+        "title": "PCCT 140kV 100mAs 1mm PolyE t10",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.940→0.940; Spleen 0.966→0.966.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 810,
+        "summary": "PCCT 140kV 100mAs 1mm PolyE t10 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.93981,
+            "after": 0.93981
+          },
+          "spleen": {
+            "before": 0.96595,
+            "after": 0.96595
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 58",
+                "before": "assets/zurich/zpcct_8_10/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_10/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 91",
+                "before": "assets/zurich/zpcct_8_10/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_10/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 299",
+                "before": "assets/zurich/zpcct_8_10/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_10/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 77",
+                "before": "assets/zurich/zpcct_8_10/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zpcct_8_10/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 96",
+                "before": "assets/zurich/zpcct_8_10/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zpcct_8_10/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zpcct_8_10/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zpcct_8_10/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2345,
+            "hd95": 1.1719,
+            "assd": 0.3171
+          },
+          "spleen": {
+            "centroid": 0.5994,
+            "hd95": 1.1719,
+            "assd": 0.3243
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zpcct_8_10/gallery.jpg"
+      },
+      {
+        "id": "zsep_1_2",
+        "day": "20260929",
+        "take": 2,
+        "series": "SEP Br40f 120kV 100mAs t2",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_100_300_1_PolyE_take1_recon1mm_s11",
+        "title": "SEP Br40f 120kV 100mAs t2",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.928→0.928; Spleen 0.962→0.962.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50102,
+        "summary": "SEP Br40f 120kV 100mAs t2 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92756,
+            "after": 0.92756
+          },
+          "spleen": {
+            "before": 0.96232,
+            "after": 0.96232
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_1_2/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_2/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_1_2/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_2/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_1_2/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_2/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_1_2/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_2/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_1_2/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_2/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zsep_1_2/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_2/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.327,
+            "hd95": 1.1719,
+            "assd": 0.3962
+          },
+          "spleen": {
+            "centroid": 0.283,
+            "hd95": 1.159,
+            "assd": 0.3644
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_1_2/gallery.jpg"
+      },
+      {
+        "id": "zsep_1_3",
+        "day": "20260929",
+        "take": 3,
+        "series": "SEP Br40f 120kV 100mAs t3",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_100_300_1_PolyE_take1_recon1mm_s19",
+        "title": "SEP Br40f 120kV 100mAs t3",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.929→0.929; Spleen 0.962→0.962.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50103,
+        "summary": "SEP Br40f 120kV 100mAs t3 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.9288,
+            "after": 0.9288
+          },
+          "spleen": {
+            "before": 0.96246,
+            "after": 0.96246
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_1_3/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_3/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_1_3/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_3/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_1_3/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_3/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_1_3/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_3/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_1_3/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_3/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zsep_1_3/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_3/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2948,
+            "hd95": 1.1719,
+            "assd": 0.3908
+          },
+          "spleen": {
+            "centroid": 0.2931,
+            "hd95": 1.159,
+            "assd": 0.3632
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_1_3/gallery.jpg"
+      },
+      {
+        "id": "zsep_1_4",
+        "day": "20260929",
+        "take": 4,
+        "series": "SEP Br40f 120kV 100mAs t4",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_100_300_1_PolyE_take1_recon1mm_s27",
+        "title": "SEP Br40f 120kV 100mAs t4",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.930→0.930; Spleen 0.962→0.962.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50104,
+        "summary": "SEP Br40f 120kV 100mAs t4 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92995,
+            "after": 0.92995
+          },
+          "spleen": {
+            "before": 0.96249,
+            "after": 0.96249
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_1_4/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_4/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_1_4/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_4/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_1_4/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_4/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_1_4/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_4/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_1_4/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_4/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zsep_1_4/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_4/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.5032,
+            "hd95": 1.1719,
+            "assd": 0.3822
+          },
+          "spleen": {
+            "centroid": 0.2805,
+            "hd95": 1.159,
+            "assd": 0.3629
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_1_4/gallery.jpg"
+      },
+      {
+        "id": "zsep_1_5",
+        "day": "20260929",
+        "take": 5,
+        "series": "SEP Br40f 120kV 100mAs t5",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_100_300_1_PolyE_take1_recon1mm_s35",
+        "title": "SEP Br40f 120kV 100mAs t5",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.929→0.929; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50105,
+        "summary": "SEP Br40f 120kV 100mAs t5 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.9288,
+            "after": 0.9288
+          },
+          "spleen": {
+            "before": 0.96269,
+            "after": 0.96269
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_1_5/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_5/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_1_5/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_5/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_1_5/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_5/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_1_5/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_5/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_1_5/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_5/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zsep_1_5/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_5/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2979,
+            "hd95": 1.1719,
+            "assd": 0.3893
+          },
+          "spleen": {
+            "centroid": 0.2819,
+            "hd95": 1.159,
+            "assd": 0.3623
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_1_5/gallery.jpg"
+      },
+      {
+        "id": "zsep_1_6",
+        "day": "20260929",
+        "take": 6,
+        "series": "SEP Br40f 120kV 100mAs t6",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_100_300_1_PolyE_take1_recon1mm_s43",
+        "title": "SEP Br40f 120kV 100mAs t6",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.929→0.929; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50106,
+        "summary": "SEP Br40f 120kV 100mAs t6 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92925,
+            "after": 0.92925
+          },
+          "spleen": {
+            "before": 0.96307,
+            "after": 0.96307
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_1_6/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_6/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_1_6/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_6/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_1_6/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_6/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_1_6/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_6/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_1_6/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_6/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zsep_1_6/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_6/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.263,
+            "hd95": 1.1719,
+            "assd": 0.388
+          },
+          "spleen": {
+            "centroid": 0.2508,
+            "hd95": 1.0,
+            "assd": 0.3594
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_1_6/gallery.jpg"
+      },
+      {
+        "id": "zsep_1_7",
+        "day": "20260929",
+        "take": 7,
+        "series": "SEP Br40f 120kV 100mAs t7",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_100_300_1_PolyE_take1_recon1mm_s51",
+        "title": "SEP Br40f 120kV 100mAs t7",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.930→0.930; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50107,
+        "summary": "SEP Br40f 120kV 100mAs t7 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92996,
+            "after": 0.92996
+          },
+          "spleen": {
+            "before": 0.96297,
+            "after": 0.96297
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_1_7/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_7/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_1_7/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_7/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_1_7/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_7/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_1_7/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_7/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_1_7/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_7/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zsep_1_7/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_7/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2552,
+            "hd95": 1.1719,
+            "assd": 0.384
+          },
+          "spleen": {
+            "centroid": 0.2648,
+            "hd95": 1.0,
+            "assd": 0.3593
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_1_7/gallery.jpg"
+      },
+      {
+        "id": "zsep_1_8",
+        "day": "20260929",
+        "take": 8,
+        "series": "SEP Br40f 120kV 100mAs t8",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_100_300_1_PolyE_take1_recon1mm_s59",
+        "title": "SEP Br40f 120kV 100mAs t8",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.931→0.931; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50108,
+        "summary": "SEP Br40f 120kV 100mAs t8 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.93065,
+            "after": 0.93065
+          },
+          "spleen": {
+            "before": 0.9631,
+            "after": 0.9631
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_1_8/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_8/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_1_8/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_8/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_1_8/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_8/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_1_8/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_8/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_1_8/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_8/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zsep_1_8/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_8/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2355,
+            "hd95": 1.1719,
+            "assd": 0.3802
+          },
+          "spleen": {
+            "centroid": 0.2549,
+            "hd95": 1.0,
+            "assd": 0.3585
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_1_8/gallery.jpg"
+      },
+      {
+        "id": "zsep_1_9",
+        "day": "20260929",
+        "take": 9,
+        "series": "SEP Br40f 120kV 100mAs t9",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_100_300_1_PolyE_take1_recon1mm_s67",
+        "title": "SEP Br40f 120kV 100mAs t9",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.931→0.931; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50109,
+        "summary": "SEP Br40f 120kV 100mAs t9 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.93052,
+            "after": 0.93052
+          },
+          "spleen": {
+            "before": 0.96344,
+            "after": 0.96344
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_1_9/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_9/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_1_9/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_9/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_1_9/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_9/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_1_9/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_9/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_1_9/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_9/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zsep_1_9/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_9/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2321,
+            "hd95": 1.1719,
+            "assd": 0.3802
+          },
+          "spleen": {
+            "centroid": 0.2288,
+            "hd95": 1.0,
+            "assd": 0.3544
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_1_9/gallery.jpg"
+      },
+      {
+        "id": "zsep_1_10",
+        "day": "20260929",
+        "take": 10,
+        "series": "SEP Br40f 120kV 100mAs t10",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_100_300_1_PolyE_take1_recon1mm_s75",
+        "title": "SEP Br40f 120kV 100mAs t10",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.931→0.931; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50110,
+        "summary": "SEP Br40f 120kV 100mAs t10 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.9306,
+            "after": 0.9306
+          },
+          "spleen": {
+            "before": 0.96334,
+            "after": 0.96334
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_1_10/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_10/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_1_10/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_10/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_1_10/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_10/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_1_10/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_1_10/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_1_10/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_1_10/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 341",
+                "before": "assets/zurich/zsep_1_10/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_1_10/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2267,
+            "hd95": 1.1719,
+            "assd": 0.3794
+          },
+          "spleen": {
+            "centroid": 0.2298,
+            "hd95": 1.0,
+            "assd": 0.3561
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_1_10/gallery.jpg"
+      },
+      {
+        "id": "zsep_2_2",
+        "day": "20260929",
+        "take": 2,
+        "series": "SEP S2_Br40f 120kV 100mAs t2",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S2_Br40f_120_100_300_1_PolyE_take1_recon1mm_s17",
+        "title": "SEP S2_Br40f 120kV 100mAs t2",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50202,
+        "summary": "SEP S2_Br40f 120kV 100mAs t2 → take1",
+        "method": "Landmark rigid",
+        "scores": {
+          "aorta": {
+            "before": 0.94823,
+            "after": 0.94814
+          },
+          "spleen": {
+            "before": 0.96804,
+            "after": 0.96804
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_2_2/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_2/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_2_2/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_2/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_2_2/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_2/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_2_2/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_2/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_2_2/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_2/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_2_2/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_2/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2291,
+            "hd95": 1.1719,
+            "assd": 0.2878
+          },
+          "spleen": {
+            "centroid": 0.2635,
+            "hd95": 1.0,
+            "assd": 0.3288
+          }
+        },
+        "registration": {
+          "method": "landmark_rigid_fallback",
+          "attempted": true,
+          "accepted": true
+        },
+        "gallery": "assets/zurich/zsep_2_2/gallery.jpg"
+      },
+      {
+        "id": "zsep_2_3",
+        "day": "20260929",
+        "take": 3,
+        "series": "SEP S2_Br40f 120kV 100mAs t3",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S2_Br40f_120_100_300_1_PolyE_take1_recon1mm_s25",
+        "title": "SEP S2_Br40f 120kV 100mAs t3",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50203,
+        "summary": "SEP S2_Br40f 120kV 100mAs t3 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94813,
+            "after": 0.94813
+          },
+          "spleen": {
+            "before": 0.96812,
+            "after": 0.96812
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_2_3/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_3/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_2_3/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_3/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_2_3/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_3/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_2_3/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_3/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_2_3/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_3/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_2_3/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_3/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4501,
+            "hd95": 1.1719,
+            "assd": 0.289
+          },
+          "spleen": {
+            "centroid": 0.2135,
+            "hd95": 1.0,
+            "assd": 0.3271
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_2_3/gallery.jpg"
+      },
+      {
+        "id": "zsep_2_4",
+        "day": "20260929",
+        "take": 4,
+        "series": "SEP S2_Br40f 120kV 100mAs t4",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S2_Br40f_120_100_300_1_PolyE_take1_recon1mm_s33",
+        "title": "SEP S2_Br40f 120kV 100mAs t4",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50204,
+        "summary": "SEP S2_Br40f 120kV 100mAs t4 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94818,
+            "after": 0.94818
+          },
+          "spleen": {
+            "before": 0.96796,
+            "after": 0.96796
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_2_4/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_4/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_2_4/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_4/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_2_4/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_4/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_2_4/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_4/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_2_4/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_4/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_2_4/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_4/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2969,
+            "hd95": 1.1719,
+            "assd": 0.2867
+          },
+          "spleen": {
+            "centroid": 0.2861,
+            "hd95": 1.0,
+            "assd": 0.3285
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_2_4/gallery.jpg"
+      },
+      {
+        "id": "zsep_2_5",
+        "day": "20260929",
+        "take": 5,
+        "series": "SEP S2_Br40f 120kV 100mAs t5",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S2_Br40f_120_100_300_1_PolyE_take1_recon1mm_s41",
+        "title": "SEP S2_Br40f 120kV 100mAs t5",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.949→0.949; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50205,
+        "summary": "SEP S2_Br40f 120kV 100mAs t5 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94884,
+            "after": 0.94884
+          },
+          "spleen": {
+            "before": 0.96764,
+            "after": 0.96764
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_2_5/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_5/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_2_5/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_5/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_2_5/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_5/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_2_5/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_5/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_2_5/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_5/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_2_5/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_5/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2971,
+            "hd95": 1.1719,
+            "assd": 0.2831
+          },
+          "spleen": {
+            "centroid": 0.2776,
+            "hd95": 1.0,
+            "assd": 0.3321
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_2_5/gallery.jpg"
+      },
+      {
+        "id": "zsep_2_6",
+        "day": "20260929",
+        "take": 6,
+        "series": "SEP S2_Br40f 120kV 100mAs t6",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S2_Br40f_120_100_300_1_PolyE_take1_recon1mm_s49",
+        "title": "SEP S2_Br40f 120kV 100mAs t6",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.949→0.949; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50206,
+        "summary": "SEP S2_Br40f 120kV 100mAs t6 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94879,
+            "after": 0.94879
+          },
+          "spleen": {
+            "before": 0.9676,
+            "after": 0.9676
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_2_6/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_6/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_2_6/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_6/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_2_6/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_6/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_2_6/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_6/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_2_6/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_6/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_2_6/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_6/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2684,
+            "hd95": 1.1719,
+            "assd": 0.2819
+          },
+          "spleen": {
+            "centroid": 0.2917,
+            "hd95": 1.0,
+            "assd": 0.3318
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_2_6/gallery.jpg"
+      },
+      {
+        "id": "zsep_2_7",
+        "day": "20260929",
+        "take": 7,
+        "series": "SEP S2_Br40f 120kV 100mAs t7",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S2_Br40f_120_100_300_1_PolyE_take1_recon1mm_s57",
+        "title": "SEP S2_Br40f 120kV 100mAs t7",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.947→0.947; Spleen 0.967→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50207,
+        "summary": "SEP S2_Br40f 120kV 100mAs t7 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94676,
+            "after": 0.94676
+          },
+          "spleen": {
+            "before": 0.96725,
+            "after": 0.96725
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_2_7/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_7/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_2_7/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_7/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_2_7/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_7/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_2_7/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_7/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_2_7/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_7/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_2_7/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_7/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3059,
+            "hd95": 1.1719,
+            "assd": 0.2957
+          },
+          "spleen": {
+            "centroid": 0.2664,
+            "hd95": 1.0,
+            "assd": 0.3349
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_2_7/gallery.jpg"
+      },
+      {
+        "id": "zsep_2_8",
+        "day": "20260929",
+        "take": 8,
+        "series": "SEP S2_Br40f 120kV 100mAs t8",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S2_Br40f_120_100_300_1_PolyE_take1_recon1mm_s65",
+        "title": "SEP S2_Br40f 120kV 100mAs t8",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.947→0.947; Spleen 0.967→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50208,
+        "summary": "SEP S2_Br40f 120kV 100mAs t8 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94741,
+            "after": 0.94741
+          },
+          "spleen": {
+            "before": 0.96723,
+            "after": 0.96723
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_2_8/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_8/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_2_8/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_8/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_2_8/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_8/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_2_8/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_8/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_2_8/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_8/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_2_8/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_8/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3758,
+            "hd95": 1.1719,
+            "assd": 0.2901
+          },
+          "spleen": {
+            "centroid": 0.283,
+            "hd95": 1.0,
+            "assd": 0.335
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_2_8/gallery.jpg"
+      },
+      {
+        "id": "zsep_2_9",
+        "day": "20260929",
+        "take": 9,
+        "series": "SEP S2_Br40f 120kV 100mAs t9",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S2_Br40f_120_100_300_1_PolyE_take1_recon1mm_s73",
+        "title": "SEP S2_Br40f 120kV 100mAs t9",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.967→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50209,
+        "summary": "SEP S2_Br40f 120kV 100mAs t9 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94828,
+            "after": 0.94828
+          },
+          "spleen": {
+            "before": 0.96699,
+            "after": 0.96699
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_2_9/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_9/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_2_9/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_9/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_2_9/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_9/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_2_9/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_9/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_2_9/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_9/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_2_9/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_9/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4262,
+            "hd95": 1.1719,
+            "assd": 0.286
+          },
+          "spleen": {
+            "centroid": 0.2839,
+            "hd95": 1.0,
+            "assd": 0.3376
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_2_9/gallery.jpg"
+      },
+      {
+        "id": "zsep_2_10",
+        "day": "20260929",
+        "take": 10,
+        "series": "SEP S2_Br40f 120kV 100mAs t10",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S2_Br40f_120_100_300_1_PolyE_take1_recon1mm_s81",
+        "title": "SEP S2_Br40f 120kV 100mAs t10",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.946→0.946; Spleen 0.967→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50210,
+        "summary": "SEP S2_Br40f 120kV 100mAs t10 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94647,
+            "after": 0.94647
+          },
+          "spleen": {
+            "before": 0.96662,
+            "after": 0.96662
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_2_10/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_10/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_2_10/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_10/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_2_10/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_10/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_2_10/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_2_10/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_2_10/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_2_10/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_2_10/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_2_10/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2804,
+            "hd95": 1.1719,
+            "assd": 0.2948
+          },
+          "spleen": {
+            "centroid": 0.319,
+            "hd95": 1.0,
+            "assd": 0.3409
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_2_10/gallery.jpg"
+      },
+      {
+        "id": "zsep_3_2",
+        "day": "20260929",
+        "take": 2,
+        "series": "SEP Br40f 120kV 300mAs t2",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_300_300_1_PolyE_take1_recon1mm_s15",
+        "title": "SEP Br40f 120kV 300mAs t2",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50302,
+        "summary": "SEP Br40f 120kV 300mAs t2 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.9484,
+            "after": 0.9484
+          },
+          "spleen": {
+            "before": 0.96818,
+            "after": 0.96818
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_3_2/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_2/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_3_2/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_2/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_3_2/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_2/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_3_2/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_2/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_3_2/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_2/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_3_2/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_2/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4638,
+            "hd95": 1.1719,
+            "assd": 0.2841
+          },
+          "spleen": {
+            "centroid": 0.2733,
+            "hd95": 1.0,
+            "assd": 0.3269
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_3_2/gallery.jpg"
+      },
+      {
+        "id": "zsep_3_3",
+        "day": "20260929",
+        "take": 3,
+        "series": "SEP Br40f 120kV 300mAs t3",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_300_300_1_PolyE_take1_recon1mm_s23",
+        "title": "SEP Br40f 120kV 300mAs t3",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50303,
+        "summary": "SEP Br40f 120kV 300mAs t3 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94797,
+            "after": 0.94797
+          },
+          "spleen": {
+            "before": 0.9682,
+            "after": 0.9682
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_3_3/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_3/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_3_3/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_3/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_3_3/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_3/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_3_3/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_3/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_3_3/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_3/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_3_3/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_3/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3163,
+            "hd95": 1.1719,
+            "assd": 0.2859
+          },
+          "spleen": {
+            "centroid": 0.2284,
+            "hd95": 1.0,
+            "assd": 0.3265
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_3_3/gallery.jpg"
+      },
+      {
+        "id": "zsep_3_4",
+        "day": "20260929",
+        "take": 4,
+        "series": "SEP Br40f 120kV 300mAs t4",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_300_300_1_PolyE_take1_recon1mm_s31",
+        "title": "SEP Br40f 120kV 300mAs t4",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.947→0.947; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50304,
+        "summary": "SEP Br40f 120kV 300mAs t4 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94742,
+            "after": 0.94742
+          },
+          "spleen": {
+            "before": 0.96827,
+            "after": 0.96827
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_3_4/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_4/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_3_4/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_4/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_3_4/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_4/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_3_4/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_4/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_3_4/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_4/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_3_4/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_4/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6101,
+            "hd95": 1.1719,
+            "assd": 0.2936
+          },
+          "spleen": {
+            "centroid": 0.2241,
+            "hd95": 1.0,
+            "assd": 0.3254
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_3_4/gallery.jpg"
+      },
+      {
+        "id": "zsep_3_5",
+        "day": "20260929",
+        "take": 5,
+        "series": "SEP Br40f 120kV 300mAs t5",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_300_300_1_PolyE_take1_recon1mm_s39",
+        "title": "SEP Br40f 120kV 300mAs t5",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.949→0.949; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50305,
+        "summary": "SEP Br40f 120kV 300mAs t5 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94877,
+            "after": 0.94877
+          },
+          "spleen": {
+            "before": 0.96819,
+            "after": 0.96819
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_3_5/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_5/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_3_5/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_5/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_3_5/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_5/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_3_5/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_5/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_3_5/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_5/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_3_5/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_5/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3958,
+            "hd95": 1.1719,
+            "assd": 0.281
+          },
+          "spleen": {
+            "centroid": 0.2351,
+            "hd95": 1.0,
+            "assd": 0.3259
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_3_5/gallery.jpg"
+      },
+      {
+        "id": "zsep_3_6",
+        "day": "20260929",
+        "take": 6,
+        "series": "SEP Br40f 120kV 300mAs t6",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_300_300_1_PolyE_take1_recon1mm_s47",
+        "title": "SEP Br40f 120kV 300mAs t6",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.947→0.947; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50306,
+        "summary": "SEP Br40f 120kV 300mAs t6 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94691,
+            "after": 0.94691
+          },
+          "spleen": {
+            "before": 0.96783,
+            "after": 0.96783
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_3_6/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_6/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_3_6/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_6/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_3_6/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_6/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_3_6/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_6/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_3_6/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_6/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_3_6/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_6/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.5944,
+            "hd95": 1.1719,
+            "assd": 0.2932
+          },
+          "spleen": {
+            "centroid": 0.2759,
+            "hd95": 1.0,
+            "assd": 0.3292
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_3_6/gallery.jpg"
+      },
+      {
+        "id": "zsep_3_7",
+        "day": "20260929",
+        "take": 7,
+        "series": "SEP Br40f 120kV 300mAs t7",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_300_300_1_PolyE_take1_recon1mm_s55",
+        "title": "SEP Br40f 120kV 300mAs t7",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50307,
+        "summary": "SEP Br40f 120kV 300mAs t7 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.9478,
+            "after": 0.9478
+          },
+          "spleen": {
+            "before": 0.96778,
+            "after": 0.96778
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_3_7/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_7/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_3_7/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_7/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_3_7/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_7/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_3_7/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_7/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_3_7/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_7/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_3_7/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_7/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2748,
+            "hd95": 1.1719,
+            "assd": 0.287
+          },
+          "spleen": {
+            "centroid": 0.2739,
+            "hd95": 1.0,
+            "assd": 0.3298
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_3_7/gallery.jpg"
+      },
+      {
+        "id": "zsep_3_8",
+        "day": "20260929",
+        "take": 8,
+        "series": "SEP Br40f 120kV 300mAs t8",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_300_300_1_PolyE_take1_recon1mm_s63",
+        "title": "SEP Br40f 120kV 300mAs t8",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.967→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50308,
+        "summary": "SEP Br40f 120kV 300mAs t8 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94763,
+            "after": 0.94763
+          },
+          "spleen": {
+            "before": 0.96746,
+            "after": 0.96746
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_3_8/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_8/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_3_8/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_8/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_3_8/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_8/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_3_8/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_8/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_3_8/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_8/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_3_8/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_8/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.364,
+            "hd95": 1.1719,
+            "assd": 0.2858
+          },
+          "spleen": {
+            "centroid": 0.2702,
+            "hd95": 1.0,
+            "assd": 0.3324
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_3_8/gallery.jpg"
+      },
+      {
+        "id": "zsep_3_9",
+        "day": "20260929",
+        "take": 9,
+        "series": "SEP Br40f 120kV 300mAs t9",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_300_300_1_PolyE_take1_recon1mm_s71",
+        "title": "SEP Br40f 120kV 300mAs t9",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50309,
+        "summary": "SEP Br40f 120kV 300mAs t9 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94809,
+            "after": 0.94809
+          },
+          "spleen": {
+            "before": 0.96769,
+            "after": 0.96769
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_3_9/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_9/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_3_9/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_9/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_3_9/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_9/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_3_9/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_9/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_3_9/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_9/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_3_9/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_9/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4827,
+            "hd95": 1.1719,
+            "assd": 0.2839
+          },
+          "spleen": {
+            "centroid": 0.2747,
+            "hd95": 1.0,
+            "assd": 0.3297
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_3_9/gallery.jpg"
+      },
+      {
+        "id": "zsep_3_10",
+        "day": "20260929",
+        "take": 10,
+        "series": "SEP Br40f 120kV 300mAs t10",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_Br40f_120_300_300_1_PolyE_take1_recon1mm_s79",
+        "title": "SEP Br40f 120kV 300mAs t10",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.946→0.946; Spleen 0.967→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50310,
+        "summary": "SEP Br40f 120kV 300mAs t10 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94578,
+            "after": 0.94578
+          },
+          "spleen": {
+            "before": 0.96719,
+            "after": 0.96719
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_3_10/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_10/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_3_10/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_10/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_3_10/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_10/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_3_10/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_3_10/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_3_10/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_3_10/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_3_10/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_3_10/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.5955,
+            "hd95": 1.1719,
+            "assd": 0.2997
+          },
+          "spleen": {
+            "centroid": 0.2741,
+            "hd95": 1.0,
+            "assd": 0.3351
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_3_10/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_2",
+        "day": "20260929",
+        "take": 2,
+        "series": "SEP S3_Br40f 120kV 100mAs t2",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s8",
+        "title": "SEP S3_Br40f 120kV 100mAs t2",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.929→0.929; Spleen 0.960→0.960.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50402,
+        "summary": "SEP S3_Br40f 120kV 100mAs t2 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92853,
+            "after": 0.92853
+          },
+          "spleen": {
+            "before": 0.96016,
+            "after": 0.96016
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_2/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_2/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_2/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_2/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_2/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_2/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_2/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_2/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_2/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_2/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_2/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_2/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4127,
+            "hd95": 1.1719,
+            "assd": 0.3884
+          },
+          "spleen": {
+            "centroid": 0.3066,
+            "hd95": 1.0,
+            "assd": 0.3921
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_2/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_3",
+        "day": "20260929",
+        "take": 3,
+        "series": "SEP S3_Br40f 120kV 100mAs t3",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s10",
+        "title": "SEP S3_Br40f 120kV 100mAs t3",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.929→0.929; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50403,
+        "summary": "SEP S3_Br40f 120kV 100mAs t3 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92857,
+            "after": 0.92857
+          },
+          "spleen": {
+            "before": 0.96277,
+            "after": 0.96277
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_3/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_3/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_3/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_3/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_3/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_3/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_3/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_3/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_3/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_3/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_3/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_3/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3646,
+            "hd95": 1.1719,
+            "assd": 0.3929
+          },
+          "spleen": {
+            "centroid": 0.2795,
+            "hd95": 1.159,
+            "assd": 0.3607
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_3/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_4",
+        "day": "20260929",
+        "take": 4,
+        "series": "SEP S3_Br40f 120kV 100mAs t4",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s16",
+        "title": "SEP S3_Br40f 120kV 100mAs t4",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.950→0.950; Spleen 0.978→0.978.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50404,
+        "summary": "SEP S3_Br40f 120kV 100mAs t4 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94991,
+            "after": 0.94991
+          },
+          "spleen": {
+            "before": 0.97798,
+            "after": 0.97798
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_4/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_4/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_4/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_4/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_4/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_4/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_4/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_4/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_4/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_4/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_4/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_4/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2954,
+            "hd95": 1.1719,
+            "assd": 0.2721
+          },
+          "spleen": {
+            "centroid": 0.1892,
+            "hd95": 1.0,
+            "assd": 0.1971
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_4/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_5",
+        "day": "20260929",
+        "take": 5,
+        "series": "SEP S3_Br40f 120kV 100mAs t5",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s18",
+        "title": "SEP S3_Br40f 120kV 100mAs t5",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.930→0.930; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50405,
+        "summary": "SEP S3_Br40f 120kV 100mAs t5 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92986,
+            "after": 0.92986
+          },
+          "spleen": {
+            "before": 0.96272,
+            "after": 0.96272
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_5/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_5/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_5/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_5/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_5/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_5/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_5/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_5/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_5/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_5/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_5/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_5/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2681,
+            "hd95": 1.1719,
+            "assd": 0.3861
+          },
+          "spleen": {
+            "centroid": 0.2833,
+            "hd95": 1.159,
+            "assd": 0.36
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_5/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_6",
+        "day": "20260929",
+        "take": 6,
+        "series": "SEP S3_Br40f 120kV 100mAs t6",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s24",
+        "title": "SEP S3_Br40f 120kV 100mAs t6",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.951→0.951; Spleen 0.978→0.978.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50406,
+        "summary": "SEP S3_Br40f 120kV 100mAs t6 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.95106,
+            "after": 0.95106
+          },
+          "spleen": {
+            "before": 0.97789,
+            "after": 0.97789
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_6/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_6/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_6/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_6/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_6/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_6/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_6/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_6/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_6/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_6/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_6/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_6/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.1993,
+            "hd95": 1.1719,
+            "assd": 0.2645
+          },
+          "spleen": {
+            "centroid": 0.1657,
+            "hd95": 1.0,
+            "assd": 0.1985
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_6/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_7",
+        "day": "20260929",
+        "take": 7,
+        "series": "SEP S3_Br40f 120kV 100mAs t7",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s26",
+        "title": "SEP S3_Br40f 120kV 100mAs t7",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.931→0.931; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50407,
+        "summary": "SEP S3_Br40f 120kV 100mAs t7 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.93103,
+            "after": 0.93103
+          },
+          "spleen": {
+            "before": 0.96271,
+            "after": 0.96271
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_7/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_7/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_7/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_7/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_7/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_7/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_7/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_7/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_7/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_7/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_7/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_7/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4356,
+            "hd95": 1.1719,
+            "assd": 0.378
+          },
+          "spleen": {
+            "centroid": 0.2753,
+            "hd95": 1.159,
+            "assd": 0.3613
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_7/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_8",
+        "day": "20260929",
+        "take": 8,
+        "series": "SEP S3_Br40f 120kV 100mAs t8",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s32",
+        "title": "SEP S3_Br40f 120kV 100mAs t8",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.952→0.952; Spleen 0.978→0.978.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50408,
+        "summary": "SEP S3_Br40f 120kV 100mAs t8 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.952,
+            "after": 0.952
+          },
+          "spleen": {
+            "before": 0.97811,
+            "after": 0.97811
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_8/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_8/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_8/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_8/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_8/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_8/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_8/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_8/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_8/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_8/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_8/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_8/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.1644,
+            "hd95": 1.1719,
+            "assd": 0.2624
+          },
+          "spleen": {
+            "centroid": 0.1715,
+            "hd95": 1.0,
+            "assd": 0.1958
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_8/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_9",
+        "day": "20260929",
+        "take": 9,
+        "series": "SEP S3_Br40f 120kV 100mAs t9",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s34",
+        "title": "SEP S3_Br40f 120kV 100mAs t9",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.929→0.929; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50409,
+        "summary": "SEP S3_Br40f 120kV 100mAs t9 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.92926,
+            "after": 0.92926
+          },
+          "spleen": {
+            "before": 0.96297,
+            "after": 0.96297
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_9/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_9/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_9/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_9/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_9/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_9/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_9/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_9/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_9/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_9/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_9/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_9/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3231,
+            "hd95": 1.1719,
+            "assd": 0.3879
+          },
+          "spleen": {
+            "centroid": 0.2666,
+            "hd95": 1.0,
+            "assd": 0.3594
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_9/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_10",
+        "day": "20260929",
+        "take": 10,
+        "series": "SEP S3_Br40f 120kV 100mAs t10",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s40",
+        "title": "SEP S3_Br40f 120kV 100mAs t10",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.951→0.951; Spleen 0.978→0.978.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50410,
+        "summary": "SEP S3_Br40f 120kV 100mAs t10 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.95077,
+            "after": 0.95077
+          },
+          "spleen": {
+            "before": 0.97775,
+            "after": 0.97775
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_10/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_10/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_10/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_10/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_10/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_10/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_10/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_10/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_10/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_10/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_10/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_10/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.1732,
+            "hd95": 1.1719,
+            "assd": 0.2698
+          },
+          "spleen": {
+            "centroid": 0.213,
+            "hd95": 1.0,
+            "assd": 0.1996
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_10/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_11",
+        "day": "20260929",
+        "take": 11,
+        "series": "SEP S3_Br40f 120kV 100mAs t11",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s42",
+        "title": "SEP S3_Br40f 120kV 100mAs t11",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.930→0.930; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50411,
+        "summary": "SEP S3_Br40f 120kV 100mAs t11 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.93038,
+            "after": 0.93038
+          },
+          "spleen": {
+            "before": 0.96324,
+            "after": 0.96324
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_11/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_11/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_11/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_11/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_11/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_11/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_11/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_11/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_11/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_11/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_11/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_11/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2363,
+            "hd95": 1.1719,
+            "assd": 0.3837
+          },
+          "spleen": {
+            "centroid": 0.2455,
+            "hd95": 1.0,
+            "assd": 0.3575
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_11/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_12",
+        "day": "20260929",
+        "take": 12,
+        "series": "SEP S3_Br40f 120kV 100mAs t12",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s48",
+        "title": "SEP S3_Br40f 120kV 100mAs t12",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.952→0.952; Spleen 0.978→0.978.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50412,
+        "summary": "SEP S3_Br40f 120kV 100mAs t12 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.95226,
+            "after": 0.95226
+          },
+          "spleen": {
+            "before": 0.97838,
+            "after": 0.97838
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_12/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_12/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_12/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_12/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_12/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_12/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_12/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_12/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_12/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_12/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_12/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_12/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2258,
+            "hd95": 1.159,
+            "assd": 0.2596
+          },
+          "spleen": {
+            "centroid": 0.1631,
+            "hd95": 1.0,
+            "assd": 0.1938
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_12/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_13",
+        "day": "20260929",
+        "take": 13,
+        "series": "SEP S3_Br40f 120kV 100mAs t13",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s50",
+        "title": "SEP S3_Br40f 120kV 100mAs t13",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.930→0.930; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50413,
+        "summary": "SEP S3_Br40f 120kV 100mAs t13 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.93043,
+            "after": 0.93043
+          },
+          "spleen": {
+            "before": 0.96325,
+            "after": 0.96325
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_13/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_13/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_13/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_13/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_13/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_13/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_13/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_13/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_13/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_13/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_13/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_13/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2908,
+            "hd95": 1.1719,
+            "assd": 0.3829
+          },
+          "spleen": {
+            "centroid": 0.2527,
+            "hd95": 1.0,
+            "assd": 0.3561
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_13/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_14",
+        "day": "20260929",
+        "take": 14,
+        "series": "SEP S3_Br40f 120kV 100mAs t14",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s56",
+        "title": "SEP S3_Br40f 120kV 100mAs t14",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.953→0.953; Spleen 0.978→0.978.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50414,
+        "summary": "SEP S3_Br40f 120kV 100mAs t14 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.95269,
+            "after": 0.95269
+          },
+          "spleen": {
+            "before": 0.97849,
+            "after": 0.97849
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_14/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_14/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_14/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_14/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_14/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_14/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_14/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_14/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_14/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_14/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_14/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_14/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4086,
+            "hd95": 1.1719,
+            "assd": 0.258
+          },
+          "spleen": {
+            "centroid": 0.1465,
+            "hd95": 1.0,
+            "assd": 0.1927
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_14/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_15",
+        "day": "20260929",
+        "take": 15,
+        "series": "SEP S3_Br40f 120kV 100mAs t15",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s58",
+        "title": "SEP S3_Br40f 120kV 100mAs t15",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.930→0.930; Spleen 0.963→0.963.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50415,
+        "summary": "SEP S3_Br40f 120kV 100mAs t15 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.93017,
+            "after": 0.93017
+          },
+          "spleen": {
+            "before": 0.96343,
+            "after": 0.96343
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_15/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_15/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_15/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_15/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_15/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_15/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_15/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_15/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_15/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_15/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_15/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_15/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.285,
+            "hd95": 1.1719,
+            "assd": 0.3831
+          },
+          "spleen": {
+            "centroid": 0.2483,
+            "hd95": 1.0,
+            "assd": 0.3552
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_15/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_16",
+        "day": "20260929",
+        "take": 16,
+        "series": "SEP S3_Br40f 120kV 100mAs t16",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s64",
+        "title": "SEP S3_Br40f 120kV 100mAs t16",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.952→0.952; Spleen 0.978→0.978.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50416,
+        "summary": "SEP S3_Br40f 120kV 100mAs t16 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.95186,
+            "after": 0.95186
+          },
+          "spleen": {
+            "before": 0.97839,
+            "after": 0.97839
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_16/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_16/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_16/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_16/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_16/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_16/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_16/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_16/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_16/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_16/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_16/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_16/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.1358,
+            "hd95": 1.1719,
+            "assd": 0.2623
+          },
+          "spleen": {
+            "centroid": 0.1767,
+            "hd95": 1.0,
+            "assd": 0.1938
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_16/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_17",
+        "day": "20260929",
+        "take": 17,
+        "series": "SEP S3_Br40f 120kV 100mAs t17",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s66",
+        "title": "SEP S3_Br40f 120kV 100mAs t17",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.931→0.931; Spleen 0.964→0.964.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50417,
+        "summary": "SEP S3_Br40f 120kV 100mAs t17 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.93078,
+            "after": 0.93078
+          },
+          "spleen": {
+            "before": 0.96381,
+            "after": 0.96381
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_17/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_17/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_17/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_17/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_17/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_17/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_17/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_17/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_17/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_17/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_17/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_17/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2152,
+            "hd95": 1.1719,
+            "assd": 0.3792
+          },
+          "spleen": {
+            "centroid": 0.2157,
+            "hd95": 1.0,
+            "assd": 0.3507
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_17/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_18",
+        "day": "20260929",
+        "take": 18,
+        "series": "SEP S3_Br40f 120kV 100mAs t18",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s72",
+        "title": "SEP S3_Br40f 120kV 100mAs t18",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.951→0.951; Spleen 0.979→0.979.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50418,
+        "summary": "SEP S3_Br40f 120kV 100mAs t18 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.95145,
+            "after": 0.95145
+          },
+          "spleen": {
+            "before": 0.97855,
+            "after": 0.97855
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_18/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_18/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_18/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_18/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_18/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_18/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_18/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_18/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_18/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_18/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_18/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_18/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.1479,
+            "hd95": 1.1719,
+            "assd": 0.2646
+          },
+          "spleen": {
+            "centroid": 0.1357,
+            "hd95": 1.0,
+            "assd": 0.1918
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_18/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_19",
+        "day": "20260929",
+        "take": 19,
+        "series": "SEP S3_Br40f 120kV 100mAs t19",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s74",
+        "title": "SEP S3_Br40f 120kV 100mAs t19",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.932→0.932; Spleen 0.964→0.964.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50419,
+        "summary": "SEP S3_Br40f 120kV 100mAs t19 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.93154,
+            "after": 0.93154
+          },
+          "spleen": {
+            "before": 0.96355,
+            "after": 0.96355
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_19/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_19/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_19/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_19/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_19/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_19/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_19/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_19/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_19/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_19/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_19/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_19/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.2422,
+            "hd95": 1.1719,
+            "assd": 0.3763
+          },
+          "spleen": {
+            "centroid": 0.2214,
+            "hd95": 1.0,
+            "assd": 0.354
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_19/gallery.jpg"
+      },
+      {
+        "id": "zsep_4_20",
+        "day": "20260929",
+        "take": 20,
+        "series": "SEP S3_Br40f 120kV 100mAs t20",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s80",
+        "title": "SEP S3_Br40f 120kV 100mAs t20",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.953→0.953; Spleen 0.979→0.979.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50420,
+        "summary": "SEP S3_Br40f 120kV 100mAs t20 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.95311,
+            "after": 0.95311
+          },
+          "spleen": {
+            "before": 0.97905,
+            "after": 0.97905
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_4_20/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_20/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 87",
+                "before": "assets/zurich/zsep_4_20/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_20/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 295",
+                "before": "assets/zurich/zsep_4_20/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_20/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 73",
+                "before": "assets/zurich/zsep_4_20/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_4_20/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 92",
+                "before": "assets/zurich/zsep_4_20/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_4_20/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 340",
+                "before": "assets/zurich/zsep_4_20/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_4_20/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3153,
+            "hd95": 1.0,
+            "assd": 0.2564
+          },
+          "spleen": {
+            "centroid": 0.1549,
+            "hd95": 1.0,
+            "assd": 0.1869
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_4_20/gallery.jpg"
+      },
+      {
+        "id": "zsep_5_2",
+        "day": "20260929",
+        "take": 2,
+        "series": "SEP S3_Br40f 120kV 300mAs t2",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_300_300_1_PolyE_take1_recon1mm_s14",
+        "title": "SEP S3_Br40f 120kV 300mAs t2",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.949→0.949; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50502,
+        "summary": "SEP S3_Br40f 120kV 300mAs t2 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94944,
+            "after": 0.94944
+          },
+          "spleen": {
+            "before": 0.96798,
+            "after": 0.96798
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_5_2/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_2/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_5_2/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_2/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_5_2/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_2/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_5_2/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_2/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_5_2/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_2/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_5_2/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_2/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.5456,
+            "hd95": 1.1719,
+            "assd": 0.2786
+          },
+          "spleen": {
+            "centroid": 0.2715,
+            "hd95": 1.0,
+            "assd": 0.3298
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_5_2/gallery.jpg"
+      },
+      {
+        "id": "zsep_5_3",
+        "day": "20260929",
+        "take": 3,
+        "series": "SEP S3_Br40f 120kV 300mAs t3",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_300_300_1_PolyE_take1_recon1mm_s22",
+        "title": "SEP S3_Br40f 120kV 300mAs t3",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50503,
+        "summary": "SEP S3_Br40f 120kV 300mAs t3 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94802,
+            "after": 0.94802
+          },
+          "spleen": {
+            "before": 0.96808,
+            "after": 0.96808
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_5_3/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_3/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_5_3/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_3/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_5_3/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_3/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_5_3/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_3/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_5_3/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_3/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_5_3/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_3/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3771,
+            "hd95": 1.1719,
+            "assd": 0.2853
+          },
+          "spleen": {
+            "centroid": 0.2315,
+            "hd95": 1.0,
+            "assd": 0.3286
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_5_3/gallery.jpg"
+      },
+      {
+        "id": "zsep_5_4",
+        "day": "20260929",
+        "take": 4,
+        "series": "SEP S3_Br40f 120kV 300mAs t4",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_300_300_1_PolyE_take1_recon1mm_s30",
+        "title": "SEP S3_Br40f 120kV 300mAs t4",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50504,
+        "summary": "SEP S3_Br40f 120kV 300mAs t4 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94768,
+            "after": 0.94768
+          },
+          "spleen": {
+            "before": 0.9682,
+            "after": 0.9682
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_5_4/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_4/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_5_4/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_4/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_5_4/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_4/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_5_4/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_4/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_5_4/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_4/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_5_4/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_4/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6877,
+            "hd95": 1.1719,
+            "assd": 0.2911
+          },
+          "spleen": {
+            "centroid": 0.2507,
+            "hd95": 1.0,
+            "assd": 0.3269
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_5_4/gallery.jpg"
+      },
+      {
+        "id": "zsep_5_5",
+        "day": "20260929",
+        "take": 5,
+        "series": "SEP S3_Br40f 120kV 300mAs t5",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_300_300_1_PolyE_take1_recon1mm_s38",
+        "title": "SEP S3_Br40f 120kV 300mAs t5",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.949→0.949; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50505,
+        "summary": "SEP S3_Br40f 120kV 300mAs t5 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.9487,
+            "after": 0.9487
+          },
+          "spleen": {
+            "before": 0.96812,
+            "after": 0.96812
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_5_5/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_5/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_5_5/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_5/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_5_5/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_5/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_5_5/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_5/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_5_5/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_5/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_5_5/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_5/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4321,
+            "hd95": 1.1719,
+            "assd": 0.2807
+          },
+          "spleen": {
+            "centroid": 0.2371,
+            "hd95": 1.0,
+            "assd": 0.3276
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_5_5/gallery.jpg"
+      },
+      {
+        "id": "zsep_5_6",
+        "day": "20260929",
+        "take": 6,
+        "series": "SEP S3_Br40f 120kV 300mAs t6",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_300_300_1_PolyE_take1_recon1mm_s46",
+        "title": "SEP S3_Br40f 120kV 300mAs t6",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.947→0.947; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50506,
+        "summary": "SEP S3_Br40f 120kV 300mAs t6 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94712,
+            "after": 0.94712
+          },
+          "spleen": {
+            "before": 0.96768,
+            "after": 0.96768
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_5_6/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_6/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_5_6/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_6/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_5_6/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_6/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_5_6/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_6/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_5_6/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_6/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_5_6/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_6/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.6698,
+            "hd95": 1.1719,
+            "assd": 0.2929
+          },
+          "spleen": {
+            "centroid": 0.2742,
+            "hd95": 1.0,
+            "assd": 0.332
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_5_6/gallery.jpg"
+      },
+      {
+        "id": "zsep_5_7",
+        "day": "20260929",
+        "take": 7,
+        "series": "SEP S3_Br40f 120kV 300mAs t7",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_300_300_1_PolyE_take1_recon1mm_s54",
+        "title": "SEP S3_Br40f 120kV 300mAs t7",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50507,
+        "summary": "SEP S3_Br40f 120kV 300mAs t7 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94785,
+            "after": 0.94785
+          },
+          "spleen": {
+            "before": 0.96768,
+            "after": 0.96768
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_5_7/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_7/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_5_7/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_7/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_5_7/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_7/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_5_7/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_7/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_5_7/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_7/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_5_7/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_7/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3273,
+            "hd95": 1.1719,
+            "assd": 0.2857
+          },
+          "spleen": {
+            "centroid": 0.2661,
+            "hd95": 1.0,
+            "assd": 0.3321
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_5_7/gallery.jpg"
+      },
+      {
+        "id": "zsep_5_8",
+        "day": "20260929",
+        "take": 8,
+        "series": "SEP S3_Br40f 120kV 300mAs t8",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_300_300_1_PolyE_take1_recon1mm_s62",
+        "title": "SEP S3_Br40f 120kV 300mAs t8",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50508,
+        "summary": "SEP S3_Br40f 120kV 300mAs t8 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94795,
+            "after": 0.94795
+          },
+          "spleen": {
+            "before": 0.96759,
+            "after": 0.96759
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_5_8/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_8/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_5_8/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_8/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_5_8/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_8/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_5_8/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_8/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_5_8/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_8/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_5_8/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_8/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.3973,
+            "hd95": 1.1719,
+            "assd": 0.285
+          },
+          "spleen": {
+            "centroid": 0.2627,
+            "hd95": 1.0,
+            "assd": 0.3323
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_5_8/gallery.jpg"
+      },
+      {
+        "id": "zsep_5_9",
+        "day": "20260929",
+        "take": 9,
+        "series": "SEP S3_Br40f 120kV 300mAs t9",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_300_300_1_PolyE_take1_recon1mm_s70",
+        "title": "SEP S3_Br40f 120kV 300mAs t9",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.948→0.948; Spleen 0.968→0.968.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50509,
+        "summary": "SEP S3_Br40f 120kV 300mAs t9 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94793,
+            "after": 0.94793
+          },
+          "spleen": {
+            "before": 0.96753,
+            "after": 0.96753
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_5_9/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_9/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_5_9/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_9/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_5_9/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_9/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_5_9/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_9/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_5_9/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_9/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_5_9/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_9/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.4962,
+            "hd95": 1.1719,
+            "assd": 0.2847
+          },
+          "spleen": {
+            "centroid": 0.2793,
+            "hd95": 1.0,
+            "assd": 0.3322
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_5_9/gallery.jpg"
+      },
+      {
+        "id": "zsep_5_10",
+        "day": "20260929",
+        "take": 10,
+        "series": "SEP S3_Br40f 120kV 300mAs t10",
+        "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260929_S3_Br40f_120_300_300_1_PolyE_take1_recon1mm_s78",
+        "title": "SEP S3_Br40f 120kV 300mAs t10",
+        "fixed": "take1",
+        "tone": "sky",
+        "tag": "Test-retest",
+        "note": "Aorta 0.946→0.946; Spleen 0.967→0.967.",
+        "featured": false,
+        "qc": false,
+        "qcReason": null,
+        "inWorkbook": true,
+        "order": 50510,
+        "summary": "SEP S3_Br40f 120kV 300mAs t10 → take1",
+        "method": "Identity (no registration)",
+        "scores": {
+          "aorta": {
+            "before": 0.94616,
+            "after": 0.94616
+          },
+          "spleen": {
+            "before": 0.96712,
+            "after": 0.96712
+          }
+        },
+        "views": {
+          "aorta": {
+            "axial": [
+              {
+                "label": "z 54",
+                "before": "assets/zurich/zsep_5_10/aorta_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_10/aorta_axial_0_after.jpg"
+              },
+              {
+                "label": "z 88",
+                "before": "assets/zurich/zsep_5_10/aorta_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_10/aorta_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 296",
+                "before": "assets/zurich/zsep_5_10/aorta_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_10/aorta_coronal_after.jpg"
+              }
+            ]
+          },
+          "spleen": {
+            "axial": [
+              {
+                "label": "z 74",
+                "before": "assets/zurich/zsep_5_10/spleen_axial_0_before.jpg",
+                "after": "assets/zurich/zsep_5_10/spleen_axial_0_after.jpg"
+              },
+              {
+                "label": "z 94",
+                "before": "assets/zurich/zsep_5_10/spleen_axial_1_before.jpg",
+                "after": "assets/zurich/zsep_5_10/spleen_axial_1_after.jpg"
+              }
+            ],
+            "coronal": [
+              {
+                "label": "y 342",
+                "before": "assets/zurich/zsep_5_10/spleen_coronal_before.jpg",
+                "after": "assets/zurich/zsep_5_10/spleen_coronal_after.jpg"
+              }
+            ]
+          }
+        },
+        "residual": {
+          "aorta": {
+            "centroid": 0.7219,
+            "hd95": 1.1719,
+            "assd": 0.2977
+          },
+          "spleen": {
+            "centroid": 0.2613,
+            "hd95": 1.0,
+            "assd": 0.3373
+          }
+        },
+        "registration": {
+          "method": "identity",
+          "attempted": true,
+          "accepted": false
+        },
+        "gallery": "assets/zurich/zsep_5_10/gallery.jpg"
+      }
+    ]
   }
 };
-window.CASES = window.DATASETS[(new URLSearchParams(location.search).get("dataset") === "pcct") ? "pcct" : "sep"];
+const DATASET_KEY = new URLSearchParams(location.search).get("dataset") || "sep";
+window.CASES = window.DATASETS[DATASET_KEY] || window.DATASETS.sep;
