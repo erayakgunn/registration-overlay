@@ -3,6 +3,7 @@ window.DATASETS = {
     "fixed": "20260805_t1",
     "beforeLabel": "Centroid translation",
     "afterLabel": "Rigid (bone/landmark)",
+    "label": "SEP",
     "cases": [
       {
         "id": "20260109_t1",
@@ -14,7 +15,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "sky",
         "tag": "Take",
-        "note": "Aorta 0.905→0.931; Spleen 0.864→0.966.",
+        "note": "Aorta 0.905→0.928; Spleen 0.864→0.953.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -25,11 +26,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90533,
-            "after": 0.93137
+            "after": 0.92796
           },
           "spleen": {
             "before": 0.86381,
-            "after": 0.96585
+            "after": 0.95325
           }
         },
         "views": {
@@ -38,28 +39,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260109_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260109_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260109_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260109_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260109_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260109_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260109_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260109_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260109_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260109_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260109_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260109_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260109_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260109_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260109_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260109_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -68,50 +65,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260109_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260109_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260109_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260109_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260109_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260109_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260109_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260109_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260109_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260109_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260109_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260109_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260109_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260109_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260109_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260109_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260109_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3697,
-            "centroid": 0.1381
+            "assd": 0.3917,
+            "centroid": 0.2395
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3144,
-            "centroid": 0.348
+            "hd95": 1.1719,
+            "assd": 0.4727,
+            "centroid": 1.0257
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260109_t1/gallery.jpg"
       },
       {
         "id": "20260109_t2",
@@ -123,7 +116,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "sky",
         "tag": "Take",
-        "note": "Aorta 0.883→0.927; Spleen 0.852→0.960.",
+        "note": "Aorta 0.883→0.925; Spleen 0.852→0.952.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -134,11 +127,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.88262,
-            "after": 0.92658
+            "after": 0.92545
           },
           "spleen": {
             "before": 0.85198,
-            "after": 0.96049
+            "after": 0.9517
           }
         },
         "views": {
@@ -147,28 +140,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260109_t2/aorta_axial_0_before.jpg",
-                "after": "assets/20260109_t2/aorta_axial_0_after.jpg",
-                "raw": "assets/20260109_t2/aorta_axial_0_raw.jpg"
+                "after": "assets/20260109_t2/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260109_t2/aorta_axial_1_before.jpg",
-                "after": "assets/20260109_t2/aorta_axial_1_after.jpg",
-                "raw": "assets/20260109_t2/aorta_axial_1_raw.jpg"
+                "after": "assets/20260109_t2/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260109_t2/aorta_axial_2_before.jpg",
-                "after": "assets/20260109_t2/aorta_axial_2_after.jpg",
-                "raw": "assets/20260109_t2/aorta_axial_2_raw.jpg"
+                "after": "assets/20260109_t2/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260109_t2/aorta_coronal_before.jpg",
-                "after": "assets/20260109_t2/aorta_coronal_after.jpg",
-                "raw": "assets/20260109_t2/aorta_coronal_raw.jpg"
+                "after": "assets/20260109_t2/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -177,50 +166,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260109_t2/spleen_axial_0_before.jpg",
-                "after": "assets/20260109_t2/spleen_axial_0_after.jpg",
-                "raw": "assets/20260109_t2/spleen_axial_0_raw.jpg"
+                "after": "assets/20260109_t2/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260109_t2/spleen_axial_1_before.jpg",
-                "after": "assets/20260109_t2/spleen_axial_1_after.jpg",
-                "raw": "assets/20260109_t2/spleen_axial_1_raw.jpg"
+                "after": "assets/20260109_t2/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260109_t2/spleen_axial_2_before.jpg",
-                "after": "assets/20260109_t2/spleen_axial_2_after.jpg",
-                "raw": "assets/20260109_t2/spleen_axial_2_raw.jpg"
+                "after": "assets/20260109_t2/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260109_t2/spleen_coronal_before.jpg",
-                "after": "assets/20260109_t2/spleen_coronal_after.jpg",
-                "raw": "assets/20260109_t2/spleen_coronal_raw.jpg"
+                "after": "assets/20260109_t2/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260109_t2/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3969,
-            "centroid": 0.4151
+            "assd": 0.4044,
+            "centroid": 0.5501
           },
           "spleen": {
-            "hd95": 1.159,
-            "assd": 0.3819,
-            "centroid": 0.5429
+            "hd95": 1.1719,
+            "assd": 0.4905,
+            "centroid": 1.1288
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260109_t2/gallery.jpg"
       },
       {
         "id": "20260109_t3",
@@ -232,7 +217,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "sky",
         "tag": "Take",
-        "note": "Aorta 0.906→0.932; Spleen 0.863→0.965.",
+        "note": "Aorta 0.906→0.928; Spleen 0.863→0.953.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -243,11 +228,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90581,
-            "after": 0.93154
+            "after": 0.92758
           },
           "spleen": {
             "before": 0.86271,
-            "after": 0.96498
+            "after": 0.9533
           }
         },
         "views": {
@@ -256,28 +241,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260109_t3/aorta_axial_0_before.jpg",
-                "after": "assets/20260109_t3/aorta_axial_0_after.jpg",
-                "raw": "assets/20260109_t3/aorta_axial_0_raw.jpg"
+                "after": "assets/20260109_t3/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260109_t3/aorta_axial_1_before.jpg",
-                "after": "assets/20260109_t3/aorta_axial_1_after.jpg",
-                "raw": "assets/20260109_t3/aorta_axial_1_raw.jpg"
+                "after": "assets/20260109_t3/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260109_t3/aorta_axial_2_before.jpg",
-                "after": "assets/20260109_t3/aorta_axial_2_after.jpg",
-                "raw": "assets/20260109_t3/aorta_axial_2_raw.jpg"
+                "after": "assets/20260109_t3/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260109_t3/aorta_coronal_before.jpg",
-                "after": "assets/20260109_t3/aorta_coronal_after.jpg",
-                "raw": "assets/20260109_t3/aorta_coronal_raw.jpg"
+                "after": "assets/20260109_t3/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -286,50 +267,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260109_t3/spleen_axial_0_before.jpg",
-                "after": "assets/20260109_t3/spleen_axial_0_after.jpg",
-                "raw": "assets/20260109_t3/spleen_axial_0_raw.jpg"
+                "after": "assets/20260109_t3/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260109_t3/spleen_axial_1_before.jpg",
-                "after": "assets/20260109_t3/spleen_axial_1_after.jpg",
-                "raw": "assets/20260109_t3/spleen_axial_1_raw.jpg"
+                "after": "assets/20260109_t3/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260109_t3/spleen_axial_2_before.jpg",
-                "after": "assets/20260109_t3/spleen_axial_2_after.jpg",
-                "raw": "assets/20260109_t3/spleen_axial_2_raw.jpg"
+                "after": "assets/20260109_t3/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260109_t3/spleen_coronal_before.jpg",
-                "after": "assets/20260109_t3/spleen_coronal_after.jpg",
-                "raw": "assets/20260109_t3/spleen_coronal_raw.jpg"
+                "after": "assets/20260109_t3/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260109_t3/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3688,
-            "centroid": 0.3018
+            "assd": 0.3923,
+            "centroid": 0.4224
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3236,
-            "centroid": 0.3895
+            "hd95": 1.1719,
+            "assd": 0.4689,
+            "centroid": 1.0546
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260109_t3/gallery.jpg"
       },
       {
         "id": "20260114_t1",
@@ -341,7 +318,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.892→0.918; Spleen 0.959→0.957.",
+        "note": "Aorta 0.892→0.915; Spleen 0.959→0.959.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -352,11 +329,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.8916,
-            "after": 0.91794
+            "after": 0.91538
           },
           "spleen": {
             "before": 0.95921,
-            "after": 0.9572
+            "after": 0.9589
           }
         },
         "views": {
@@ -365,28 +342,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260114_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260114_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260114_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260114_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260114_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260114_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260114_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260114_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260114_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260114_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260114_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260114_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260114_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260114_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260114_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260114_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -395,50 +368,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260114_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260114_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260114_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260114_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260114_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260114_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260114_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260114_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260114_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260114_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260114_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260114_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260114_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260114_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260114_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260114_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260114_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4379,
-            "centroid": 0.1259
+            "assd": 0.4525,
+            "centroid": 0.2802
           },
           "spleen": {
-            "hd95": 1.159,
-            "assd": 0.4273,
-            "centroid": 0.6005
+            "hd95": 1.0,
+            "assd": 0.4093,
+            "centroid": 0.4726
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260114_t1/gallery.jpg"
       },
       {
         "id": "20260122_t1",
@@ -450,7 +419,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.903→0.930; Spleen 0.943→0.967.",
+        "note": "Aorta 0.903→0.924; Spleen 0.943→0.962.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -461,11 +430,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90336,
-            "after": 0.93046
+            "after": 0.9245
           },
           "spleen": {
             "before": 0.94261,
-            "after": 0.96694
+            "after": 0.96164
           }
         },
         "views": {
@@ -474,28 +443,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260122_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260122_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260122_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260122_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260122_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260122_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260122_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260122_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260122_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260122_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260122_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260122_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260122_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260122_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260122_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260122_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -504,50 +469,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260122_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260122_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260122_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260122_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260122_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260122_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260122_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260122_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260122_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260122_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260122_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260122_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260122_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260122_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260122_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260122_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260122_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3732,
-            "centroid": 0.2796
+            "assd": 0.4026,
+            "centroid": 0.5629
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3108,
-            "centroid": 0.3265
+            "hd95": 1.1719,
+            "assd": 0.3731,
+            "centroid": 0.6985
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260122_t1/gallery.jpg"
       },
       {
         "id": "medium",
@@ -570,11 +531,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90252,
-            "after": 0.92274
+            "after": 0.91652
           },
           "spleen": {
             "before": 0.92874,
-            "after": 0.96493
+            "after": 0.95531
           }
         },
         "views": {
@@ -583,28 +544,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/medium/aorta_axial_0_before.jpg",
-                "after": "assets/medium/aorta_axial_0_after.jpg",
-                "raw": "assets/medium/aorta_axial_0_raw.jpg"
+                "after": "assets/medium/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/medium/aorta_axial_1_before.jpg",
-                "after": "assets/medium/aorta_axial_1_after.jpg",
-                "raw": "assets/medium/aorta_axial_1_raw.jpg"
+                "after": "assets/medium/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/medium/aorta_axial_2_before.jpg",
-                "after": "assets/medium/aorta_axial_2_after.jpg",
-                "raw": "assets/medium/aorta_axial_2_raw.jpg"
+                "after": "assets/medium/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/medium/aorta_coronal_before.jpg",
-                "after": "assets/medium/aorta_coronal_after.jpg",
-                "raw": "assets/medium/aorta_coronal_raw.jpg"
+                "after": "assets/medium/aorta_coronal_after.jpg"
               }
             ],
             "all": [
@@ -1175,28 +1132,24 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/medium/spleen_axial_0_before.jpg",
-                "after": "assets/medium/spleen_axial_0_after.jpg",
-                "raw": "assets/medium/spleen_axial_0_raw.jpg"
+                "after": "assets/medium/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/medium/spleen_axial_1_before.jpg",
-                "after": "assets/medium/spleen_axial_1_after.jpg",
-                "raw": "assets/medium/spleen_axial_1_raw.jpg"
+                "after": "assets/medium/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/medium/spleen_axial_2_before.jpg",
-                "after": "assets/medium/spleen_axial_2_after.jpg",
-                "raw": "assets/medium/spleen_axial_2_raw.jpg"
+                "after": "assets/medium/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/medium/spleen_coronal_before.jpg",
-                "after": "assets/medium/spleen_coronal_after.jpg",
-                "raw": "assets/medium/spleen_coronal_raw.jpg"
+                "after": "assets/medium/spleen_coronal_after.jpg"
               }
             ],
             "all": [
@@ -1523,24 +1476,24 @@ window.DATASETS = {
             ]
           }
         },
-        "gallery": "assets/medium/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4104,
-            "centroid": 0.8348
+            "assd": 0.4504,
+            "centroid": 0.4357
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3369,
-            "centroid": 0.386
+            "hd95": 1.1719,
+            "assd": 0.4608,
+            "centroid": 0.7653
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/medium/gallery.jpg"
       },
       {
         "id": "20260227_t1",
@@ -1552,7 +1505,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.901→0.916; Spleen 0.950→0.960.",
+        "note": "Aorta 0.901→0.914; Spleen 0.950→0.953.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -1563,11 +1516,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90146,
-            "after": 0.91567
+            "after": 0.91439
           },
           "spleen": {
             "before": 0.94975,
-            "after": 0.95986
+            "after": 0.95309
           }
         },
         "views": {
@@ -1576,28 +1529,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260227_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260227_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260227_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260227_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260227_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260227_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260227_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260227_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260227_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260227_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260227_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260227_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260227_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260227_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260227_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260227_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -1606,50 +1555,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260227_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260227_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260227_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260227_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260227_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260227_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260227_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260227_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260227_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260227_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260227_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260227_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260227_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260227_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260227_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260227_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260227_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4482,
-            "centroid": 0.1543
+            "assd": 0.4606,
+            "centroid": 0.3615
           },
           "spleen": {
-            "hd95": 1.159,
-            "assd": 0.3906,
-            "centroid": 0.4401
+            "hd95": 1.1719,
+            "assd": 0.4635,
+            "centroid": 0.9026
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260227_t1/gallery.jpg"
       },
       {
         "id": "20260312_t1",
@@ -1661,7 +1606,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "sky",
         "tag": "Take",
-        "note": "Aorta 0.908→0.928; Spleen 0.900→0.955.",
+        "note": "Aorta 0.908→0.919; Spleen 0.900→0.953.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -1672,11 +1617,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90826,
-            "after": 0.92755
+            "after": 0.9189
           },
           "spleen": {
             "before": 0.90036,
-            "after": 0.95494
+            "after": 0.95286
           }
         },
         "views": {
@@ -1685,28 +1630,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260312_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260312_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260312_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260312_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260312_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260312_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260312_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260312_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260312_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260312_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260312_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260312_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260312_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260312_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260312_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260312_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -1715,50 +1656,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260312_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260312_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260312_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260312_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260312_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260312_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260312_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260312_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260312_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260312_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260312_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260312_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260312_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260312_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260312_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260312_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260312_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3908,
-            "centroid": 1.1805
+            "assd": 0.4309,
+            "centroid": 1.1663
           },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4441,
-            "centroid": 0.6766
+            "assd": 0.473,
+            "centroid": 0.9695
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260312_t1/gallery.jpg"
       },
       {
         "id": "20260312_t2",
@@ -1770,7 +1707,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.934→0.929; Spleen 0.906→0.960.",
+        "note": "Aorta 0.934→0.916; Spleen 0.906→0.948.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -1781,11 +1718,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.93385,
-            "after": 0.92947
+            "after": 0.9159
           },
           "spleen": {
             "before": 0.90606,
-            "after": 0.96025
+            "after": 0.94833
           }
         },
         "views": {
@@ -1794,28 +1731,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260312_t2/aorta_axial_0_before.jpg",
-                "after": "assets/20260312_t2/aorta_axial_0_after.jpg",
-                "raw": "assets/20260312_t2/aorta_axial_0_raw.jpg"
+                "after": "assets/20260312_t2/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260312_t2/aorta_axial_1_before.jpg",
-                "after": "assets/20260312_t2/aorta_axial_1_after.jpg",
-                "raw": "assets/20260312_t2/aorta_axial_1_raw.jpg"
+                "after": "assets/20260312_t2/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260312_t2/aorta_axial_2_before.jpg",
-                "after": "assets/20260312_t2/aorta_axial_2_after.jpg",
-                "raw": "assets/20260312_t2/aorta_axial_2_raw.jpg"
+                "after": "assets/20260312_t2/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260312_t2/aorta_coronal_before.jpg",
-                "after": "assets/20260312_t2/aorta_coronal_after.jpg",
-                "raw": "assets/20260312_t2/aorta_coronal_raw.jpg"
+                "after": "assets/20260312_t2/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -1824,50 +1757,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260312_t2/spleen_axial_0_before.jpg",
-                "after": "assets/20260312_t2/spleen_axial_0_after.jpg",
-                "raw": "assets/20260312_t2/spleen_axial_0_raw.jpg"
+                "after": "assets/20260312_t2/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260312_t2/spleen_axial_1_before.jpg",
-                "after": "assets/20260312_t2/spleen_axial_1_after.jpg",
-                "raw": "assets/20260312_t2/spleen_axial_1_raw.jpg"
+                "after": "assets/20260312_t2/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260312_t2/spleen_axial_2_before.jpg",
-                "after": "assets/20260312_t2/spleen_axial_2_after.jpg",
-                "raw": "assets/20260312_t2/spleen_axial_2_raw.jpg"
+                "after": "assets/20260312_t2/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260312_t2/spleen_coronal_before.jpg",
-                "after": "assets/20260312_t2/spleen_coronal_after.jpg",
-                "raw": "assets/20260312_t2/spleen_coronal_raw.jpg"
+                "after": "assets/20260312_t2/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260312_t2/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.381,
-            "centroid": 0.907
+            "assd": 0.4598,
+            "centroid": 1.036
           },
           "spleen": {
-            "hd95": 1.159,
-            "assd": 0.3958,
-            "centroid": 0.5293
+            "hd95": 1.1719,
+            "assd": 0.5288,
+            "centroid": 0.9732
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260312_t2/gallery.jpg"
       },
       {
         "id": "good",
@@ -1890,11 +1819,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.87798,
-            "after": 0.93224
+            "after": 0.92329
           },
           "spleen": {
             "before": 0.9208,
-            "after": 0.96212
+            "after": 0.95683
           }
         },
         "views": {
@@ -1903,28 +1832,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/good/aorta_axial_0_before.jpg",
-                "after": "assets/good/aorta_axial_0_after.jpg",
-                "raw": "assets/good/aorta_axial_0_raw.jpg"
+                "after": "assets/good/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/good/aorta_axial_1_before.jpg",
-                "after": "assets/good/aorta_axial_1_after.jpg",
-                "raw": "assets/good/aorta_axial_1_raw.jpg"
+                "after": "assets/good/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/good/aorta_axial_2_before.jpg",
-                "after": "assets/good/aorta_axial_2_after.jpg",
-                "raw": "assets/good/aorta_axial_2_raw.jpg"
+                "after": "assets/good/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/good/aorta_coronal_before.jpg",
-                "after": "assets/good/aorta_coronal_after.jpg",
-                "raw": "assets/good/aorta_coronal_raw.jpg"
+                "after": "assets/good/aorta_coronal_after.jpg"
               }
             ],
             "all": [
@@ -2495,28 +2420,24 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/good/spleen_axial_0_before.jpg",
-                "after": "assets/good/spleen_axial_0_after.jpg",
-                "raw": "assets/good/spleen_axial_0_raw.jpg"
+                "after": "assets/good/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/good/spleen_axial_1_before.jpg",
-                "after": "assets/good/spleen_axial_1_after.jpg",
-                "raw": "assets/good/spleen_axial_1_raw.jpg"
+                "after": "assets/good/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/good/spleen_axial_2_before.jpg",
-                "after": "assets/good/spleen_axial_2_after.jpg",
-                "raw": "assets/good/spleen_axial_2_raw.jpg"
+                "after": "assets/good/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/good/spleen_coronal_before.jpg",
-                "after": "assets/good/spleen_coronal_after.jpg",
-                "raw": "assets/good/spleen_coronal_raw.jpg"
+                "after": "assets/good/spleen_coronal_after.jpg"
               }
             ],
             "all": [
@@ -2843,24 +2764,24 @@ window.DATASETS = {
             ]
           }
         },
-        "gallery": "assets/good/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3615,
-            "centroid": 0.6045
+            "assd": 0.4131,
+            "centroid": 0.52
           },
           "spleen": {
-            "hd95": 1.159,
-            "assd": 0.3523,
-            "centroid": 0.4082
+            "hd95": 1.1719,
+            "assd": 0.4147,
+            "centroid": 0.871
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/good/gallery.jpg"
       },
       {
         "id": "20260430_t1",
@@ -2872,7 +2793,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "sky",
         "tag": "Take",
-        "note": "Aorta 0.872→0.934; Spleen 0.889→0.959.",
+        "note": "Aorta 0.872→0.912; Spleen 0.889→0.956.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -2883,11 +2804,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.87202,
-            "after": 0.93427
+            "after": 0.91248
           },
           "spleen": {
             "before": 0.88912,
-            "after": 0.9591
+            "after": 0.95577
           }
         },
         "views": {
@@ -2896,28 +2817,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260430_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260430_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260430_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260430_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260430_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260430_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260430_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260430_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260430_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260430_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260430_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260430_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260430_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260430_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260430_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260430_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -2926,50 +2843,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260430_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260430_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260430_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260430_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260430_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260430_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260430_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260430_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260430_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260430_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260430_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260430_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260430_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260430_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260430_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260430_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260430_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3583,
-            "centroid": 0.8709
+            "assd": 0.4685,
+            "centroid": 1.061
           },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.3963,
-            "centroid": 0.7618
+            "assd": 0.4343,
+            "centroid": 0.8562
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260430_t1/gallery.jpg"
       },
       {
         "id": "20260505_t1",
@@ -2981,7 +2894,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.917→0.921; Spleen 0.963→0.959.",
+        "note": "Aorta 0.917→0.913; Spleen 0.963→0.952.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -2992,11 +2905,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.91724,
-            "after": 0.92072
+            "after": 0.91258
           },
           "spleen": {
             "before": 0.96263,
-            "after": 0.95892
+            "after": 0.95153
           }
         },
         "views": {
@@ -3005,28 +2918,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260505_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260505_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260505_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260505_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260505_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260505_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260505_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260505_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260505_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260505_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260505_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260505_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260505_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260505_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260505_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260505_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -3035,50 +2944,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260505_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260505_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260505_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260505_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260505_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260505_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260505_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260505_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260505_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260505_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260505_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260505_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260505_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260505_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260505_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260505_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260505_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4247,
-            "centroid": 0.1516
+            "assd": 0.4699,
+            "centroid": 0.4066
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.4029,
-            "centroid": 0.3493
+            "hd95": 1.1719,
+            "assd": 0.4806,
+            "centroid": 0.6571
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260505_t1/gallery.jpg"
       },
       {
         "id": "20260512_t1",
@@ -3090,7 +2995,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "sky",
         "tag": "Take",
-        "note": "Aorta 0.887→0.925; Spleen 0.894→0.965.",
+        "note": "Aorta 0.887→0.922; Spleen 0.894→0.957.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -3101,11 +3006,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.88717,
-            "after": 0.92545
+            "after": 0.92173
           },
           "spleen": {
             "before": 0.89359,
-            "after": 0.9648
+            "after": 0.95666
           }
         },
         "views": {
@@ -3114,28 +3019,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260512_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260512_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260512_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260512_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260512_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260512_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260512_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260512_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260512_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260512_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260512_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260512_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260512_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260512_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260512_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260512_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -3144,50 +3045,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260512_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260512_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260512_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260512_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260512_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260512_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260512_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260512_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260512_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260512_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260512_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260512_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260512_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260512_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260512_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260512_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260512_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3961,
-            "centroid": 0.0408
+            "assd": 0.4217,
+            "centroid": 0.354
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.342,
-            "centroid": 0.3586
+            "hd95": 1.1719,
+            "assd": 0.4361,
+            "centroid": 0.6852
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260512_t1/gallery.jpg"
       },
       {
         "id": "20260526_t1",
@@ -3199,7 +3096,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.908→0.930; Spleen 0.936→0.953.",
+        "note": "Aorta 0.908→0.926; Spleen 0.936→0.954.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -3210,11 +3107,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90836,
-            "after": 0.92957
+            "after": 0.92558
           },
           "spleen": {
             "before": 0.9361,
-            "after": 0.95298
+            "after": 0.95443
           }
         },
         "views": {
@@ -3223,28 +3120,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260526_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260526_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260526_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260526_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260526_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260526_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260526_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260526_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260526_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260526_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260526_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260526_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260526_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260526_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260526_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260526_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -3253,50 +3146,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260526_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260526_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260526_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260526_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260526_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260526_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260526_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260526_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260526_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260526_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260526_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260526_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260526_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260526_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260526_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260526_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260526_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3816,
-            "centroid": 0.3626
+            "assd": 0.408,
+            "centroid": 0.5235
           },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4711,
-            "centroid": 1.0317
+            "assd": 0.4558,
+            "centroid": 1.0018
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260526_t1/gallery.jpg"
       },
       {
         "id": "20260526_t2",
@@ -3308,7 +3197,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.909→0.939; Spleen 0.936→0.965.",
+        "note": "Aorta 0.909→0.926; Spleen 0.936→0.950.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -3319,11 +3208,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.9093,
-            "after": 0.9393
+            "after": 0.92608
           },
           "spleen": {
             "before": 0.93581,
-            "after": 0.96527
+            "after": 0.94968
           }
         },
         "views": {
@@ -3332,28 +3221,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260526_t2/aorta_axial_0_before.jpg",
-                "after": "assets/20260526_t2/aorta_axial_0_after.jpg",
-                "raw": "assets/20260526_t2/aorta_axial_0_raw.jpg"
+                "after": "assets/20260526_t2/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260526_t2/aorta_axial_1_before.jpg",
-                "after": "assets/20260526_t2/aorta_axial_1_after.jpg",
-                "raw": "assets/20260526_t2/aorta_axial_1_raw.jpg"
+                "after": "assets/20260526_t2/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260526_t2/aorta_axial_2_before.jpg",
-                "after": "assets/20260526_t2/aorta_axial_2_after.jpg",
-                "raw": "assets/20260526_t2/aorta_axial_2_raw.jpg"
+                "after": "assets/20260526_t2/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260526_t2/aorta_coronal_before.jpg",
-                "after": "assets/20260526_t2/aorta_coronal_after.jpg",
-                "raw": "assets/20260526_t2/aorta_coronal_raw.jpg"
+                "after": "assets/20260526_t2/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -3362,50 +3247,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260526_t2/spleen_axial_0_before.jpg",
-                "after": "assets/20260526_t2/spleen_axial_0_after.jpg",
-                "raw": "assets/20260526_t2/spleen_axial_0_raw.jpg"
+                "after": "assets/20260526_t2/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260526_t2/spleen_axial_1_before.jpg",
-                "after": "assets/20260526_t2/spleen_axial_1_after.jpg",
-                "raw": "assets/20260526_t2/spleen_axial_1_raw.jpg"
+                "after": "assets/20260526_t2/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260526_t2/spleen_axial_2_before.jpg",
-                "after": "assets/20260526_t2/spleen_axial_2_after.jpg",
-                "raw": "assets/20260526_t2/spleen_axial_2_raw.jpg"
+                "after": "assets/20260526_t2/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260526_t2/spleen_coronal_before.jpg",
-                "after": "assets/20260526_t2/spleen_coronal_after.jpg",
-                "raw": "assets/20260526_t2/spleen_coronal_raw.jpg"
+                "after": "assets/20260526_t2/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260526_t2/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3316,
-            "centroid": 0.1871
+            "assd": 0.3985,
+            "centroid": 0.4433
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3398,
-            "centroid": 0.3408
+            "hd95": 1.1719,
+            "assd": 0.5065,
+            "centroid": 1.0379
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260526_t2/gallery.jpg"
       },
       {
         "id": "20260601_t1",
@@ -3417,7 +3298,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "mint",
         "tag": "Take",
-        "note": "Aorta 0.870→0.937; Spleen 0.821→0.962.",
+        "note": "Aorta 0.870→0.934; Spleen 0.821→0.956.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -3428,11 +3309,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.86954,
-            "after": 0.93658
+            "after": 0.93397
           },
           "spleen": {
             "before": 0.82134,
-            "after": 0.96197
+            "after": 0.95562
           }
         },
         "views": {
@@ -3441,28 +3322,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260601_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260601_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260601_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260601_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260601_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260601_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260601_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260601_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260601_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260601_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260601_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260601_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260601_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260601_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260601_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260601_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -3471,50 +3348,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260601_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260601_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260601_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260601_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260601_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260601_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260601_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260601_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260601_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260601_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260601_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260601_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260601_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260601_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260601_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260601_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260601_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3319,
-            "centroid": 0.1808
+            "assd": 0.3503,
+            "centroid": 0.455
           },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.3552,
-            "centroid": 0.72
+            "assd": 0.4269,
+            "centroid": 0.7741
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260601_t1/gallery.jpg"
       },
       {
         "id": "20260611_t1",
@@ -3526,7 +3399,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "sky",
         "tag": "Take",
-        "note": "Aorta 0.904→0.943; Spleen 0.924→0.958.",
+        "note": "Aorta 0.904→0.934; Spleen 0.924→0.956.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -3537,11 +3410,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90416,
-            "after": 0.94327
+            "after": 0.93353
           },
           "spleen": {
             "before": 0.92424,
-            "after": 0.95812
+            "after": 0.95583
           }
         },
         "views": {
@@ -3550,28 +3423,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260611_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260611_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260611_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260611_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260611_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260611_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260611_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260611_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260611_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260611_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260611_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260611_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260611_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260611_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260611_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260611_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -3580,50 +3449,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260611_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260611_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260611_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260611_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260611_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260611_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260611_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260611_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260611_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260611_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260611_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260611_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260611_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260611_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260611_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260611_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260611_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.2969,
-            "centroid": 0.2686
+            "assd": 0.3482,
+            "centroid": 0.4689
           },
           "spleen": {
-            "hd95": 1.159,
-            "assd": 0.4188,
-            "centroid": 0.5211
+            "hd95": 1.1719,
+            "assd": 0.4444,
+            "centroid": 0.634
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260611_t1/gallery.jpg"
       },
       {
         "id": "20260617_t1",
@@ -3635,7 +3500,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "sky",
         "tag": "Take",
-        "note": "Aorta 0.863→0.924; Spleen 0.869→0.960.",
+        "note": "Aorta 0.863→0.917; Spleen 0.869→0.954.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -3646,11 +3511,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.86318,
-            "after": 0.92429
+            "after": 0.91707
           },
           "spleen": {
             "before": 0.86933,
-            "after": 0.96016
+            "after": 0.9542
           }
         },
         "views": {
@@ -3659,28 +3524,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260617_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260617_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260617_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260617_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260617_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260617_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260617_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260617_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260617_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260617_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260617_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260617_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260617_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260617_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260617_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260617_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -3689,50 +3550,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260617_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260617_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260617_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260617_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260617_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260617_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260617_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260617_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260617_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260617_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260617_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260617_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260617_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260617_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260617_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260617_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260617_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3997,
-            "centroid": 0.1659
+            "assd": 0.4307,
+            "centroid": 0.606
           },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.3798,
-            "centroid": 0.647
+            "assd": 0.4629,
+            "centroid": 1.0374
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260617_t1/gallery.jpg"
       },
       {
         "id": "20260622_t1",
@@ -3744,7 +3601,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "sky",
         "tag": "Take",
-        "note": "Aorta 0.891→0.920; Spleen 0.850→0.967.",
+        "note": "Aorta 0.891→0.915; Spleen 0.850→0.956.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -3755,11 +3612,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.89122,
-            "after": 0.91983
+            "after": 0.91528
           },
           "spleen": {
             "before": 0.85009,
-            "after": 0.96742
+            "after": 0.95615
           }
         },
         "views": {
@@ -3768,28 +3625,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260622_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260622_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260622_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260622_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260622_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260622_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260622_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260622_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260622_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260622_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260622_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260622_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260622_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260622_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260622_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260622_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -3798,50 +3651,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260622_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260622_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260622_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260622_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260622_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260622_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260622_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260622_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260622_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260622_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260622_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260622_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260622_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260622_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260622_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260622_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260622_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4244,
-            "centroid": 0.1567
+            "assd": 0.4571,
+            "centroid": 0.6205
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.301,
-            "centroid": 0.246
+            "hd95": 1.1719,
+            "assd": 0.4379,
+            "centroid": 0.7755
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260622_t1/gallery.jpg"
       },
       {
         "id": "20260622_t2",
@@ -3853,7 +3702,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "mint",
         "tag": "Take",
-        "note": "Aorta 0.874→0.922; Spleen 0.836→0.960.",
+        "note": "Aorta 0.874→0.916; Spleen 0.836→0.956.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -3864,11 +3713,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.87442,
-            "after": 0.92178
+            "after": 0.91636
           },
           "spleen": {
             "before": 0.83639,
-            "after": 0.95986
+            "after": 0.95604
           }
         },
         "views": {
@@ -3877,28 +3726,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260622_t2/aorta_axial_0_before.jpg",
-                "after": "assets/20260622_t2/aorta_axial_0_after.jpg",
-                "raw": "assets/20260622_t2/aorta_axial_0_raw.jpg"
+                "after": "assets/20260622_t2/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260622_t2/aorta_axial_1_before.jpg",
-                "after": "assets/20260622_t2/aorta_axial_1_after.jpg",
-                "raw": "assets/20260622_t2/aorta_axial_1_raw.jpg"
+                "after": "assets/20260622_t2/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260622_t2/aorta_axial_2_before.jpg",
-                "after": "assets/20260622_t2/aorta_axial_2_after.jpg",
-                "raw": "assets/20260622_t2/aorta_axial_2_raw.jpg"
+                "after": "assets/20260622_t2/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260622_t2/aorta_coronal_before.jpg",
-                "after": "assets/20260622_t2/aorta_coronal_after.jpg",
-                "raw": "assets/20260622_t2/aorta_coronal_raw.jpg"
+                "after": "assets/20260622_t2/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -3907,50 +3752,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260622_t2/spleen_axial_0_before.jpg",
-                "after": "assets/20260622_t2/spleen_axial_0_after.jpg",
-                "raw": "assets/20260622_t2/spleen_axial_0_raw.jpg"
+                "after": "assets/20260622_t2/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260622_t2/spleen_axial_1_before.jpg",
-                "after": "assets/20260622_t2/spleen_axial_1_after.jpg",
-                "raw": "assets/20260622_t2/spleen_axial_1_raw.jpg"
+                "after": "assets/20260622_t2/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260622_t2/spleen_axial_2_before.jpg",
-                "after": "assets/20260622_t2/spleen_axial_2_after.jpg",
-                "raw": "assets/20260622_t2/spleen_axial_2_raw.jpg"
+                "after": "assets/20260622_t2/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260622_t2/spleen_coronal_before.jpg",
-                "after": "assets/20260622_t2/spleen_coronal_after.jpg",
-                "raw": "assets/20260622_t2/spleen_coronal_raw.jpg"
+                "after": "assets/20260622_t2/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260622_t2/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4126,
-            "centroid": 0.3839
+            "assd": 0.4452,
+            "centroid": 0.7808
           },
           "spleen": {
-            "hd95": 1.159,
-            "assd": 0.3989,
-            "centroid": 0.599
+            "hd95": 1.1719,
+            "assd": 0.4411,
+            "centroid": 0.73
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260622_t2/gallery.jpg"
       },
       {
         "id": "20260622_t3",
@@ -3973,11 +3814,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.8749,
-            "after": 0.91865
+            "after": 0.91382
           },
           "spleen": {
             "before": 0.83771,
-            "after": 0.96065
+            "after": 0.9582
           }
         },
         "views": {
@@ -3986,28 +3827,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260622_t3/aorta_axial_0_before.jpg",
-                "after": "assets/20260622_t3/aorta_axial_0_after.jpg",
-                "raw": "assets/20260622_t3/aorta_axial_0_raw.jpg"
+                "after": "assets/20260622_t3/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260622_t3/aorta_axial_1_before.jpg",
-                "after": "assets/20260622_t3/aorta_axial_1_after.jpg",
-                "raw": "assets/20260622_t3/aorta_axial_1_raw.jpg"
+                "after": "assets/20260622_t3/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260622_t3/aorta_axial_2_before.jpg",
-                "after": "assets/20260622_t3/aorta_axial_2_after.jpg",
-                "raw": "assets/20260622_t3/aorta_axial_2_raw.jpg"
+                "after": "assets/20260622_t3/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260622_t3/aorta_coronal_before.jpg",
-                "after": "assets/20260622_t3/aorta_coronal_after.jpg",
-                "raw": "assets/20260622_t3/aorta_coronal_raw.jpg"
+                "after": "assets/20260622_t3/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -4016,50 +3853,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260622_t3/spleen_axial_0_before.jpg",
-                "after": "assets/20260622_t3/spleen_axial_0_after.jpg",
-                "raw": "assets/20260622_t3/spleen_axial_0_raw.jpg"
+                "after": "assets/20260622_t3/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260622_t3/spleen_axial_1_before.jpg",
-                "after": "assets/20260622_t3/spleen_axial_1_after.jpg",
-                "raw": "assets/20260622_t3/spleen_axial_1_raw.jpg"
+                "after": "assets/20260622_t3/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260622_t3/spleen_axial_2_before.jpg",
-                "after": "assets/20260622_t3/spleen_axial_2_after.jpg",
-                "raw": "assets/20260622_t3/spleen_axial_2_raw.jpg"
+                "after": "assets/20260622_t3/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260622_t3/spleen_coronal_before.jpg",
-                "after": "assets/20260622_t3/spleen_coronal_after.jpg",
-                "raw": "assets/20260622_t3/spleen_coronal_raw.jpg"
+                "after": "assets/20260622_t3/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260622_t3/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4345,
-            "centroid": 0.584
+            "assd": 0.4671,
+            "centroid": 0.7934
           },
           "spleen": {
-            "hd95": 1.159,
-            "assd": 0.387,
-            "centroid": 0.6652
+            "hd95": 1.1719,
+            "assd": 0.4139,
+            "centroid": 0.7391
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260622_t3/gallery.jpg"
       },
       {
         "id": "20260629_t1",
@@ -4071,7 +3904,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "mint",
         "tag": "Take",
-        "note": "Aorta 0.803→0.928; Spleen 0.784→0.964.",
+        "note": "Aorta 0.803→0.924; Spleen 0.784→0.960.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -4082,11 +3915,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.80267,
-            "after": 0.92824
+            "after": 0.92448
           },
           "spleen": {
             "before": 0.78429,
-            "after": 0.96425
+            "after": 0.96024
           }
         },
         "views": {
@@ -4095,28 +3928,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260629_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260629_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260629_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260629_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260629_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260629_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260629_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260629_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260629_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260629_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260629_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260629_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260629_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260629_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260629_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260629_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -4125,50 +3954,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260629_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260629_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260629_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260629_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260629_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260629_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260629_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260629_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260629_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260629_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260629_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260629_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260629_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260629_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260629_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260629_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260629_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3778,
-            "centroid": 0.0977
+            "assd": 0.4011,
+            "centroid": 0.3475
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3457,
-            "centroid": 0.4329
+            "hd95": 1.159,
+            "assd": 0.3906,
+            "centroid": 0.7952
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260629_t1/gallery.jpg"
       },
       {
         "id": "20260707_t1",
@@ -4180,7 +4005,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "mint",
         "tag": "Take",
-        "note": "Aorta 0.856→0.931; Spleen 0.786→0.963.",
+        "note": "Aorta 0.856→0.917; Spleen 0.786→0.945.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -4191,11 +4016,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.85554,
-            "after": 0.93067
+            "after": 0.91748
           },
           "spleen": {
             "before": 0.78646,
-            "after": 0.96308
+            "after": 0.94468
           }
         },
         "views": {
@@ -4204,28 +4029,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260707_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260707_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260707_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260707_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260707_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260707_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260707_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260707_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260707_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260707_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260707_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260707_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260707_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260707_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260707_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260707_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -4234,50 +4055,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260707_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260707_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260707_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260707_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260707_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260707_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260707_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260707_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260707_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260707_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260707_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260707_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260707_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260707_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260707_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260707_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260707_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.371,
-            "centroid": 0.3435
+            "assd": 0.4492,
+            "centroid": 0.7678
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3516,
-            "centroid": 0.3065
+            "hd95": 1.3102,
+            "assd": 0.5586,
+            "centroid": 0.9934
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260707_t1/gallery.jpg"
       },
       {
         "id": "20260714_t1",
@@ -4289,7 +4106,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "sky",
         "tag": "Take",
-        "note": "Aorta 0.894→0.927; Spleen 0.899→0.969.",
+        "note": "Aorta 0.894→0.916; Spleen 0.899→0.964.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -4300,11 +4117,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.89437,
-            "after": 0.92744
+            "after": 0.91601
           },
           "spleen": {
             "before": 0.8992,
-            "after": 0.96884
+            "after": 0.96407
           }
         },
         "views": {
@@ -4313,28 +4130,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260714_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260714_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260714_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260714_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260714_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260714_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260714_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260714_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260714_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260714_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260714_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260714_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260714_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260714_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260714_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260714_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -4343,50 +4156,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260714_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260714_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260714_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260714_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260714_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260714_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260714_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260714_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260714_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260714_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260714_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260714_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260714_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260714_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260714_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260714_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260714_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3879,
-            "centroid": 0.6044
+            "assd": 0.4471,
+            "centroid": 0.7486
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.2812,
-            "centroid": 0.3053
+            "hd95": 1.159,
+            "assd": 0.3356,
+            "centroid": 0.5205
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260714_t1/gallery.jpg"
       },
       {
         "id": "20260721_t1",
@@ -4398,7 +4207,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.918→0.933; Spleen 0.941→0.957.",
+        "note": "Aorta 0.918→0.915; Spleen 0.941→0.955.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -4409,11 +4218,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.91762,
-            "after": 0.93276
+            "after": 0.91546
           },
           "spleen": {
             "before": 0.94148,
-            "after": 0.95722
+            "after": 0.95452
           }
         },
         "views": {
@@ -4422,28 +4231,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260721_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260721_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260721_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260721_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260721_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260721_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260721_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260721_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260721_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260721_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260721_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260721_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260721_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260721_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260721_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260721_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -4452,50 +4257,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260721_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260721_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260721_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260721_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260721_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260721_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260721_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260721_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260721_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260721_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260721_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260721_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260721_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260721_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260721_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260721_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260721_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3507,
-            "centroid": 0.4231
+            "assd": 0.4475,
+            "centroid": 1.2206
           },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4195,
-            "centroid": 0.5755
+            "assd": 0.4526,
+            "centroid": 0.8555
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260721_t1/gallery.jpg"
       },
       {
         "id": "high",
@@ -4518,11 +4319,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.85451,
-            "after": 0.9264
+            "after": 0.91767
           },
           "spleen": {
             "before": 0.81716,
-            "after": 0.96567
+            "after": 0.95796
           }
         },
         "views": {
@@ -4531,28 +4332,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/high/aorta_axial_0_before.jpg",
-                "after": "assets/high/aorta_axial_0_after.jpg",
-                "raw": "assets/high/aorta_axial_0_raw.jpg"
+                "after": "assets/high/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/high/aorta_axial_1_before.jpg",
-                "after": "assets/high/aorta_axial_1_after.jpg",
-                "raw": "assets/high/aorta_axial_1_raw.jpg"
+                "after": "assets/high/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/high/aorta_axial_2_before.jpg",
-                "after": "assets/high/aorta_axial_2_after.jpg",
-                "raw": "assets/high/aorta_axial_2_raw.jpg"
+                "after": "assets/high/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/high/aorta_coronal_before.jpg",
-                "after": "assets/high/aorta_coronal_after.jpg",
-                "raw": "assets/high/aorta_coronal_raw.jpg"
+                "after": "assets/high/aorta_coronal_after.jpg"
               }
             ],
             "all": [
@@ -5123,28 +4920,24 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/high/spleen_axial_0_before.jpg",
-                "after": "assets/high/spleen_axial_0_after.jpg",
-                "raw": "assets/high/spleen_axial_0_raw.jpg"
+                "after": "assets/high/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/high/spleen_axial_1_before.jpg",
-                "after": "assets/high/spleen_axial_1_after.jpg",
-                "raw": "assets/high/spleen_axial_1_raw.jpg"
+                "after": "assets/high/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/high/spleen_axial_2_before.jpg",
-                "after": "assets/high/spleen_axial_2_after.jpg",
-                "raw": "assets/high/spleen_axial_2_raw.jpg"
+                "after": "assets/high/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/high/spleen_coronal_before.jpg",
-                "after": "assets/high/spleen_coronal_after.jpg",
-                "raw": "assets/high/spleen_coronal_raw.jpg"
+                "after": "assets/high/spleen_coronal_after.jpg"
               }
             ],
             "all": [
@@ -5471,24 +5264,24 @@ window.DATASETS = {
             ]
           }
         },
-        "gallery": "assets/high/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3897,
-            "centroid": 0.3921
+            "assd": 0.4425,
+            "centroid": 0.5442
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3166,
-            "centroid": 0.3191
+            "hd95": 1.1719,
+            "assd": 0.4102,
+            "centroid": 0.7411
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/high/gallery.jpg"
       },
       {
         "id": "20260730_t2",
@@ -5500,7 +5293,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "mint",
         "tag": "Take",
-        "note": "Aorta 0.856→0.925; Spleen 0.820→0.967.",
+        "note": "Aorta 0.856→0.919; Spleen 0.820→0.958.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -5511,11 +5304,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.85583,
-            "after": 0.92526
+            "after": 0.91875
           },
           "spleen": {
             "before": 0.81958,
-            "after": 0.96669
+            "after": 0.95758
           }
         },
         "views": {
@@ -5524,28 +5317,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260730_t2/aorta_axial_0_before.jpg",
-                "after": "assets/20260730_t2/aorta_axial_0_after.jpg",
-                "raw": "assets/20260730_t2/aorta_axial_0_raw.jpg"
+                "after": "assets/20260730_t2/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260730_t2/aorta_axial_1_before.jpg",
-                "after": "assets/20260730_t2/aorta_axial_1_after.jpg",
-                "raw": "assets/20260730_t2/aorta_axial_1_raw.jpg"
+                "after": "assets/20260730_t2/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260730_t2/aorta_axial_2_before.jpg",
-                "after": "assets/20260730_t2/aorta_axial_2_after.jpg",
-                "raw": "assets/20260730_t2/aorta_axial_2_raw.jpg"
+                "after": "assets/20260730_t2/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260730_t2/aorta_coronal_before.jpg",
-                "after": "assets/20260730_t2/aorta_coronal_after.jpg",
-                "raw": "assets/20260730_t2/aorta_coronal_raw.jpg"
+                "after": "assets/20260730_t2/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -5554,50 +5343,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260730_t2/spleen_axial_0_before.jpg",
-                "after": "assets/20260730_t2/spleen_axial_0_after.jpg",
-                "raw": "assets/20260730_t2/spleen_axial_0_raw.jpg"
+                "after": "assets/20260730_t2/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260730_t2/spleen_axial_1_before.jpg",
-                "after": "assets/20260730_t2/spleen_axial_1_after.jpg",
-                "raw": "assets/20260730_t2/spleen_axial_1_raw.jpg"
+                "after": "assets/20260730_t2/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260730_t2/spleen_axial_2_before.jpg",
-                "after": "assets/20260730_t2/spleen_axial_2_after.jpg",
-                "raw": "assets/20260730_t2/spleen_axial_2_raw.jpg"
+                "after": "assets/20260730_t2/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260730_t2/spleen_coronal_before.jpg",
-                "after": "assets/20260730_t2/spleen_coronal_after.jpg",
-                "raw": "assets/20260730_t2/spleen_coronal_raw.jpg"
+                "after": "assets/20260730_t2/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260730_t2/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3975,
-            "centroid": 0.6268
+            "assd": 0.431,
+            "centroid": 0.464
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3059,
-            "centroid": 0.2318
+            "hd95": 1.1719,
+            "assd": 0.4126,
+            "centroid": 0.684
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260730_t2/gallery.jpg"
       },
       {
         "id": "20260731_t1",
@@ -5609,7 +5394,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.903→0.914; Spleen 0.933→0.956.",
+        "note": "Aorta 0.903→0.912; Spleen 0.933→0.959.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -5620,11 +5405,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90263,
-            "after": 0.91382
+            "after": 0.91206
           },
           "spleen": {
             "before": 0.93258,
-            "after": 0.95559
+            "after": 0.95865
           }
         },
         "views": {
@@ -5633,28 +5418,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -5663,50 +5444,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4659,
-            "centroid": 0.3456
+            "assd": 0.47,
+            "centroid": 0.5782
           },
           "spleen": {
             "hd95": 1.159,
-            "assd": 0.4527,
-            "centroid": 0.71
+            "assd": 0.4229,
+            "centroid": 0.8148
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t1/gallery.jpg"
       },
       {
         "id": "20260731_t2",
@@ -5718,7 +5495,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.900→0.916; Spleen 0.929→0.958.",
+        "note": "Aorta 0.900→0.909; Spleen 0.929→0.959.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -5729,11 +5506,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.89967,
-            "after": 0.91644
+            "after": 0.90938
           },
           "spleen": {
             "before": 0.92902,
-            "after": 0.95821
+            "after": 0.95935
           }
         },
         "views": {
@@ -5742,28 +5519,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t2/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t2/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t2/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t2/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t2/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t2/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t2/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t2/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t2/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t2/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t2/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t2/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t2/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t2/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t2/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t2/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -5772,50 +5545,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t2/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t2/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t2/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t2/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t2/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t2/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t2/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t2/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t2/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t2/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t2/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t2/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t2/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t2/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t2/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t2/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t2/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4434,
-            "centroid": 0.3865
+            "assd": 0.487,
+            "centroid": 0.6902
           },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4244,
-            "centroid": 0.6401
+            "assd": 0.4139,
+            "centroid": 0.7784
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t2/gallery.jpg"
       },
       {
         "id": "20260731_t3",
@@ -5827,7 +5596,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.901→0.918; Spleen 0.934→0.952.",
+        "note": "Aorta 0.901→0.910; Spleen 0.934→0.957.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -5838,11 +5607,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90106,
-            "after": 0.91772
+            "after": 0.90965
           },
           "spleen": {
             "before": 0.93351,
-            "after": 0.95235
+            "after": 0.95738
           }
         },
         "views": {
@@ -5851,28 +5620,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t3/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t3/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t3/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t3/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t3/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t3/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t3/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t3/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t3/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t3/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t3/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t3/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t3/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t3/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t3/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t3/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -5881,50 +5646,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t3/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t3/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t3/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t3/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t3/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t3/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t3/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t3/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t3/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t3/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t3/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t3/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t3/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t3/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t3/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t3/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t3/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4389,
-            "centroid": 0.4041
+            "assd": 0.4813,
+            "centroid": 0.4254
           },
           "spleen": {
             "hd95": 1.159,
-            "assd": 0.4858,
-            "centroid": 0.7688
+            "assd": 0.437,
+            "centroid": 0.8724
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t3/gallery.jpg"
       },
       {
         "id": "20260731_t4",
@@ -5936,7 +5697,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.901→0.915; Spleen 0.933→0.961.",
+        "note": "Aorta 0.901→0.911; Spleen 0.933→0.958.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -5947,11 +5708,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.9013,
-            "after": 0.91535
+            "after": 0.91138
           },
           "spleen": {
             "before": 0.93348,
-            "after": 0.96074
+            "after": 0.95842
           }
         },
         "views": {
@@ -5960,28 +5721,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t4/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t4/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t4/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t4/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t4/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t4/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t4/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t4/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t4/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t4/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t4/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t4/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t4/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t4/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t4/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t4/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -5990,50 +5747,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t4/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t4/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t4/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t4/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t4/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t4/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t4/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t4/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t4/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t4/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t4/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t4/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t4/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t4/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t4/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t4/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t4/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4492,
-            "centroid": 0.1575
+            "assd": 0.4724,
+            "centroid": 0.4448
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3947,
-            "centroid": 0.505
+            "hd95": 1.159,
+            "assd": 0.4264,
+            "centroid": 0.8069
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t4/gallery.jpg"
       },
       {
         "id": "20260731_t5",
@@ -6045,7 +5798,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.901→0.913; Spleen 0.933→0.961.",
+        "note": "Aorta 0.901→0.910; Spleen 0.933→0.959.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -6056,11 +5809,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90095,
-            "after": 0.91324
+            "after": 0.91025
           },
           "spleen": {
             "before": 0.93344,
-            "after": 0.96082
+            "after": 0.95872
           }
         },
         "views": {
@@ -6069,28 +5822,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t5/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t5/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t5/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t5/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t5/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t5/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t5/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t5/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t5/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t5/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t5/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t5/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t5/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t5/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t5/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t5/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -6099,50 +5848,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t5/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t5/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t5/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t5/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t5/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t5/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t5/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t5/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t5/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t5/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t5/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t5/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t5/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t5/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t5/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t5/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t5/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4617,
-            "centroid": 0.1536
+            "assd": 0.4774,
+            "centroid": 0.6608
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3916,
-            "centroid": 0.4539
+            "hd95": 1.159,
+            "assd": 0.4199,
+            "centroid": 0.7877
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t5/gallery.jpg"
       },
       {
         "id": "20260731_t6",
@@ -6154,7 +5899,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.899→0.917; Spleen 0.929→0.966.",
+        "note": "Aorta 0.899→0.911; Spleen 0.929→0.959.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -6165,11 +5910,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.89925,
-            "after": 0.91742
+            "after": 0.91104
           },
           "spleen": {
             "before": 0.92885,
-            "after": 0.96592
+            "after": 0.95922
           }
         },
         "views": {
@@ -6178,28 +5923,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t6/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t6/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t6/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t6/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t6/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t6/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t6/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t6/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t6/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t6/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t6/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t6/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t6/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t6/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t6/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t6/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -6208,50 +5949,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t6/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t6/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t6/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t6/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t6/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t6/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t6/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t6/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t6/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t6/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t6/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t6/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t6/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t6/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t6/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t6/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t6/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4381,
-            "centroid": 0.0924
+            "assd": 0.4765,
+            "centroid": 0.517
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3326,
-            "centroid": 0.2439
+            "hd95": 1.159,
+            "assd": 0.4161,
+            "centroid": 0.6948
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t6/gallery.jpg"
       },
       {
         "id": "20260731_t7",
@@ -6263,7 +6000,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.901→0.916; Spleen 0.933→0.955.",
+        "note": "Aorta 0.901→0.910; Spleen 0.933→0.958.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -6274,11 +6011,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90146,
-            "after": 0.91623
+            "after": 0.91049
           },
           "spleen": {
             "before": 0.93341,
-            "after": 0.95459
+            "after": 0.9582
           }
         },
         "views": {
@@ -6287,28 +6024,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t7/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t7/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t7/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t7/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t7/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t7/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t7/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t7/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t7/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t7/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t7/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t7/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t7/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t7/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t7/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t7/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -6317,50 +6050,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t7/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t7/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t7/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t7/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t7/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t7/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t7/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t7/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t7/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t7/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t7/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t7/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t7/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t7/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t7/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t7/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t7/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4456,
-            "centroid": 0.3884
+            "assd": 0.4778,
+            "centroid": 0.4537
           },
           "spleen": {
             "hd95": 1.159,
-            "assd": 0.4634,
-            "centroid": 0.715
+            "assd": 0.4267,
+            "centroid": 0.8443
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t7/gallery.jpg"
       },
       {
         "id": "20260731_t8",
@@ -6372,7 +6101,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.900→0.918; Spleen 0.929→0.960.",
+        "note": "Aorta 0.900→0.912; Spleen 0.929→0.959.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -6383,11 +6112,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.89954,
-            "after": 0.9178
+            "after": 0.91168
           },
           "spleen": {
             "before": 0.92901,
-            "after": 0.96046
+            "after": 0.95929
           }
         },
         "views": {
@@ -6396,28 +6125,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t8/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t8/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t8/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t8/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t8/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t8/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t8/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t8/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t8/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t8/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t8/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t8/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t8/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t8/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t8/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t8/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -6426,50 +6151,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t8/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t8/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t8/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t8/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t8/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t8/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t8/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t8/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t8/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t8/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t8/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t8/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t8/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t8/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t8/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t8/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t8/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4322,
-            "centroid": 0.3085
+            "assd": 0.4692,
+            "centroid": 0.5479
           },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4001,
-            "centroid": 0.5612
+            "assd": 0.4153,
+            "centroid": 0.7376
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t8/gallery.jpg"
       },
       {
         "id": "20260731_t9",
@@ -6481,7 +6202,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.900→0.920; Spleen 0.929→0.961.",
+        "note": "Aorta 0.900→0.913; Spleen 0.929→0.960.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -6492,11 +6213,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90016,
-            "after": 0.91952
+            "after": 0.91346
           },
           "spleen": {
             "before": 0.92922,
-            "after": 0.96145
+            "after": 0.96007
           }
         },
         "views": {
@@ -6505,28 +6226,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t9/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t9/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t9/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t9/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t9/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t9/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t9/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t9/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t9/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t9/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t9/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t9/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t9/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t9/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t9/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t9/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -6535,50 +6252,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t9/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t9/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t9/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t9/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t9/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t9/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t9/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t9/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t9/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t9/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t9/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t9/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t9/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t9/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t9/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t9/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t9/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4241,
-            "centroid": 0.2442
+            "assd": 0.4647,
+            "centroid": 0.4204
           },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3849,
-            "centroid": 0.4643
+            "assd": 0.4048,
+            "centroid": 0.6312
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t9/gallery.jpg"
       },
       {
         "id": "low",
@@ -6601,11 +6314,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90135,
-            "after": 0.91325
+            "after": 0.90926
           },
           "spleen": {
             "before": 0.93446,
-            "after": 0.9548
+            "after": 0.9592
           }
         },
         "views": {
@@ -6614,28 +6327,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/low/aorta_axial_0_before.jpg",
-                "after": "assets/low/aorta_axial_0_after.jpg",
-                "raw": "assets/low/aorta_axial_0_raw.jpg"
+                "after": "assets/low/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/low/aorta_axial_1_before.jpg",
-                "after": "assets/low/aorta_axial_1_after.jpg",
-                "raw": "assets/low/aorta_axial_1_raw.jpg"
+                "after": "assets/low/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/low/aorta_axial_2_before.jpg",
-                "after": "assets/low/aorta_axial_2_after.jpg",
-                "raw": "assets/low/aorta_axial_2_raw.jpg"
+                "after": "assets/low/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/low/aorta_coronal_before.jpg",
-                "after": "assets/low/aorta_coronal_after.jpg",
-                "raw": "assets/low/aorta_coronal_raw.jpg"
+                "after": "assets/low/aorta_coronal_after.jpg"
               }
             ],
             "all": [
@@ -7206,28 +6915,24 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/low/spleen_axial_0_before.jpg",
-                "after": "assets/low/spleen_axial_0_after.jpg",
-                "raw": "assets/low/spleen_axial_0_raw.jpg"
+                "after": "assets/low/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/low/spleen_axial_1_before.jpg",
-                "after": "assets/low/spleen_axial_1_after.jpg",
-                "raw": "assets/low/spleen_axial_1_raw.jpg"
+                "after": "assets/low/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/low/spleen_axial_2_before.jpg",
-                "after": "assets/low/spleen_axial_2_after.jpg",
-                "raw": "assets/low/spleen_axial_2_raw.jpg"
+                "after": "assets/low/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/low/spleen_coronal_before.jpg",
-                "after": "assets/low/spleen_coronal_after.jpg",
-                "raw": "assets/low/spleen_coronal_raw.jpg"
+                "after": "assets/low/spleen_coronal_after.jpg"
               }
             ],
             "all": [
@@ -7554,24 +7259,24 @@ window.DATASETS = {
             ]
           }
         },
-        "gallery": "assets/low/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4662,
-            "centroid": 0.2546
+            "assd": 0.484,
+            "centroid": 0.504
           },
           "spleen": {
-            "hd95": 1.159,
-            "assd": 0.4601,
-            "centroid": 0.7222
+            "hd95": 1.0,
+            "assd": 0.4158,
+            "centroid": 0.7856
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/low/gallery.jpg"
       },
       {
         "id": "20260731_t11",
@@ -7583,7 +7288,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.899→0.914; Spleen 0.930→0.960.",
+        "note": "Aorta 0.899→0.909; Spleen 0.930→0.958.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -7594,11 +7299,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.8989,
-            "after": 0.91438
+            "after": 0.90906
           },
           "spleen": {
             "before": 0.92953,
-            "after": 0.95964
+            "after": 0.95829
           }
         },
         "views": {
@@ -7607,28 +7312,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t11/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t11/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t11/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t11/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t11/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t11/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t11/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t11/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t11/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t11/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t11/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t11/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t11/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t11/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t11/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t11/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -7637,50 +7338,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t11/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t11/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t11/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t11/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t11/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t11/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t11/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t11/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t11/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t11/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t11/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t11/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t11/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t11/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t11/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t11/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t11/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4571,
-            "centroid": 0.3037
+            "assd": 0.4799,
+            "centroid": 0.4717
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.4078,
-            "centroid": 0.5407
+            "hd95": 1.159,
+            "assd": 0.4251,
+            "centroid": 0.8505
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t11/gallery.jpg"
       },
       {
         "id": "20260731_t12",
@@ -7692,7 +7389,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.899→0.920; Spleen 0.930→0.963.",
+        "note": "Aorta 0.899→0.910; Spleen 0.930→0.959.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -7703,11 +7400,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.89906,
-            "after": 0.9198
+            "after": 0.90955
           },
           "spleen": {
             "before": 0.92958,
-            "after": 0.96258
+            "after": 0.9592
           }
         },
         "views": {
@@ -7716,28 +7413,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t12/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t12/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t12/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t12/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t12/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t12/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t12/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t12/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t12/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t12/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t12/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t12/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t12/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t12/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t12/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t12/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -7746,50 +7439,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t12/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t12/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t12/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t12/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t12/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t12/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t12/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t12/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t12/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t12/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t12/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t12/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t12/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t12/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t12/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t12/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t12/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4226,
-            "centroid": 0.1228
+            "assd": 0.484,
+            "centroid": 0.4295
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3728,
-            "centroid": 0.4093
+            "hd95": 1.159,
+            "assd": 0.416,
+            "centroid": 0.7516
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t12/gallery.jpg"
       },
       {
         "id": "20260731_t13",
@@ -7801,7 +7490,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.898→0.918; Spleen 0.930→0.962.",
+        "note": "Aorta 0.898→0.910; Spleen 0.930→0.959.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -7812,11 +7501,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.89819,
-            "after": 0.91796
+            "after": 0.90959
           },
           "spleen": {
             "before": 0.92979,
-            "after": 0.96169
+            "after": 0.95922
           }
         },
         "views": {
@@ -7825,28 +7514,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t13/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t13/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t13/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t13/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t13/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t13/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t13/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t13/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t13/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t13/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t13/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t13/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t13/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t13/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t13/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t13/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -7855,50 +7540,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t13/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t13/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t13/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t13/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t13/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t13/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t13/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t13/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t13/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t13/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t13/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t13/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t13/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t13/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t13/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t13/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t13/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4317,
-            "centroid": 0.3633
+            "assd": 0.4853,
+            "centroid": 0.6173
           },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3864,
-            "centroid": 0.4928
+            "assd": 0.4152,
+            "centroid": 0.7597
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t13/gallery.jpg"
       },
       {
         "id": "20260731_t14",
@@ -7910,7 +7591,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.902→0.918; Spleen 0.935→0.955.",
+        "note": "Aorta 0.902→0.908; Spleen 0.935→0.958.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -7921,11 +7602,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90228,
-            "after": 0.91834
+            "after": 0.90801
           },
           "spleen": {
             "before": 0.93473,
-            "after": 0.95526
+            "after": 0.958
           }
         },
         "views": {
@@ -7934,28 +7615,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t14/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t14/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t14/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t14/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t14/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t14/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t14/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t14/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t14/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t14/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t14/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t14/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t14/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t14/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t14/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t14/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -7964,50 +7641,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t14/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t14/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t14/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t14/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t14/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t14/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t14/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t14/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t14/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t14/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t14/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t14/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t14/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t14/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t14/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t14/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t14/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4361,
-            "centroid": 0.2785
+            "assd": 0.4955,
+            "centroid": 0.4713
           },
           "spleen": {
             "hd95": 1.159,
-            "assd": 0.4541,
-            "centroid": 0.6491
+            "assd": 0.4288,
+            "centroid": 0.7624
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t14/gallery.jpg"
       },
       {
         "id": "20260731_t15",
@@ -8019,7 +7692,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.902→0.916; Spleen 0.935→0.956.",
+        "note": "Aorta 0.902→0.909; Spleen 0.935→0.958.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -8030,11 +7703,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90177,
-            "after": 0.91607
+            "after": 0.90914
           },
           "spleen": {
             "before": 0.93477,
-            "after": 0.95607
+            "after": 0.95844
           }
         },
         "views": {
@@ -8043,28 +7716,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t15/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t15/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t15/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t15/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t15/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t15/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t15/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t15/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t15/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t15/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t15/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t15/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t15/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t15/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t15/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t15/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -8073,50 +7742,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t15/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t15/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t15/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t15/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t15/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t15/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t15/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t15/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t15/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t15/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t15/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t15/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t15/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t15/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t15/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t15/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t15/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4471,
-            "centroid": 0.3108
+            "assd": 0.4833,
+            "centroid": 0.4787
           },
           "spleen": {
             "hd95": 1.159,
-            "assd": 0.4457,
-            "centroid": 0.6346
+            "assd": 0.4228,
+            "centroid": 0.767
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t15/gallery.jpg"
       },
       {
         "id": "20260731_t16",
@@ -8128,7 +7793,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.903→0.914; Spleen 0.934→0.959.",
+        "note": "Aorta 0.903→0.912; Spleen 0.934→0.959.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -8139,11 +7804,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90282,
-            "after": 0.9137
+            "after": 0.91187
           },
           "spleen": {
             "before": 0.93435,
-            "after": 0.95904
+            "after": 0.95935
           }
         },
         "views": {
@@ -8152,28 +7817,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t16/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t16/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t16/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t16/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t16/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t16/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t16/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t16/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t16/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t16/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t16/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t16/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t16/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t16/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t16/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t16/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -8182,50 +7843,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t16/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t16/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t16/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t16/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t16/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t16/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t16/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t16/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t16/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t16/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t16/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t16/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t16/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t16/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t16/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t16/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t16/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4597,
-            "centroid": 0.289
+            "assd": 0.4732,
+            "centroid": 0.4245
           },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4168,
-            "centroid": 0.6107
+            "assd": 0.4139,
+            "centroid": 0.6777
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t16/gallery.jpg"
       },
       {
         "id": "20260731_t17",
@@ -8237,7 +7894,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.903→0.917; Spleen 0.935→0.959.",
+        "note": "Aorta 0.903→0.911; Spleen 0.935→0.959.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -8248,11 +7905,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90295,
-            "after": 0.91691
+            "after": 0.91116
           },
           "spleen": {
             "before": 0.93481,
-            "after": 0.95919
+            "after": 0.95931
           }
         },
         "views": {
@@ -8261,28 +7918,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t17/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t17/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t17/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t17/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t17/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t17/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t17/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t17/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t17/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t17/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t17/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t17/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t17/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t17/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t17/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t17/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -8291,50 +7944,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t17/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t17/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t17/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t17/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t17/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t17/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t17/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t17/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t17/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t17/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t17/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t17/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t17/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t17/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t17/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t17/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t17/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4439,
-            "centroid": 0.2929
+            "assd": 0.4778,
+            "centroid": 0.56
           },
           "spleen": {
             "hd95": 1.0,
             "assd": 0.4151,
-            "centroid": 0.6152
+            "centroid": 0.6646
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t17/gallery.jpg"
       },
       {
         "id": "20260731_t18",
@@ -8346,7 +7995,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.898→0.916; Spleen 0.930→0.959.",
+        "note": "Aorta 0.898→0.910; Spleen 0.930→0.960.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -8357,11 +8006,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.89761,
-            "after": 0.91633
+            "after": 0.91023
           },
           "spleen": {
             "before": 0.93035,
-            "after": 0.95937
+            "after": 0.95989
           }
         },
         "views": {
@@ -8370,28 +8019,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t18/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t18/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t18/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t18/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t18/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t18/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t18/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t18/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t18/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t18/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t18/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t18/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t18/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t18/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t18/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t18/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -8400,50 +8045,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t18/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t18/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t18/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t18/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t18/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t18/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t18/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t18/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t18/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t18/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t18/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t18/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t18/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t18/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t18/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t18/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t18/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.441,
-            "centroid": 0.5718
+            "assd": 0.4838,
+            "centroid": 0.7434
           },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4125,
-            "centroid": 0.5934
+            "assd": 0.4088,
+            "centroid": 0.7173
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t18/gallery.jpg"
       },
       {
         "id": "20260731_t19",
@@ -8455,7 +8096,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "violet",
         "tag": "Take",
-        "note": "Aorta 0.901→0.913; Spleen 0.935→0.960.",
+        "note": "Aorta 0.901→0.911; Spleen 0.935→0.960.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -8466,11 +8107,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.90091,
-            "after": 0.91287
+            "after": 0.91083
           },
           "spleen": {
             "before": 0.93537,
-            "after": 0.96031
+            "after": 0.95989
           }
         },
         "views": {
@@ -8479,28 +8120,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t19/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t19/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t19/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t19/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t19/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t19/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t19/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t19/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t19/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t19/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t19/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t19/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t19/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t19/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t19/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t19/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -8509,50 +8146,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t19/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t19/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t19/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t19/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t19/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t19/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t19/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t19/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t19/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t19/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t19/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t19/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t19/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t19/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t19/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t19/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t19/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4651,
-            "centroid": 0.2471
+            "assd": 0.4743,
+            "centroid": 0.613
           },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4002,
-            "centroid": 0.5107
+            "assd": 0.4084,
+            "centroid": 0.6746
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t19/gallery.jpg"
       },
       {
         "id": "20260731_t20",
@@ -8563,11 +8196,11 @@ window.DATASETS = {
         "title": "20260731_t20",
         "fixed": "20260805_t1",
         "tone": "amber",
-        "tag": "QC flag",
-        "note": "QC: recon_grid_anomaly. Kayıt yine de gösteriliyor.",
+        "tag": "Workbook dışı",
+        "note": "Workbook dışı bırakılan take; kayıt yine de gösteriliyor.",
         "featured": false,
-        "qc": true,
-        "qcReason": "recon_grid_anomaly",
+        "qc": false,
+        "qcReason": null,
         "inWorkbook": false,
         "order": 2026073120,
         "summary": "20260731_t20 → 20260805_t1",
@@ -8575,11 +8208,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.75933,
-            "after": 0.84175
+            "after": 0.8311
           },
           "spleen": {
             "before": 0.65917,
-            "after": 0.87972
+            "after": 0.84508
           }
         },
         "views": {
@@ -8588,28 +8221,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260731_t20/aorta_axial_0_before.jpg",
-                "after": "assets/20260731_t20/aorta_axial_0_after.jpg",
-                "raw": "assets/20260731_t20/aorta_axial_0_raw.jpg"
+                "after": "assets/20260731_t20/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260731_t20/aorta_axial_1_before.jpg",
-                "after": "assets/20260731_t20/aorta_axial_1_after.jpg",
-                "raw": "assets/20260731_t20/aorta_axial_1_raw.jpg"
+                "after": "assets/20260731_t20/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260731_t20/aorta_axial_2_before.jpg",
-                "after": "assets/20260731_t20/aorta_axial_2_after.jpg",
-                "raw": "assets/20260731_t20/aorta_axial_2_raw.jpg"
+                "after": "assets/20260731_t20/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260731_t20/aorta_coronal_before.jpg",
-                "after": "assets/20260731_t20/aorta_coronal_after.jpg",
-                "raw": "assets/20260731_t20/aorta_coronal_raw.jpg"
+                "after": "assets/20260731_t20/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -8618,50 +8247,46 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260731_t20/spleen_axial_0_before.jpg",
-                "after": "assets/20260731_t20/spleen_axial_0_after.jpg",
-                "raw": "assets/20260731_t20/spleen_axial_0_raw.jpg"
+                "after": "assets/20260731_t20/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260731_t20/spleen_axial_1_before.jpg",
-                "after": "assets/20260731_t20/spleen_axial_1_after.jpg",
-                "raw": "assets/20260731_t20/spleen_axial_1_raw.jpg"
+                "after": "assets/20260731_t20/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260731_t20/spleen_axial_2_before.jpg",
-                "after": "assets/20260731_t20/spleen_axial_2_after.jpg",
-                "raw": "assets/20260731_t20/spleen_axial_2_raw.jpg"
+                "after": "assets/20260731_t20/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260731_t20/spleen_coronal_before.jpg",
-                "after": "assets/20260731_t20/spleen_coronal_after.jpg",
-                "raw": "assets/20260731_t20/spleen_coronal_raw.jpg"
+                "after": "assets/20260731_t20/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260731_t20/gallery.jpg",
         "residual": {
           "aorta": {
-            "hd95": 4.1681,
-            "assd": 1.2296,
-            "centroid": 7.923
+            "hd95": 3.5156,
+            "assd": 1.2477,
+            "centroid": 7.1414
           },
           "spleen": {
-            "hd95": 5.1355,
-            "assd": 1.4859,
-            "centroid": 3.3222
+            "hd95": 6.4415,
+            "assd": 1.9679,
+            "centroid": 4.9677
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260731_t20/gallery.jpg"
       },
       {
         "id": "20260805_t2",
@@ -8697,28 +8322,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t2/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t2/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t2/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t2/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t2/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t2/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t2/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t2/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t2/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t2/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t2/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t2/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t2/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t2/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t2/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t2/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -8727,33 +8348,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t2/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t2/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t2/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t2/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t2/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t2/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t2/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t2/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t2/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t2/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t2/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t2/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t2/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t2/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t2/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t2/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t2/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 0.5859,
@@ -8770,7 +8386,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t2/gallery.jpg"
       },
       {
         "id": "20260805_t3",
@@ -8780,12 +8397,12 @@ window.DATASETS = {
         "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260805_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s10",
         "title": "20260805_t3",
         "fixed": "20260805_t1",
-        "tone": "amber",
-        "tag": "QC flag",
-        "note": "QC: low_label_artifact. Kayıt yine de gösteriliyor.",
+        "tone": "violet",
+        "tag": "Take",
+        "note": "Aorta 0.951→0.951; Spleen 0.979→0.979.",
         "featured": false,
-        "qc": true,
-        "qcReason": "low_label_artifact",
+        "qc": false,
+        "qcReason": null,
         "inWorkbook": true,
         "order": 2026080503,
         "summary": "20260805_t3 → 20260805_t1",
@@ -8806,28 +8423,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t3/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t3/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t3/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t3/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t3/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t3/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t3/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t3/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t3/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t3/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t3/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t3/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t3/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t3/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t3/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t3/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -8836,33 +8449,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t3/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t3/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t3/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t3/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t3/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t3/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t3/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t3/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t3/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t3/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t3/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t3/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t3/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t3/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t3/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t3/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t3/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
@@ -8879,7 +8487,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t3/gallery.jpg"
       },
       {
         "id": "20260805_t4",
@@ -8915,28 +8524,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t4/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t4/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t4/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t4/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t4/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t4/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t4/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t4/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t4/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t4/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t4/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t4/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t4/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t4/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t4/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t4/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -8945,33 +8550,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t4/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t4/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t4/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t4/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t4/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t4/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t4/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t4/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t4/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t4/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t4/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t4/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t4/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t4/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t4/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t4/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t4/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 0.5859,
@@ -8988,7 +8588,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t4/gallery.jpg"
       },
       {
         "id": "20260805_t5",
@@ -8998,12 +8599,12 @@ window.DATASETS = {
         "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260805_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s18",
         "title": "20260805_t5",
         "fixed": "20260805_t1",
-        "tone": "amber",
-        "tag": "QC flag",
-        "note": "QC: low_label_artifact. Kayıt yine de gösteriliyor.",
+        "tone": "violet",
+        "tag": "Take",
+        "note": "Aorta 0.951→0.951; Spleen 0.979→0.979.",
         "featured": false,
-        "qc": true,
-        "qcReason": "low_label_artifact",
+        "qc": false,
+        "qcReason": null,
         "inWorkbook": true,
         "order": 2026080505,
         "summary": "20260805_t5 → 20260805_t1",
@@ -9024,28 +8625,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t5/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t5/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t5/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t5/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t5/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t5/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t5/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t5/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t5/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t5/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t5/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t5/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t5/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t5/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t5/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t5/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -9054,33 +8651,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t5/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t5/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t5/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t5/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t5/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t5/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t5/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t5/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t5/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t5/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t5/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t5/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t5/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t5/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t5/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t5/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t5/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
@@ -9097,7 +8689,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t5/gallery.jpg"
       },
       {
         "id": "20260805_t6",
@@ -9107,12 +8700,12 @@ window.DATASETS = {
         "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260805_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s24",
         "title": "20260805_t6",
         "fixed": "20260805_t1",
-        "tone": "amber",
-        "tag": "QC flag",
-        "note": "QC: low_label_artifact. Kayıt yine de gösteriliyor.",
+        "tone": "violet",
+        "tag": "Take",
+        "note": "Aorta 0.952→0.952; Spleen 0.978→0.978.",
         "featured": false,
-        "qc": true,
-        "qcReason": "low_label_artifact",
+        "qc": false,
+        "qcReason": null,
         "inWorkbook": true,
         "order": 2026080506,
         "summary": "20260805_t6 → 20260805_t1",
@@ -9133,28 +8726,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t6/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t6/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t6/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t6/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t6/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t6/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t6/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t6/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t6/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t6/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t6/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t6/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t6/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t6/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t6/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t6/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -9163,33 +8752,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t6/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t6/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t6/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t6/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t6/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t6/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t6/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t6/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t6/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t6/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t6/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t6/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t6/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t6/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t6/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t6/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t6/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
@@ -9206,7 +8790,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t6/gallery.jpg"
       },
       {
         "id": "20260805_t7",
@@ -9242,28 +8827,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t7/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t7/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t7/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t7/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t7/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t7/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t7/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t7/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t7/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t7/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t7/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t7/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t7/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t7/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t7/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t7/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -9272,33 +8853,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t7/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t7/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t7/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t7/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t7/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t7/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t7/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t7/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t7/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t7/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t7/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t7/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t7/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t7/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t7/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t7/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t7/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 0.5859,
@@ -9315,7 +8891,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t7/gallery.jpg"
       },
       {
         "id": "20260805_t8",
@@ -9325,12 +8902,12 @@ window.DATASETS = {
         "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260805_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s32",
         "title": "20260805_t8",
         "fixed": "20260805_t1",
-        "tone": "amber",
-        "tag": "QC flag",
-        "note": "QC: low_label_artifact. Kayıt yine de gösteriliyor.",
+        "tone": "violet",
+        "tag": "Take",
+        "note": "Aorta 0.935→0.943; Spleen 0.972→0.979.",
         "featured": false,
-        "qc": true,
-        "qcReason": "low_label_artifact",
+        "qc": false,
+        "qcReason": null,
         "inWorkbook": true,
         "order": 2026080508,
         "summary": "20260805_t8 → 20260805_t1",
@@ -9351,28 +8928,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t8/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t8/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t8/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t8/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t8/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t8/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t8/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t8/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t8/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t8/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t8/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t8/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t8/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t8/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t8/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t8/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -9381,33 +8954,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t8/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t8/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t8/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t8/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t8/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t8/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t8/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t8/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t8/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t8/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t8/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t8/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t8/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t8/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t8/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t8/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t8/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
@@ -9424,7 +8992,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t8/gallery.jpg"
       },
       {
         "id": "20260805_t9",
@@ -9460,28 +9029,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t9/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t9/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t9/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t9/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t9/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t9/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t9/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t9/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t9/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t9/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t9/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t9/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t9/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t9/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t9/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t9/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -9490,33 +9055,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t9/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t9/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t9/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t9/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t9/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t9/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t9/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t9/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t9/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t9/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t9/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t9/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t9/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t9/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t9/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t9/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t9/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.0,
@@ -9533,7 +9093,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t9/gallery.jpg"
       },
       {
         "id": "20260805_t10",
@@ -9569,28 +9130,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t10/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t10/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t10/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t10/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t10/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t10/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t10/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t10/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t10/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t10/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t10/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t10/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t10/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t10/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t10/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t10/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -9599,33 +9156,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t10/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t10/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t10/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t10/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t10/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t10/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t10/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t10/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t10/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t10/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t10/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t10/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t10/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t10/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t10/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t10/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t10/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 0.5859,
@@ -9642,7 +9194,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t10/gallery.jpg"
       },
       {
         "id": "20260805_t11",
@@ -9678,28 +9231,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t11/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t11/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t11/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t11/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t11/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t11/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t11/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t11/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t11/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t11/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t11/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t11/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t11/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t11/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t11/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t11/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -9708,33 +9257,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t11/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t11/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t11/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t11/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t11/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t11/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t11/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t11/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t11/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t11/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t11/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t11/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t11/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t11/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t11/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t11/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t11/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 0.5859,
@@ -9751,7 +9295,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t11/gallery.jpg"
       },
       {
         "id": "20260805_t12",
@@ -9787,28 +9332,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t12/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t12/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t12/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t12/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t12/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t12/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t12/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t12/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t12/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t12/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t12/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t12/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t12/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t12/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t12/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t12/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -9817,33 +9358,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t12/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t12/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t12/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t12/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t12/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t12/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t12/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t12/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t12/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t12/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t12/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t12/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t12/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t12/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t12/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t12/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t12/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 0.5859,
@@ -9860,7 +9396,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t12/gallery.jpg"
       },
       {
         "id": "20260805_t13",
@@ -9896,28 +9433,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t13/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t13/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t13/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t13/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t13/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t13/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t13/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t13/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t13/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t13/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t13/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t13/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t13/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t13/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t13/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t13/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -9926,33 +9459,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t13/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t13/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t13/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t13/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t13/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t13/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t13/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t13/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t13/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t13/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t13/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t13/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t13/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t13/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t13/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t13/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t13/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.0,
@@ -9969,7 +9497,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t13/gallery.jpg"
       },
       {
         "id": "20260805_t14",
@@ -10005,28 +9534,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t14/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t14/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t14/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t14/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t14/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t14/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t14/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t14/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t14/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t14/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t14/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t14/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t14/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t14/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t14/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t14/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -10035,33 +9560,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t14/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t14/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t14/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t14/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t14/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t14/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t14/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t14/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t14/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t14/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t14/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t14/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t14/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t14/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t14/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t14/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t14/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 0.5859,
@@ -10078,7 +9598,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t14/gallery.jpg"
       },
       {
         "id": "20260805_t15",
@@ -10114,28 +9635,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t15/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t15/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t15/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t15/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t15/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t15/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t15/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t15/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t15/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t15/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t15/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t15/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t15/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t15/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t15/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t15/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -10144,33 +9661,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t15/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t15/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t15/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t15/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t15/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t15/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t15/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t15/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t15/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t15/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t15/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t15/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t15/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t15/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t15/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t15/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t15/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 0.5859,
@@ -10187,7 +9699,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t15/gallery.jpg"
       },
       {
         "id": "20260805_t16",
@@ -10223,28 +9736,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t16/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t16/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t16/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t16/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t16/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t16/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t16/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t16/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t16/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t16/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t16/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t16/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t16/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t16/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t16/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t16/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -10253,33 +9762,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t16/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t16/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t16/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t16/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t16/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t16/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t16/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t16/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t16/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t16/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t16/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t16/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t16/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t16/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t16/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t16/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t16/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 0.5859,
@@ -10296,7 +9800,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t16/gallery.jpg"
       },
       {
         "id": "20260805_t17",
@@ -10332,28 +9837,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t17/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t17/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t17/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t17/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t17/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t17/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t17/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t17/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t17/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t17/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t17/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t17/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t17/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t17/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t17/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t17/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -10362,33 +9863,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t17/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t17/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t17/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t17/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t17/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t17/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t17/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t17/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t17/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t17/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t17/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t17/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t17/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t17/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t17/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t17/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t17/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.0,
@@ -10405,7 +9901,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t17/gallery.jpg"
       },
       {
         "id": "20260805_t18",
@@ -10415,12 +9912,12 @@ window.DATASETS = {
         "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260805_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s72",
         "title": "20260805_t18",
         "fixed": "20260805_t1",
-        "tone": "amber",
-        "tag": "QC flag",
-        "note": "QC: low_label_artifact. Kayıt yine de gösteriliyor.",
+        "tone": "violet",
+        "tag": "Take",
+        "note": "Aorta 0.945→0.945; Spleen 0.978→0.978.",
         "featured": false,
-        "qc": true,
-        "qcReason": "low_label_artifact",
+        "qc": false,
+        "qcReason": null,
         "inWorkbook": true,
         "order": 2026080518,
         "summary": "20260805_t18 → 20260805_t1",
@@ -10441,28 +9938,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t18/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t18/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t18/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t18/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t18/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t18/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t18/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t18/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t18/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t18/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t18/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t18/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t18/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t18/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t18/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t18/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -10471,33 +9964,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t18/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t18/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t18/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t18/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t18/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t18/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t18/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t18/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t18/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t18/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t18/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t18/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t18/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t18/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t18/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t18/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t18/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
@@ -10514,7 +10002,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t18/gallery.jpg"
       },
       {
         "id": "20260805_t19",
@@ -10524,12 +10013,12 @@ window.DATASETS = {
         "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260805_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s74",
         "title": "20260805_t19",
         "fixed": "20260805_t1",
-        "tone": "amber",
-        "tag": "QC flag",
-        "note": "QC: low_label_artifact. Kayıt yine de gösteriliyor.",
+        "tone": "violet",
+        "tag": "Take",
+        "note": "Aorta 0.952→0.952; Spleen 0.979→0.979.",
         "featured": false,
-        "qc": true,
-        "qcReason": "low_label_artifact",
+        "qc": false,
+        "qcReason": null,
         "inWorkbook": true,
         "order": 2026080519,
         "summary": "20260805_t19 → 20260805_t1",
@@ -10550,28 +10039,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t19/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t19/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t19/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t19/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t19/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t19/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t19/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t19/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t19/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t19/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t19/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t19/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t19/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t19/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t19/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t19/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -10580,33 +10065,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t19/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t19/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t19/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t19/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t19/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t19/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t19/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t19/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t19/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t19/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t19/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t19/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t19/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t19/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t19/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t19/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t19/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
@@ -10623,7 +10103,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t19/gallery.jpg"
       },
       {
         "id": "20260805_t20",
@@ -10633,12 +10114,12 @@ window.DATASETS = {
         "seriesFull": "USZ_SIEMENS_SOMATOM_Edge_Plus_20260805_S3_Br40f_120_100_300_1_PolyE_take1_recon1mm_s80",
         "title": "20260805_t20",
         "fixed": "20260805_t1",
-        "tone": "amber",
-        "tag": "QC flag",
-        "note": "QC: low_label_artifact. Kayıt yine de gösteriliyor.",
+        "tone": "violet",
+        "tag": "Take",
+        "note": "Aorta 0.945→0.945; Spleen 0.979→0.979.",
         "featured": false,
-        "qc": true,
-        "qcReason": "low_label_artifact",
+        "qc": false,
+        "qcReason": null,
         "inWorkbook": true,
         "order": 2026080520,
         "summary": "20260805_t20 → 20260805_t1",
@@ -10659,28 +10140,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260805_t20/aorta_axial_0_before.jpg",
-                "after": "assets/20260805_t20/aorta_axial_0_after.jpg",
-                "raw": "assets/20260805_t20/aorta_axial_0_raw.jpg"
+                "after": "assets/20260805_t20/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260805_t20/aorta_axial_1_before.jpg",
-                "after": "assets/20260805_t20/aorta_axial_1_after.jpg",
-                "raw": "assets/20260805_t20/aorta_axial_1_raw.jpg"
+                "after": "assets/20260805_t20/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260805_t20/aorta_axial_2_before.jpg",
-                "after": "assets/20260805_t20/aorta_axial_2_after.jpg",
-                "raw": "assets/20260805_t20/aorta_axial_2_raw.jpg"
+                "after": "assets/20260805_t20/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260805_t20/aorta_coronal_before.jpg",
-                "after": "assets/20260805_t20/aorta_coronal_after.jpg",
-                "raw": "assets/20260805_t20/aorta_coronal_raw.jpg"
+                "after": "assets/20260805_t20/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -10689,33 +10166,28 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260805_t20/spleen_axial_0_before.jpg",
-                "after": "assets/20260805_t20/spleen_axial_0_after.jpg",
-                "raw": "assets/20260805_t20/spleen_axial_0_raw.jpg"
+                "after": "assets/20260805_t20/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260805_t20/spleen_axial_1_before.jpg",
-                "after": "assets/20260805_t20/spleen_axial_1_after.jpg",
-                "raw": "assets/20260805_t20/spleen_axial_1_raw.jpg"
+                "after": "assets/20260805_t20/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260805_t20/spleen_axial_2_before.jpg",
-                "after": "assets/20260805_t20/spleen_axial_2_after.jpg",
-                "raw": "assets/20260805_t20/spleen_axial_2_raw.jpg"
+                "after": "assets/20260805_t20/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260805_t20/spleen_coronal_before.jpg",
-                "after": "assets/20260805_t20/spleen_coronal_after.jpg",
-                "raw": "assets/20260805_t20/spleen_coronal_raw.jpg"
+                "after": "assets/20260805_t20/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260805_t20/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
@@ -10732,7 +10204,8 @@ window.DATASETS = {
           "method": "identity",
           "attempted": false,
           "accepted": false
-        }
+        },
+        "gallery": "assets/20260805_t20/gallery.jpg"
       },
       {
         "id": "20260806_t1",
@@ -10744,7 +10217,7 @@ window.DATASETS = {
         "fixed": "20260805_t1",
         "tone": "sky",
         "tag": "Take",
-        "note": "Aorta 0.884→0.925; Spleen 0.897→0.961.",
+        "note": "Aorta 0.884→0.918; Spleen 0.897→0.952.",
         "featured": false,
         "qc": false,
         "qcReason": null,
@@ -10755,11 +10228,11 @@ window.DATASETS = {
         "scores": {
           "aorta": {
             "before": 0.88357,
-            "after": 0.92473
+            "after": 0.91819
           },
           "spleen": {
             "before": 0.89689,
-            "after": 0.9614
+            "after": 0.95205
           }
         },
         "views": {
@@ -10768,28 +10241,24 @@ window.DATASETS = {
               {
                 "label": "z 49",
                 "before": "assets/20260806_t1/aorta_axial_0_before.jpg",
-                "after": "assets/20260806_t1/aorta_axial_0_after.jpg",
-                "raw": "assets/20260806_t1/aorta_axial_0_raw.jpg"
+                "after": "assets/20260806_t1/aorta_axial_0_after.jpg"
               },
               {
                 "label": "z 82",
                 "before": "assets/20260806_t1/aorta_axial_1_before.jpg",
-                "after": "assets/20260806_t1/aorta_axial_1_after.jpg",
-                "raw": "assets/20260806_t1/aorta_axial_1_raw.jpg"
+                "after": "assets/20260806_t1/aorta_axial_1_after.jpg"
               },
               {
                 "label": "z 116",
                 "before": "assets/20260806_t1/aorta_axial_2_before.jpg",
-                "after": "assets/20260806_t1/aorta_axial_2_after.jpg",
-                "raw": "assets/20260806_t1/aorta_axial_2_raw.jpg"
+                "after": "assets/20260806_t1/aorta_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 293",
                 "before": "assets/20260806_t1/aorta_coronal_before.jpg",
-                "after": "assets/20260806_t1/aorta_coronal_after.jpg",
-                "raw": "assets/20260806_t1/aorta_coronal_raw.jpg"
+                "after": "assets/20260806_t1/aorta_coronal_after.jpg"
               }
             ]
           },
@@ -10798,53 +10267,48 @@ window.DATASETS = {
               {
                 "label": "z 76",
                 "before": "assets/20260806_t1/spleen_axial_0_before.jpg",
-                "after": "assets/20260806_t1/spleen_axial_0_after.jpg",
-                "raw": "assets/20260806_t1/spleen_axial_0_raw.jpg"
+                "after": "assets/20260806_t1/spleen_axial_0_after.jpg"
               },
               {
                 "label": "z 94",
                 "before": "assets/20260806_t1/spleen_axial_1_before.jpg",
-                "after": "assets/20260806_t1/spleen_axial_1_after.jpg",
-                "raw": "assets/20260806_t1/spleen_axial_1_raw.jpg"
+                "after": "assets/20260806_t1/spleen_axial_1_after.jpg"
               },
               {
                 "label": "z 113",
                 "before": "assets/20260806_t1/spleen_axial_2_before.jpg",
-                "after": "assets/20260806_t1/spleen_axial_2_after.jpg",
-                "raw": "assets/20260806_t1/spleen_axial_2_raw.jpg"
+                "after": "assets/20260806_t1/spleen_axial_2_after.jpg"
               }
             ],
             "coronal": [
               {
                 "label": "y 337",
                 "before": "assets/20260806_t1/spleen_coronal_before.jpg",
-                "after": "assets/20260806_t1/spleen_coronal_after.jpg",
-                "raw": "assets/20260806_t1/spleen_coronal_raw.jpg"
+                "after": "assets/20260806_t1/spleen_coronal_after.jpg"
               }
             ]
           }
         },
-        "gallery": "assets/20260806_t1/gallery.jpg",
         "residual": {
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3918,
-            "centroid": 0.1044
+            "assd": 0.4287,
+            "centroid": 0.3841
           },
           "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3729,
-            "centroid": 0.4362
+            "hd95": 1.1719,
+            "assd": 0.494,
+            "centroid": 0.8953
           }
         },
         "registration": {
-          "method": "landmark_rigid_fallback",
+          "method": "landmark_rigid_vertebrae",
           "attempted": true,
           "accepted": true
-        }
+        },
+        "gallery": "assets/20260806_t1/gallery.jpg"
       }
-    ],
-    "label": "SEP"
+    ]
   },
   "pcct": {
     "fixed": "20260805_t1",
