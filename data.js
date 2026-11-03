@@ -88,15 +88,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3917,
-            "centroid": 0.2395
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4727,
+            "assd": 0.4435,
             "centroid": 1.0257
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3705,
+            "centroid": 0.2395
           }
         },
         "registration": {
@@ -189,15 +189,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4044,
-            "centroid": 0.5501
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4905,
+            "assd": 0.4626,
             "centroid": 1.1288
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3844,
+            "centroid": 0.5501
           }
         },
         "registration": {
@@ -290,15 +290,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3923,
-            "centroid": 0.4224
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4689,
+            "assd": 0.4426,
             "centroid": 1.0546
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.374,
+            "centroid": 0.4224
           }
         },
         "registration": {
@@ -391,15 +391,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4525,
-            "centroid": 0.2802
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4093,
+            "assd": 0.3798,
             "centroid": 0.4726
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4464,
+            "centroid": 0.2802
           }
         },
         "registration": {
@@ -492,15 +492,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4026,
-            "centroid": 0.5629
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.3731,
+            "assd": 0.3619,
             "centroid": 0.6985
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3965,
+            "centroid": 0.5629
           }
         },
         "registration": {
@@ -1477,15 +1477,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.159,
+            "assd": 0.4229,
+            "centroid": 0.7653
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4504,
+            "assd": 0.4389,
             "centroid": 0.4357
-          },
-          "spleen": {
-            "hd95": 1.1719,
-            "assd": 0.4608,
-            "centroid": 0.7653
           }
         },
         "registration": {
@@ -1578,15 +1578,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4606,
-            "centroid": 0.3615
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4635,
+            "assd": 0.4477,
             "centroid": 0.9026
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4485,
+            "centroid": 0.3615
           }
         },
         "registration": {
@@ -1679,15 +1679,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4309,
-            "centroid": 1.1663
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.473,
+            "assd": 0.453,
             "centroid": 0.9695
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4241,
+            "centroid": 1.1663
           }
         },
         "registration": {
@@ -1780,15 +1780,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4598,
-            "centroid": 1.036
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.5288,
+            "assd": 0.5146,
             "centroid": 0.9732
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.444,
+            "centroid": 1.036
           }
         },
         "registration": {
@@ -2765,15 +2765,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4131,
-            "centroid": 0.52
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4147,
+            "assd": 0.4084,
             "centroid": 0.871
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4011,
+            "centroid": 0.52
           }
         },
         "registration": {
@@ -2866,15 +2866,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4685,
-            "centroid": 1.061
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4343,
+            "assd": 0.4209,
             "centroid": 0.8562
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4598,
+            "centroid": 1.061
           }
         },
         "registration": {
@@ -2967,15 +2967,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4699,
-            "centroid": 0.4066
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4806,
+            "assd": 0.465,
             "centroid": 0.6571
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4604,
+            "centroid": 0.4066
           }
         },
         "registration": {
@@ -3068,15 +3068,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.159,
+            "assd": 0.411,
+            "centroid": 0.6852
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4217,
+            "assd": 0.404,
             "centroid": 0.354
-          },
-          "spleen": {
-            "hd95": 1.1719,
-            "assd": 0.4361,
-            "centroid": 0.6852
           }
         },
         "registration": {
@@ -3169,15 +3169,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.408,
-            "centroid": 0.5235
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4558,
+            "assd": 0.4358,
             "centroid": 1.0018
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3878,
+            "centroid": 0.5235
           }
         },
         "registration": {
@@ -3270,15 +3270,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3985,
-            "centroid": 0.4433
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.5065,
+            "assd": 0.4915,
             "centroid": 1.0379
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3839,
+            "centroid": 0.4433
           }
         },
         "registration": {
@@ -3371,15 +3371,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3503,
-            "centroid": 0.455
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4269,
+            "assd": 0.4206,
             "centroid": 0.7741
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.339,
+            "centroid": 0.455
           }
         },
         "registration": {
@@ -3472,15 +3472,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3482,
-            "centroid": 0.4689
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4444,
+            "assd": 0.4169,
             "centroid": 0.634
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3405,
+            "centroid": 0.4689
           }
         },
         "registration": {
@@ -3573,15 +3573,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4307,
-            "centroid": 0.606
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4629,
+            "assd": 0.4383,
             "centroid": 1.0374
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4299,
+            "centroid": 0.606
           }
         },
         "registration": {
@@ -3674,15 +3674,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4571,
-            "centroid": 0.6205
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4379,
+            "assd": 0.415,
             "centroid": 0.7755
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4421,
+            "centroid": 0.6205
           }
         },
         "registration": {
@@ -3775,15 +3775,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4452,
-            "centroid": 0.7808
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4411,
+            "assd": 0.4166,
             "centroid": 0.73
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4367,
+            "centroid": 0.7808
           }
         },
         "registration": {
@@ -3876,15 +3876,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4671,
-            "centroid": 0.7934
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4139,
+            "assd": 0.3906,
             "centroid": 0.7391
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.452,
+            "centroid": 0.7934
           }
         },
         "registration": {
@@ -3977,15 +3977,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4011,
-            "centroid": 0.3475
-          },
           "spleen": {
             "hd95": 1.159,
-            "assd": 0.3906,
+            "assd": 0.3651,
             "centroid": 0.7952
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3861,
+            "centroid": 0.3475
           }
         },
         "registration": {
@@ -4078,15 +4078,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.1719,
+            "assd": 0.5442,
+            "centroid": 0.9934
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4492,
+            "assd": 0.4306,
             "centroid": 0.7678
-          },
-          "spleen": {
-            "hd95": 1.3102,
-            "assd": 0.5586,
-            "centroid": 0.9934
           }
         },
         "registration": {
@@ -4179,15 +4179,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.0,
+            "assd": 0.329,
+            "centroid": 0.5205
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4471,
+            "assd": 0.4358,
             "centroid": 0.7486
-          },
-          "spleen": {
-            "hd95": 1.159,
-            "assd": 0.3356,
-            "centroid": 0.5205
           }
         },
         "registration": {
@@ -4280,15 +4280,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4475,
-            "centroid": 1.2206
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4526,
+            "assd": 0.4354,
             "centroid": 0.8555
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4468,
+            "centroid": 1.2206
           }
         },
         "registration": {
@@ -5265,15 +5265,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4425,
-            "centroid": 0.5442
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4102,
+            "assd": 0.3937,
             "centroid": 0.7411
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4273,
+            "centroid": 0.5442
           }
         },
         "registration": {
@@ -5366,15 +5366,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.431,
-            "centroid": 0.464
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4126,
+            "assd": 0.3994,
             "centroid": 0.684
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4192,
+            "centroid": 0.464
           }
         },
         "registration": {
@@ -5467,15 +5467,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.0,
+            "assd": 0.3864,
+            "centroid": 0.8148
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.47,
+            "assd": 0.4641,
             "centroid": 0.5782
-          },
-          "spleen": {
-            "hd95": 1.159,
-            "assd": 0.4229,
-            "centroid": 0.8148
           }
         },
         "registration": {
@@ -5568,15 +5568,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.487,
-            "centroid": 0.6902
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4139,
+            "assd": 0.3781,
             "centroid": 0.7784
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4778,
+            "centroid": 0.6902
           }
         },
         "registration": {
@@ -5669,15 +5669,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4813,
-            "centroid": 0.4254
-          },
           "spleen": {
             "hd95": 1.159,
-            "assd": 0.437,
+            "assd": 0.4043,
             "centroid": 0.8724
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4782,
+            "centroid": 0.4254
           }
         },
         "registration": {
@@ -5770,15 +5770,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.0,
+            "assd": 0.3908,
+            "centroid": 0.8069
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4724,
+            "assd": 0.4672,
             "centroid": 0.4448
-          },
-          "spleen": {
-            "hd95": 1.159,
-            "assd": 0.4264,
-            "centroid": 0.8069
           }
         },
         "registration": {
@@ -5871,15 +5871,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.0,
+            "assd": 0.3856,
+            "centroid": 0.7877
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4774,
+            "assd": 0.4735,
             "centroid": 0.6608
-          },
-          "spleen": {
-            "hd95": 1.159,
-            "assd": 0.4199,
-            "centroid": 0.7877
           }
         },
         "registration": {
@@ -5972,15 +5972,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.0,
+            "assd": 0.3791,
+            "centroid": 0.6948
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4765,
+            "assd": 0.4698,
             "centroid": 0.517
-          },
-          "spleen": {
-            "hd95": 1.159,
-            "assd": 0.4161,
-            "centroid": 0.6948
           }
         },
         "registration": {
@@ -6073,15 +6073,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.0,
+            "assd": 0.3939,
+            "centroid": 0.8443
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4778,
+            "assd": 0.4747,
             "centroid": 0.4537
-          },
-          "spleen": {
-            "hd95": 1.159,
-            "assd": 0.4267,
-            "centroid": 0.8443
           }
         },
         "registration": {
@@ -6174,15 +6174,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4692,
-            "centroid": 0.5479
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4153,
+            "assd": 0.3788,
             "centroid": 0.7376
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4649,
+            "centroid": 0.5479
           }
         },
         "registration": {
@@ -6275,15 +6275,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4647,
-            "centroid": 0.4204
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4048,
+            "assd": 0.3671,
             "centroid": 0.6312
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.456,
+            "centroid": 0.4204
           }
         },
         "registration": {
@@ -7260,15 +7260,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.484,
-            "centroid": 0.504
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4158,
+            "assd": 0.3806,
             "centroid": 0.7856
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4811,
+            "centroid": 0.504
           }
         },
         "registration": {
@@ -7361,15 +7361,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.0,
+            "assd": 0.3934,
+            "centroid": 0.8505
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4799,
+            "assd": 0.4798,
             "centroid": 0.4717
-          },
-          "spleen": {
-            "hd95": 1.159,
-            "assd": 0.4251,
-            "centroid": 0.8505
           }
         },
         "registration": {
@@ -7462,15 +7462,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.0,
+            "assd": 0.381,
+            "centroid": 0.7516
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.484,
+            "assd": 0.4771,
             "centroid": 0.4295
-          },
-          "spleen": {
-            "hd95": 1.159,
-            "assd": 0.416,
-            "centroid": 0.7516
           }
         },
         "registration": {
@@ -7563,15 +7563,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4853,
-            "centroid": 0.6173
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4152,
+            "assd": 0.3811,
             "centroid": 0.7597
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4772,
+            "centroid": 0.6173
           }
         },
         "registration": {
@@ -7664,15 +7664,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4955,
-            "centroid": 0.4713
-          },
           "spleen": {
             "hd95": 1.159,
-            "assd": 0.4288,
+            "assd": 0.3954,
             "centroid": 0.7624
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4889,
+            "centroid": 0.4713
           }
         },
         "registration": {
@@ -7765,15 +7765,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.0,
+            "assd": 0.3902,
+            "centroid": 0.767
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4833,
+            "assd": 0.4788,
             "centroid": 0.4787
-          },
-          "spleen": {
-            "hd95": 1.159,
-            "assd": 0.4228,
-            "centroid": 0.767
           }
         },
         "registration": {
@@ -7866,15 +7866,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4732,
-            "centroid": 0.4245
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4139,
+            "assd": 0.3771,
             "centroid": 0.6777
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4679,
+            "centroid": 0.4245
           }
         },
         "registration": {
@@ -7967,15 +7967,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4778,
-            "centroid": 0.56
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4151,
+            "assd": 0.3779,
             "centroid": 0.6646
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4726,
+            "centroid": 0.56
           }
         },
         "registration": {
@@ -8068,15 +8068,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4838,
-            "centroid": 0.7434
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4088,
+            "assd": 0.3723,
             "centroid": 0.7173
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4736,
+            "centroid": 0.7434
           }
         },
         "registration": {
@@ -8169,15 +8169,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4743,
-            "centroid": 0.613
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.4084,
+            "assd": 0.3712,
             "centroid": 0.6746
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4703,
+            "centroid": 0.613
           }
         },
         "registration": {
@@ -8270,15 +8270,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 3.5156,
-            "assd": 1.2477,
-            "centroid": 7.1414
-          },
           "spleen": {
-            "hd95": 6.4415,
-            "assd": 1.9679,
+            "hd95": 6.9541,
+            "assd": 1.8311,
             "centroid": 4.9677
+          },
+          "aorta": {
+            "hd95": 9.3002,
+            "assd": 1.1916,
+            "centroid": 7.1414
           }
         },
         "registration": {
@@ -8371,15 +8371,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 0.0,
+            "assd": 0.0357,
+            "centroid": 0.0277
+          },
           "aorta": {
             "hd95": 0.5859,
-            "assd": 0.0852,
+            "assd": 0.0692,
             "centroid": 0.4423
-          },
-          "spleen": {
-            "hd95": 0.5859,
-            "assd": 0.0423,
-            "centroid": 0.0277
           }
         },
         "registration": {
@@ -8472,15 +8472,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.2648,
-            "centroid": 0.2276
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.1927,
+            "assd": 0.1882,
             "centroid": 0.1531
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2462,
+            "centroid": 0.2276
           }
         },
         "registration": {
@@ -8573,15 +8573,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 0.0,
+            "assd": 0.0352,
+            "centroid": 0.0342
+          },
           "aorta": {
             "hd95": 0.5859,
-            "assd": 0.0843,
+            "assd": 0.0654,
             "centroid": 0.151
-          },
-          "spleen": {
-            "hd95": 0.5859,
-            "assd": 0.0413,
-            "centroid": 0.0342
           }
         },
         "registration": {
@@ -8674,15 +8674,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.2622,
-            "centroid": 0.1726
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.188,
+            "assd": 0.1823,
             "centroid": 0.1291
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2436,
+            "centroid": 0.1726
           }
         },
         "registration": {
@@ -8775,15 +8775,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.2591,
-            "centroid": 0.154
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.1945,
+            "assd": 0.1888,
             "centroid": 0.1543
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2393,
+            "centroid": 0.154
           }
         },
         "registration": {
@@ -8876,15 +8876,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 0.0,
+            "assd": 0.0372,
+            "centroid": 0.0372
+          },
           "aorta": {
             "hd95": 0.5859,
-            "assd": 0.0787,
+            "assd": 0.0607,
             "centroid": 0.1605
-          },
-          "spleen": {
-            "hd95": 0.5859,
-            "assd": 0.0427,
-            "centroid": 0.0372
           }
         },
         "registration": {
@@ -8977,15 +8977,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3016,
-            "centroid": 0.9355
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.1958,
+            "assd": 0.1855,
             "centroid": 0.2003
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2924,
+            "centroid": 0.9355
           }
         },
         "registration": {
@@ -9078,15 +9078,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.0953,
-            "centroid": 0.5398
-          },
           "spleen": {
             "hd95": 0.5859,
-            "assd": 0.0457,
+            "assd": 0.039,
             "centroid": 0.0654
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.0784,
+            "centroid": 0.5398
           }
         },
         "registration": {
@@ -9179,15 +9179,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 0.0,
+            "assd": 0.0368,
+            "centroid": 0.0565
+          },
           "aorta": {
             "hd95": 0.5859,
-            "assd": 0.0847,
+            "assd": 0.0687,
             "centroid": 0.1066
-          },
-          "spleen": {
-            "hd95": 0.5859,
-            "assd": 0.0425,
-            "centroid": 0.0565
           }
         },
         "registration": {
@@ -9280,15 +9280,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 0.0,
+            "assd": 0.0384,
+            "centroid": 0.0496
+          },
           "aorta": {
             "hd95": 0.5859,
-            "assd": 0.0678,
+            "assd": 0.0522,
             "centroid": 0.2973
-          },
-          "spleen": {
-            "hd95": 0.5859,
-            "assd": 0.0435,
-            "centroid": 0.0496
           }
         },
         "registration": {
@@ -9381,15 +9381,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 0.5859,
-            "assd": 0.083,
-            "centroid": 0.0614
-          },
           "spleen": {
             "hd95": 0.5859,
-            "assd": 0.0518,
+            "assd": 0.0453,
             "centroid": 0.0706
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.0669,
+            "centroid": 0.0614
           }
         },
         "registration": {
@@ -9482,15 +9482,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.0975,
-            "centroid": 0.2541
-          },
           "spleen": {
-            "hd95": 0.5859,
-            "assd": 0.0435,
+            "hd95": 0.0,
+            "assd": 0.0377,
             "centroid": 0.03
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.0793,
+            "centroid": 0.2541
           }
         },
         "registration": {
@@ -9583,15 +9583,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 0.5859,
-            "assd": 0.0775,
-            "centroid": 0.1056
-          },
           "spleen": {
             "hd95": 0.5859,
-            "assd": 0.0447,
+            "assd": 0.0389,
             "centroid": 0.0566
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.062,
+            "centroid": 0.1056
           }
         },
         "registration": {
@@ -9684,15 +9684,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 0.5859,
-            "assd": 0.081,
-            "centroid": 0.0838
-          },
           "spleen": {
             "hd95": 0.0,
-            "assd": 0.0363,
+            "assd": 0.0313,
             "centroid": 0.0603
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.0624,
+            "centroid": 0.0838
           }
         },
         "registration": {
@@ -9785,15 +9785,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 0.5859,
-            "assd": 0.0855,
-            "centroid": 0.4318
-          },
           "spleen": {
             "hd95": 0.5859,
-            "assd": 0.0498,
+            "assd": 0.0427,
             "centroid": 0.0943
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.0662,
+            "centroid": 0.4318
           }
         },
         "registration": {
@@ -9886,15 +9886,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.1032,
-            "centroid": 0.4399
-          },
           "spleen": {
             "hd95": 0.5859,
-            "assd": 0.0488,
+            "assd": 0.0422,
             "centroid": 0.0826
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.0821,
+            "centroid": 0.4399
           }
         },
         "registration": {
@@ -9987,15 +9987,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.2921,
-            "centroid": 0.6518
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.2008,
+            "assd": 0.1903,
             "centroid": 0.1885
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2826,
+            "centroid": 0.6518
           }
         },
         "registration": {
@@ -10088,15 +10088,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.2553,
-            "centroid": 0.1066
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.1886,
+            "assd": 0.1839,
             "centroid": 0.121
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2377,
+            "centroid": 0.1066
           }
         },
         "registration": {
@@ -10189,15 +10189,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.2907,
-            "centroid": 0.8456
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.1958,
+            "assd": 0.1848,
             "centroid": 0.1994
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2829,
+            "centroid": 0.8456
           }
         },
         "registration": {
@@ -10290,15 +10290,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4287,
-            "centroid": 0.3841
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.494,
+            "assd": 0.4635,
             "centroid": 0.8953
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4254,
+            "centroid": 0.3841
           }
         },
         "registration": {
@@ -10406,15 +10406,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3975,
-            "centroid": 0.598
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3838,
+            "assd": 0.3541,
             "centroid": 0.4094
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3825,
+            "centroid": 0.598
           }
         },
         "registration": {
@@ -10515,15 +10515,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4258,
-            "centroid": 0.2342
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3691,
+            "assd": 0.3413,
             "centroid": 0.2201
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.4154,
+            "centroid": 0.2342
           }
         },
         "registration": {
@@ -10624,15 +10624,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3871,
-            "centroid": 0.3814
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3679,
+            "assd": 0.3379,
             "centroid": 0.2436
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3655,
+            "centroid": 0.3814
           }
         },
         "registration": {
@@ -10733,15 +10733,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.336,
-            "centroid": 0.2788
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3777,
+            "assd": 0.349,
             "centroid": 0.213
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3148,
+            "centroid": 0.2788
           }
         },
         "registration": {
@@ -10842,15 +10842,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.3166,
-            "centroid": 0.2
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3876,
+            "assd": 0.3587,
             "centroid": 0.2725
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.299,
+            "centroid": 0.2
           }
         },
         "registration": {
@@ -10951,15 +10951,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4756,
-            "centroid": 0.4598
-          },
           "spleen": {
             "hd95": 1.159,
-            "assd": 0.4057,
+            "assd": 0.3819,
             "centroid": 0.5318
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4651,
+            "centroid": 0.4598
           }
         },
         "registration": {
@@ -11060,15 +11060,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3956,
-            "centroid": 0.4137
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3539,
+            "assd": 0.3277,
             "centroid": 0.1857
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3877,
+            "centroid": 0.4137
           }
         },
         "registration": {
@@ -11169,15 +11169,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3885,
-            "centroid": 0.3343
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3549,
+            "assd": 0.3298,
             "centroid": 0.1618
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3787,
+            "centroid": 0.3343
           }
         },
         "registration": {
@@ -11278,15 +11278,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3619,
-            "centroid": 0.3052
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3356,
+            "assd": 0.312,
             "centroid": 0.2794
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3444,
+            "centroid": 0.3052
           }
         },
         "registration": {
@@ -11387,15 +11387,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.384,
-            "centroid": 0.3602
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3754,
+            "assd": 0.3538,
             "centroid": 0.2673
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3773,
+            "centroid": 0.3602
           }
         },
         "registration": {
@@ -11496,15 +11496,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3529,
-            "centroid": 0.1824
-          },
           "spleen": {
             "hd95": 1.159,
-            "assd": 0.3862,
+            "assd": 0.3618,
             "centroid": 0.3434
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.3444,
+            "centroid": 0.1824
           }
         },
         "registration": {
@@ -11605,15 +11605,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4027,
-            "centroid": 0.0768
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.2859,
+            "assd": 0.2857,
             "centroid": 0.1908
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3874,
+            "centroid": 0.0768
           }
         },
         "registration": {
@@ -11714,15 +11714,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3536,
-            "centroid": 0.168
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3448,
+            "assd": 0.3228,
             "centroid": 0.1167
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3388,
+            "centroid": 0.168
           }
         },
         "registration": {
@@ -11823,15 +11823,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3695,
-            "centroid": 0.3817
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3536,
+            "assd": 0.3307,
             "centroid": 0.1493
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3627,
+            "centroid": 0.3817
           }
         },
         "registration": {
@@ -11932,15 +11932,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3645,
-            "centroid": 0.316
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3611,
+            "assd": 0.3336,
             "centroid": 0.3162
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3554,
+            "centroid": 0.316
           }
         },
         "registration": {
@@ -12041,15 +12041,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3867,
-            "centroid": 0.2529
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3449,
+            "assd": 0.3191,
             "centroid": 0.1621
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3779,
+            "centroid": 0.2529
           }
         },
         "registration": {
@@ -12150,15 +12150,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3474,
-            "centroid": 0.2066
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3497,
+            "assd": 0.3233,
             "centroid": 0.1859
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.3212,
+            "centroid": 0.2066
           }
         },
         "registration": {
@@ -12259,15 +12259,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3811,
-            "centroid": 0.3273
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.348,
+            "assd": 0.321,
             "centroid": 0.1086
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3699,
+            "centroid": 0.3273
           }
         },
         "registration": {
@@ -12368,15 +12368,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3628,
-            "centroid": 0.2938
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3764,
+            "assd": 0.3484,
             "centroid": 0.1225
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3389,
+            "centroid": 0.2938
           }
         },
         "registration": {
@@ -12477,15 +12477,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3166,
-            "centroid": 0.3432
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3283,
+            "assd": 0.3111,
             "centroid": 0.1553
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2995,
+            "centroid": 0.3432
           }
         },
         "registration": {
@@ -12586,15 +12586,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.159,
+            "assd": 0.3869,
+            "centroid": 0.233
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4055,
+            "assd": 0.3942,
             "centroid": 0.2626
-          },
-          "spleen": {
-            "hd95": 1.0,
-            "assd": 0.4043,
-            "centroid": 0.233
           }
         },
         "registration": {
@@ -12695,15 +12695,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.369,
-            "centroid": 0.1883
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3388,
+            "assd": 0.3212,
             "centroid": 0.3863
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3587,
+            "centroid": 0.1883
           }
         },
         "registration": {
@@ -12804,15 +12804,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.357,
-            "centroid": 0.1543
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3452,
+            "assd": 0.327,
             "centroid": 0.4682
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3462,
+            "centroid": 0.1543
           }
         },
         "registration": {
@@ -12913,15 +12913,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3522,
-            "centroid": 0.1508
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3297,
+            "assd": 0.313,
             "centroid": 0.2983
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3392,
+            "centroid": 0.1508
           }
         },
         "registration": {
@@ -13022,15 +13022,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3848,
-            "centroid": 0.4569
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3119,
+            "assd": 0.3022,
             "centroid": 0.0724
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.3625,
+            "centroid": 0.4569
           }
         },
         "registration": {
@@ -13131,15 +13131,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3788,
-            "centroid": 0.0803
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3164,
+            "assd": 0.3064,
             "centroid": 0.1367
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3567,
+            "centroid": 0.0803
           }
         },
         "registration": {
@@ -13240,15 +13240,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.159,
+            "assd": 0.3209,
+            "centroid": 0.2991
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3898,
+            "assd": 0.3731,
             "centroid": 0.4979
-          },
-          "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3294,
-            "centroid": 0.2991
           }
         },
         "registration": {
@@ -13349,15 +13349,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.3826,
-            "centroid": 0.7987
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3744,
+            "assd": 0.3486,
             "centroid": 0.3009
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3616,
+            "centroid": 0.7987
           }
         },
         "registration": {
@@ -13458,15 +13458,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4451,
-            "centroid": 0.5032
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.377,
+            "assd": 0.3487,
             "centroid": 0.3368
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4386,
+            "centroid": 0.5032
           }
         },
         "registration": {
@@ -13567,15 +13567,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4578,
-            "centroid": 0.2942
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3805,
+            "assd": 0.3571,
             "centroid": 0.3018
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4445,
+            "centroid": 0.2942
           }
         },
         "registration": {
@@ -13676,15 +13676,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4291,
-            "centroid": 0.2483
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3955,
+            "assd": 0.3784,
             "centroid": 0.3015
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4181,
+            "centroid": 0.2483
           }
         },
         "registration": {
@@ -13785,15 +13785,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.159,
+            "assd": 0.3267,
+            "centroid": 0.3762
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4033,
+            "assd": 0.3969,
             "centroid": 0.1875
-          },
-          "spleen": {
-            "hd95": 1.0,
-            "assd": 0.3485,
-            "centroid": 0.3762
           }
         },
         "registration": {
@@ -13894,15 +13894,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.403,
-            "centroid": 0.1085
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3362,
+            "assd": 0.3162,
             "centroid": 0.0797
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3905,
+            "centroid": 0.1085
           }
         },
         "registration": {
@@ -14003,15 +14003,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3909,
-            "centroid": 0.307
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3286,
+            "assd": 0.3089,
             "centroid": 0.1793
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.381,
+            "centroid": 0.307
           }
         },
         "registration": {
@@ -14112,15 +14112,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3637,
-            "centroid": 0.2684
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3442,
+            "assd": 0.3255,
             "centroid": 0.2532
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.3474,
+            "centroid": 0.2684
           }
         },
         "registration": {
@@ -14221,15 +14221,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4243,
-            "centroid": 0.3923
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3285,
+            "assd": 0.3104,
             "centroid": 0.1814
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.42,
+            "centroid": 0.3923
           }
         },
         "registration": {
@@ -14330,15 +14330,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3624,
-            "centroid": 0.3533
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.339,
+            "assd": 0.3195,
             "centroid": 0.2262
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3519,
+            "centroid": 0.3533
           }
         },
         "registration": {
@@ -14439,15 +14439,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.361,
-            "centroid": 0.2765
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3306,
+            "assd": 0.3103,
             "centroid": 0.1318
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3513,
+            "centroid": 0.2765
           }
         },
         "registration": {
@@ -14548,15 +14548,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.0,
+            "assd": 0.3398,
+            "centroid": 0.3606
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3484,
+            "assd": 0.337,
             "centroid": 0.1929
-          },
-          "spleen": {
-            "hd95": 1.159,
-            "assd": 0.3603,
-            "centroid": 0.3606
           }
         },
         "registration": {
@@ -14657,15 +14657,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.6482,
-            "assd": 0.5509,
-            "centroid": 0.3378
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4806,
+            "assd": 0.4526,
             "centroid": 1.1089
+          },
+          "aorta": {
+            "hd95": 1.7578,
+            "assd": 0.5456,
+            "centroid": 0.3378
           }
         },
         "registration": {
@@ -14766,15 +14766,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3429,
-            "centroid": 0.3208
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3049,
+            "assd": 0.2933,
             "centroid": 0.0981
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3216,
+            "centroid": 0.3208
           }
         },
         "registration": {
@@ -14875,15 +14875,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3721,
-            "centroid": 0.4346
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3279,
+            "assd": 0.315,
             "centroid": 0.1218
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3562,
+            "centroid": 0.4346
           }
         },
         "registration": {
@@ -14984,15 +14984,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.3643,
-            "centroid": 0.1798
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3062,
+            "assd": 0.3013,
             "centroid": 0.0778
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.343,
+            "centroid": 0.1798
           }
         },
         "registration": {
@@ -15093,15 +15093,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3643,
-            "centroid": 0.1152
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3534,
+            "assd": 0.3234,
             "centroid": 0.1815
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.3539,
+            "centroid": 0.1152
           }
         },
         "registration": {
@@ -15202,15 +15202,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4148,
-            "centroid": 0.3395
-          },
           "spleen": {
             "hd95": 1.159,
-            "assd": 0.3717,
+            "assd": 0.3468,
             "centroid": 0.4336
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4082,
+            "centroid": 0.3395
           }
         },
         "registration": {
@@ -15311,15 +15311,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3829,
-            "centroid": 0.3189
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.2698,
+            "assd": 0.2757,
             "centroid": 0.1675
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3644,
+            "centroid": 0.3189
           }
         },
         "registration": {
@@ -15420,15 +15420,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3476,
-            "centroid": 0.3317
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.2619,
+            "assd": 0.268,
             "centroid": 0.2083
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3233,
+            "centroid": 0.3317
           }
         },
         "registration": {
@@ -15529,15 +15529,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3745,
-            "centroid": 0.3315
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.2996,
+            "assd": 0.3018,
             "centroid": 0.283
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3514,
+            "centroid": 0.3315
           }
         },
         "registration": {
@@ -15638,15 +15638,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3647,
-            "centroid": 0.2881
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3264,
+            "assd": 0.3132,
             "centroid": 0.1431
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.3512,
+            "centroid": 0.2881
           }
         },
         "registration": {
@@ -15747,15 +15747,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.401,
-            "centroid": 0.3056
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3642,
+            "assd": 0.3452,
             "centroid": 0.1658
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3831,
+            "centroid": 0.3056
           }
         },
         "registration": {
@@ -15856,15 +15856,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4544,
-            "centroid": 0.1791
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.3962,
+            "assd": 0.3768,
             "centroid": 0.6608
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4493,
+            "centroid": 0.1791
           }
         },
         "registration": {
@@ -15965,15 +15965,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3617,
-            "centroid": 0.1917
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3204,
+            "assd": 0.2903,
             "centroid": 0.1033
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3408,
+            "centroid": 0.1917
           }
         },
         "registration": {
@@ -16074,15 +16074,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3874,
-            "centroid": 0.2135
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3933,
+            "assd": 0.3699,
             "centroid": 0.2789
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.3795,
+            "centroid": 0.2135
           }
         },
         "registration": {
@@ -16183,15 +16183,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3666,
-            "centroid": 0.2397
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3057,
+            "assd": 0.2766,
             "centroid": 0.3194
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3489,
+            "centroid": 0.2397
           }
         },
         "registration": {
@@ -16292,15 +16292,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3563,
-            "centroid": 0.7494
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3239,
+            "assd": 0.3105,
             "centroid": 0.369
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.348,
+            "centroid": 0.7494
           }
         },
         "registration": {
@@ -16401,15 +16401,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.3087,
-            "centroid": 0.5476
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.2828,
+            "assd": 0.2719,
             "centroid": 0.4281
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2921,
+            "centroid": 0.5476
           }
         },
         "registration": {
@@ -16510,15 +16510,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.1719,
+            "assd": 0.3276,
+            "centroid": 0.6778
+          },
           "aorta": {
             "hd95": 1.0,
-            "assd": 0.2652,
+            "assd": 0.2405,
             "centroid": 0.6856
-          },
-          "spleen": {
-            "hd95": 1.159,
-            "assd": 0.3285,
-            "centroid": 0.6778
           }
         },
         "registration": {
@@ -16619,15 +16619,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3737,
-            "centroid": 0.3718
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3277,
+            "assd": 0.3173,
             "centroid": 0.1184
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.368,
+            "centroid": 0.3718
           }
         },
         "registration": {
@@ -16728,15 +16728,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 7.0312,
+            "assd": 0.8961,
+            "centroid": 3.4724
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3752,
+            "assd": 0.3666,
             "centroid": 0.2251
-          },
-          "spleen": {
-            "hd95": 4.6875,
-            "assd": 0.8437,
-            "centroid": 3.4724
           }
         },
         "registration": {
@@ -16837,15 +16837,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 8.7891,
+            "assd": 1.1179,
+            "centroid": 4.9862
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.3936,
+            "assd": 0.3901,
             "centroid": 0.3539
-          },
-          "spleen": {
-            "hd95": 6.3555,
-            "assd": 1.0601,
-            "centroid": 4.9862
           }
         },
         "registration": {
@@ -16946,15 +16946,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.3375,
-            "centroid": 0.11
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3539,
+            "assd": 0.3335,
             "centroid": 0.1273
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.326,
+            "centroid": 0.11
           }
         },
         "registration": {
@@ -17055,15 +17055,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3761,
-            "centroid": 0.3671
-          },
           "spleen": {
             "hd95": 1.1719,
-            "assd": 0.4044,
+            "assd": 0.3968,
             "centroid": 0.525
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.3706,
+            "centroid": 0.3671
           }
         },
         "registration": {
@@ -17164,15 +17164,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.3477,
-            "centroid": 0.1785
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3425,
+            "assd": 0.3266,
             "centroid": 0.1692
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.339,
+            "centroid": 0.1785
           }
         },
         "registration": {
@@ -17273,15 +17273,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3681,
-            "centroid": 0.1674
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3325,
+            "assd": 0.3158,
             "centroid": 0.1076
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3544,
+            "centroid": 0.1674
           }
         },
         "registration": {
@@ -17382,15 +17382,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3539,
-            "centroid": 0.0652
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3145,
+            "assd": 0.2956,
             "centroid": 0.2053
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3429,
+            "centroid": 0.0652
           }
         },
         "registration": {
@@ -17491,15 +17491,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3536,
-            "centroid": 0.1292
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3242,
+            "assd": 0.306,
             "centroid": 0.1401
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.3399,
+            "centroid": 0.1292
           }
         },
         "registration": {
@@ -17600,15 +17600,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3774,
-            "centroid": 0.61
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3467,
+            "assd": 0.3254,
             "centroid": 0.0779
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3577,
+            "centroid": 0.61
           }
         },
         "registration": {
@@ -17709,15 +17709,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3607,
-            "centroid": 0.2136
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3591,
+            "assd": 0.339,
             "centroid": 0.2294
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3392,
+            "centroid": 0.2136
           }
         },
         "registration": {
@@ -17818,15 +17818,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3661,
-            "centroid": 0.3598
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3385,
+            "assd": 0.3174,
             "centroid": 0.1715
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3438,
+            "centroid": 0.3598
           }
         },
         "registration": {
@@ -17927,15 +17927,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3742,
-            "centroid": 0.4733
-          },
           "spleen": {
-            "hd95": 1.159,
-            "assd": 0.3688,
+            "hd95": 1.0,
+            "assd": 0.3456,
             "centroid": 0.6288
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.3549,
+            "centroid": 0.4733
           }
         },
         "registration": {
@@ -18036,15 +18036,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3895,
-            "centroid": 0.2855
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.2946,
+            "assd": 0.2962,
             "centroid": 0.3303
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3843,
+            "centroid": 0.2855
           }
         },
         "registration": {
@@ -18145,15 +18145,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.4476,
-            "centroid": 0.3258
-          },
           "spleen": {
             "hd95": 1.159,
-            "assd": 0.4162,
+            "assd": 0.4002,
             "centroid": 0.5161
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4484,
+            "centroid": 0.3258
           }
         },
         "registration": {
@@ -18254,15 +18254,15 @@ window.DATASETS = {
           }
         },
         "residual": {
+          "spleen": {
+            "hd95": 1.0,
+            "assd": 0.412,
+            "centroid": 0.5735
+          },
           "aorta": {
             "hd95": 1.1719,
-            "assd": 0.4478,
+            "assd": 0.4421,
             "centroid": 0.3635
-          },
-          "spleen": {
-            "hd95": 1.159,
-            "assd": 0.4307,
-            "centroid": 0.5735
           }
         },
         "registration": {
@@ -18363,15 +18363,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.3411,
-            "centroid": 0.1838
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3835,
+            "assd": 0.3643,
             "centroid": 0.2176
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.326,
+            "centroid": 0.1838
           }
         },
         "registration": {
@@ -18472,15 +18472,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.2329,
-            "centroid": 0.2569
-          },
           "spleen": {
             "hd95": 0.8286,
-            "assd": 0.2449,
+            "assd": 0.2472,
             "centroid": 0.3314
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.2248,
+            "centroid": 0.2569
           }
         },
         "registration": {
@@ -18581,15 +18581,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.3997,
-            "centroid": 0.6369
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3344,
+            "assd": 0.305,
             "centroid": 0.5507
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.388,
+            "centroid": 0.6369
           }
         },
         "registration": {
@@ -18690,15 +18690,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3096,
-            "centroid": 0.2555
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.2069,
+            "assd": 0.1983,
             "centroid": 0.2609
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3007,
+            "centroid": 0.2555
           }
         },
         "registration": {
@@ -18799,15 +18799,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3404,
-            "centroid": 0.5402
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3406,
+            "assd": 0.3117,
             "centroid": 0.4517
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3214,
+            "centroid": 0.5402
           }
         },
         "registration": {
@@ -18908,15 +18908,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.1719,
-            "assd": 0.3121,
-            "centroid": 0.296
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.277,
+            "assd": 0.2734,
             "centroid": 0.2409
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3056,
+            "centroid": 0.296
           }
         },
         "registration": {
@@ -19017,15 +19017,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.1911,
-            "centroid": 0.3604
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.2601,
+            "assd": 0.2103,
             "centroid": 0.2905
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.1475,
+            "centroid": 0.3604
           }
         },
         "registration": {
@@ -19126,15 +19126,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.1862,
-            "centroid": 0.4197
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.2678,
+            "assd": 0.2161,
             "centroid": 0.3084
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.1472,
+            "centroid": 0.4197
           }
         },
         "registration": {
@@ -19235,15 +19235,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.1608,
-            "centroid": 0.4751
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.2278,
+            "assd": 0.1828,
             "centroid": 0.3323
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.1269,
+            "centroid": 0.4751
           }
         },
         "registration": {
@@ -19344,15 +19344,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.1754,
-            "centroid": 0.2837
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.296,
+            "assd": 0.2415,
             "centroid": 0.3262
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.1403,
+            "centroid": 0.2837
           }
         },
         "registration": {
@@ -19453,15 +19453,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 0.5859,
-            "assd": 0.2809,
-            "centroid": 0.2878
-          },
           "spleen": {
             "hd95": 0.5859,
-            "assd": 0.2092,
+            "assd": 0.2079,
             "centroid": 0.275
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.276,
+            "centroid": 0.2878
           }
         },
         "registration": {
@@ -19562,15 +19562,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.1486,
-            "centroid": 0.4333
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.1417,
+            "assd": 0.1268,
             "centroid": 0.4726
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.1284,
+            "centroid": 0.4333
           }
         },
         "registration": {
@@ -19671,15 +19671,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 0.5859,
-            "assd": 0.2663,
-            "centroid": 0.3463
-          },
           "spleen": {
             "hd95": 0.5859,
-            "assd": 0.2004,
+            "assd": 0.2074,
             "centroid": 0.3864
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.2606,
+            "centroid": 0.3463
           }
         },
         "registration": {
@@ -19780,15 +19780,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.159,
-            "assd": 0.3368,
-            "centroid": 0.6516
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.3334,
+            "assd": 0.3024,
             "centroid": 0.3329
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.3203,
+            "centroid": 0.6516
           }
         },
         "registration": {
@@ -19889,15 +19889,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "hd95": 1.0,
-            "assd": 0.1272,
-            "centroid": 0.2576
-          },
           "spleen": {
             "hd95": 1.0,
-            "assd": 0.1351,
+            "assd": 0.1237,
             "centroid": 0.3255
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.1035,
+            "centroid": 0.2576
           }
         },
         "registration": {
@@ -19989,15 +19989,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2,
-            "hd95": 1.0,
-            "assd": 0.2103
-          },
           "spleen": {
-            "centroid": 0.5092,
             "hd95": 1.0,
-            "assd": 0.245
+            "assd": 0.2265,
+            "centroid": 0.5092
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.1873,
+            "centroid": 0.2
           }
         },
         "registration": {
@@ -20080,15 +20080,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.8478,
-            "hd95": 1.1719,
-            "assd": 0.4205
-          },
           "spleen": {
-            "centroid": 0.4352,
-            "hd95": 1.159,
-            "assd": 0.3422
+            "hd95": 1.0,
+            "assd": 0.3398,
+            "centroid": 0.4352
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4107,
+            "centroid": 0.8478
           }
         },
         "registration": {
@@ -20171,15 +20171,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.363,
-            "hd95": 1.0,
-            "assd": 0.2883
-          },
           "spleen": {
-            "centroid": 0.3789,
             "hd95": 1.0,
-            "assd": 0.2782
+            "assd": 0.2745,
+            "centroid": 0.3789
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2704,
+            "centroid": 0.363
           }
         },
         "registration": {
@@ -20262,15 +20262,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4243,
-            "hd95": 1.1719,
-            "assd": 0.3758
-          },
           "spleen": {
-            "centroid": 0.5412,
             "hd95": 1.0,
-            "assd": 0.3172
+            "assd": 0.3193,
+            "centroid": 0.5412
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3664,
+            "centroid": 0.4243
           }
         },
         "registration": {
@@ -20353,15 +20353,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3733,
-            "hd95": 1.159,
-            "assd": 0.3444
-          },
           "spleen": {
-            "centroid": 0.4822,
             "hd95": 1.0,
-            "assd": 0.3054
+            "assd": 0.2989,
+            "centroid": 0.4822
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3175,
+            "centroid": 0.3733
           }
         },
         "registration": {
@@ -20444,15 +20444,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 1.11,
-            "hd95": 1.0,
-            "assd": 0.369
-          },
           "spleen": {
-            "centroid": 0.5428,
             "hd95": 1.0,
-            "assd": 0.3663
+            "assd": 0.3425,
+            "centroid": 0.5428
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3469,
+            "centroid": 1.11
           }
         },
         "registration": {
@@ -20535,15 +20535,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3415,
-            "hd95": 1.0,
-            "assd": 0.2341
-          },
           "spleen": {
-            "centroid": 0.4178,
             "hd95": 1.0,
-            "assd": 0.2938
+            "assd": 0.2422,
+            "centroid": 0.4178
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.1948,
+            "centroid": 0.3415
           }
         },
         "registration": {
@@ -20626,15 +20626,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.9126,
-            "hd95": 1.0,
-            "assd": 0.235
-          },
           "spleen": {
-            "centroid": 0.482,
             "hd95": 1.0,
-            "assd": 0.2746
+            "assd": 0.2347,
+            "centroid": 0.482
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.1969,
+            "centroid": 0.9126
           }
         },
         "registration": {
@@ -20717,15 +20717,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.5532,
-            "hd95": 1.1719,
-            "assd": 0.432
-          },
           "spleen": {
-            "centroid": 0.4019,
             "hd95": 1.0,
-            "assd": 0.2898
+            "assd": 0.2922,
+            "centroid": 0.4019
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4291,
+            "centroid": 0.5532
           }
         },
         "registration": {
@@ -20808,15 +20808,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.8029,
-            "hd95": 1.1719,
-            "assd": 0.351
-          },
           "spleen": {
-            "centroid": 0.4613,
-            "hd95": 1.159,
-            "assd": 0.3037
+            "hd95": 1.0,
+            "assd": 0.2937,
+            "centroid": 0.4613
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3444,
+            "centroid": 0.8029
           }
         },
         "registration": {
@@ -20899,15 +20899,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.7486,
-            "hd95": 1.0,
-            "assd": 0.3279
-          },
           "spleen": {
-            "centroid": 0.5079,
             "hd95": 1.0,
-            "assd": 0.2778
+            "assd": 0.2747,
+            "centroid": 0.5079
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3186,
+            "centroid": 0.7486
           }
         },
         "registration": {
@@ -20990,15 +20990,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.9497,
-            "hd95": 1.1719,
-            "assd": 0.3957
-          },
           "spleen": {
-            "centroid": 0.3871,
             "hd95": 1.0,
-            "assd": 0.3095
+            "assd": 0.3113,
+            "centroid": 0.3871
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.394,
+            "centroid": 0.9497
           }
         },
         "registration": {
@@ -21081,15 +21081,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.7408,
-            "hd95": 1.1719,
-            "assd": 0.3973
-          },
           "spleen": {
-            "centroid": 0.6623,
-            "hd95": 1.159,
-            "assd": 0.3281
+            "hd95": 1.0,
+            "assd": 0.3329,
+            "centroid": 0.6623
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3964,
+            "centroid": 0.7408
           }
         },
         "registration": {
@@ -21172,15 +21172,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.5039,
-            "hd95": 1.1719,
-            "assd": 0.4076
-          },
           "spleen": {
-            "centroid": 0.4707,
+            "hd95": 1.0,
+            "assd": 0.3663,
+            "centroid": 0.4707
+          },
+          "aorta": {
             "hd95": 1.159,
-            "assd": 0.3908
+            "assd": 0.3925,
+            "centroid": 0.5039
           }
         },
         "registration": {
@@ -21263,15 +21263,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6632,
-            "hd95": 1.1719,
-            "assd": 0.2113
-          },
           "spleen": {
-            "centroid": 0.4195,
             "hd95": 1.0,
-            "assd": 0.3246
+            "assd": 0.2726,
+            "centroid": 0.4195
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.1832,
+            "centroid": 0.6632
           }
         },
         "registration": {
@@ -21354,15 +21354,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2218,
-            "hd95": 1.0,
-            "assd": 0.3338
-          },
           "spleen": {
-            "centroid": 0.2511,
             "hd95": 1.0,
-            "assd": 0.366
+            "assd": 0.3375,
+            "centroid": 0.2511
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.315,
+            "centroid": 0.2218
           }
         },
         "registration": {
@@ -21445,15 +21445,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.8134,
-            "hd95": 1.0,
-            "assd": 0.2582
-          },
           "spleen": {
-            "centroid": 0.4844,
             "hd95": 1.0,
-            "assd": 0.2178
+            "assd": 0.2073,
+            "centroid": 0.4844
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.241,
+            "centroid": 0.8134
           }
         },
         "registration": {
@@ -21536,15 +21536,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6637,
-            "hd95": 1.1719,
-            "assd": 0.2537
-          },
           "spleen": {
-            "centroid": 0.4021,
             "hd95": 1.1719,
-            "assd": 0.2524
+            "assd": 0.2425,
+            "centroid": 0.4021
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.2337,
+            "centroid": 0.6637
           }
         },
         "registration": {
@@ -21627,15 +21627,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 1.279,
-            "hd95": 2.1126,
-            "assd": 0.3983
-          },
           "spleen": {
-            "centroid": 1.2606,
             "hd95": 1.7578,
-            "assd": 0.3472
+            "assd": 0.3248,
+            "centroid": 1.2606
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2985,
+            "centroid": 1.279
           }
         },
         "registration": {
@@ -21718,15 +21718,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.5074,
-            "hd95": 1.1719,
-            "assd": 0.2241
-          },
           "spleen": {
-            "centroid": 0.6558,
             "hd95": 1.1719,
-            "assd": 0.1606
+            "assd": 0.1946,
+            "centroid": 0.6558
+          },
+          "aorta": {
+            "hd95": 0.8286,
+            "assd": 0.2463,
+            "centroid": 0.5074
           }
         },
         "registration": {
@@ -21809,15 +21809,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 1.4088,
-            "hd95": 1.7578,
-            "assd": 0.4427
-          },
           "spleen": {
-            "centroid": 1.3503,
             "hd95": 1.7578,
-            "assd": 0.3656
+            "assd": 0.3537,
+            "centroid": 1.3503
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3336,
+            "centroid": 1.4088
           }
         },
         "registration": {
@@ -21900,15 +21900,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 1.3174,
-            "hd95": 2.3438,
-            "assd": 0.4875
-          },
           "spleen": {
-            "centroid": 1.3289,
             "hd95": 1.7578,
-            "assd": 0.4045
+            "assd": 0.4168,
+            "centroid": 1.3289
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4149,
+            "centroid": 1.3174
           }
         },
         "registration": {
@@ -21991,15 +21991,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.7046,
-            "hd95": 1.1719,
-            "assd": 0.2244
-          },
           "spleen": {
-            "centroid": 0.729,
             "hd95": 1.1719,
-            "assd": 0.1959
+            "assd": 0.1963,
+            "centroid": 0.729
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2323,
+            "centroid": 0.7046
           }
         },
         "registration": {
@@ -22082,15 +22082,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.7204,
-            "hd95": 1.1719,
-            "assd": 0.2808
-          },
           "spleen": {
-            "centroid": 0.5526,
             "hd95": 1.1719,
-            "assd": 0.1975
+            "assd": 0.2293,
+            "centroid": 0.5526
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2745,
+            "centroid": 0.7204
           }
         },
         "registration": {
@@ -22173,15 +22173,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.5791,
-            "hd95": 1.1719,
-            "assd": 0.2696
-          },
           "spleen": {
-            "centroid": 0.2084,
-            "hd95": 0.8286,
-            "assd": 0.1613
+            "hd95": 1.1719,
+            "assd": 0.1966,
+            "centroid": 0.2084
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2781,
+            "centroid": 0.5791
           }
         },
         "registration": {
@@ -22264,15 +22264,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3487,
-            "hd95": 1.1719,
-            "assd": 0.2805
-          },
           "spleen": {
-            "centroid": 0.2627,
             "hd95": 0.5859,
-            "assd": 0.1577
+            "assd": 0.2125,
+            "centroid": 0.2627
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3087,
+            "centroid": 0.3487
           }
         },
         "registration": {
@@ -22355,15 +22355,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3215,
-            "hd95": 1.1719,
-            "assd": 0.2962
-          },
           "spleen": {
-            "centroid": 0.2656,
             "hd95": 0.5859,
-            "assd": 0.1672
+            "assd": 0.2174,
+            "centroid": 0.2656
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3192,
+            "centroid": 0.3215
           }
         },
         "registration": {
@@ -22446,15 +22446,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 1.541,
-            "hd95": 3.0,
-            "assd": 0.4482
-          },
           "spleen": {
-            "centroid": 1.2638,
             "hd95": 1.7578,
-            "assd": 0.3518
+            "assd": 0.3298,
+            "centroid": 1.2638
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3215,
+            "centroid": 1.541
           }
         },
         "registration": {
@@ -22537,15 +22537,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4086,
-            "hd95": 1.1719,
-            "assd": 0.226
-          },
           "spleen": {
-            "centroid": 0.6985,
             "hd95": 1.1719,
-            "assd": 0.1819
+            "assd": 0.2096,
+            "centroid": 0.6985
+          },
+          "aorta": {
+            "hd95": 0.8286,
+            "assd": 0.2485,
+            "centroid": 0.4086
           }
         },
         "registration": {
@@ -22628,15 +22628,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 1.5823,
-            "hd95": 3.0,
-            "assd": 0.4682
-          },
           "spleen": {
-            "centroid": 1.3488,
             "hd95": 1.7578,
-            "assd": 0.3636
+            "assd": 0.3542,
+            "centroid": 1.3488
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3424,
+            "centroid": 1.5823
           }
         },
         "registration": {
@@ -22719,15 +22719,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 1.4693,
-            "hd95": 3.0,
-            "assd": 0.5131
-          },
           "spleen": {
-            "centroid": 1.3152,
             "hd95": 1.7578,
-            "assd": 0.4012
+            "assd": 0.4163,
+            "centroid": 1.3152
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4238,
+            "centroid": 1.4693
           }
         },
         "registration": {
@@ -22810,15 +22810,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.7618,
-            "hd95": 1.1719,
-            "assd": 0.2394
-          },
           "spleen": {
-            "centroid": 0.6992,
             "hd95": 1.1719,
-            "assd": 0.187
+            "assd": 0.1883,
+            "centroid": 0.6992
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2476,
+            "centroid": 0.7618
           }
         },
         "registration": {
@@ -22901,15 +22901,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6532,
-            "hd95": 1.1719,
-            "assd": 0.2878
-          },
           "spleen": {
-            "centroid": 0.531,
             "hd95": 1.1719,
-            "assd": 0.1969
+            "assd": 0.2312,
+            "centroid": 0.531
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2856,
+            "centroid": 0.6532
           }
         },
         "registration": {
@@ -22992,15 +22992,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6209,
-            "hd95": 1.1719,
-            "assd": 0.2746
-          },
           "spleen": {
-            "centroid": 0.3933,
-            "hd95": 0.8286,
-            "assd": 0.1683
+            "hd95": 1.1719,
+            "assd": 0.2096,
+            "centroid": 0.3933
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2844,
+            "centroid": 0.6209
           }
         },
         "registration": {
@@ -23083,15 +23083,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.471,
-            "hd95": 1.1719,
-            "assd": 0.2759
-          },
           "spleen": {
-            "centroid": 0.2658,
             "hd95": 0.5859,
-            "assd": 0.1574
+            "assd": 0.212,
+            "centroid": 0.2658
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.305,
+            "centroid": 0.471
           }
         },
         "registration": {
@@ -23174,15 +23174,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4837,
-            "hd95": 1.1719,
-            "assd": 0.1257
-          },
           "spleen": {
-            "centroid": 0.2469,
             "hd95": 0.5859,
-            "assd": 0.0667
+            "assd": 0.0673,
+            "centroid": 0.2469
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.0922,
+            "centroid": 0.4837
           }
         },
         "registration": {
@@ -23265,15 +23265,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6189,
-            "hd95": 1.1597,
-            "assd": 0.3503
-          },
           "spleen": {
-            "centroid": 0.4105,
             "hd95": 1.0,
-            "assd": 0.3315
+            "assd": 0.2982,
+            "centroid": 0.4105
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3298,
+            "centroid": 0.6189
           }
         },
         "registration": {
@@ -23356,15 +23356,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6436,
-            "hd95": 1.0,
-            "assd": 0.2699
-          },
           "spleen": {
-            "centroid": 0.4106,
             "hd95": 1.0,
-            "assd": 0.2947
+            "assd": 0.2623,
+            "centroid": 0.4106
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2341,
+            "centroid": 0.6436
           }
         },
         "registration": {
@@ -23447,15 +23447,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.127,
-            "hd95": 1.0,
-            "assd": 0.32
-          },
           "spleen": {
-            "centroid": 0.2195,
             "hd95": 1.0,
-            "assd": 0.3231
+            "assd": 0.2931,
+            "centroid": 0.2195
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.292,
+            "centroid": 0.127
           }
         },
         "registration": {
@@ -23538,15 +23538,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3516,
-            "hd95": 1.1719,
-            "assd": 0.3074
-          },
           "spleen": {
-            "centroid": 0.342,
             "hd95": 1.0,
-            "assd": 0.3064
+            "assd": 0.2718,
+            "centroid": 0.342
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2723,
+            "centroid": 0.3516
           }
         },
         "registration": {
@@ -23629,15 +23629,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4034,
-            "hd95": 1.159,
-            "assd": 0.3223
-          },
           "spleen": {
-            "centroid": 0.2879,
             "hd95": 1.0,
-            "assd": 0.3409
+            "assd": 0.3137,
+            "centroid": 0.2879
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.3054,
+            "centroid": 0.4034
           }
         },
         "registration": {
@@ -23720,15 +23720,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.1911,
-            "hd95": 0.5859,
-            "assd": 0.172
-          },
           "spleen": {
-            "centroid": 0.1846,
-            "hd95": 1.0,
-            "assd": 0.1568
+            "hd95": 0.5859,
+            "assd": 0.152,
+            "centroid": 0.1846
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.1603,
+            "centroid": 0.1911
           }
         },
         "registration": {
@@ -23811,15 +23811,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.7165,
-            "hd95": 1.0,
-            "assd": 0.445
-          },
           "spleen": {
-            "centroid": 0.5195,
             "hd95": 1.0,
-            "assd": 0.3685
+            "assd": 0.3702,
+            "centroid": 0.5195
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.4362,
+            "centroid": 0.7165
           }
         },
         "registration": {
@@ -23902,15 +23902,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.1348,
-            "hd95": 1.159,
-            "assd": 0.4239
-          },
           "spleen": {
-            "centroid": 0.0825,
             "hd95": 1.0,
-            "assd": 0.3808
+            "assd": 0.358,
+            "centroid": 0.0825
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.4111,
+            "centroid": 0.1348
           }
         },
         "registration": {
@@ -23993,15 +23993,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4467,
-            "hd95": 1.1719,
-            "assd": 0.2527
-          },
           "spleen": {
-            "centroid": 0.5353,
             "hd95": 1.0,
-            "assd": 0.2885
+            "assd": 0.244,
+            "centroid": 0.5353
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.22,
+            "centroid": 0.4467
           }
         },
         "registration": {
@@ -24084,15 +24084,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6111,
-            "hd95": 1.1719,
-            "assd": 0.3508
-          },
           "spleen": {
-            "centroid": 0.4132,
             "hd95": 1.0,
-            "assd": 0.3325
+            "assd": 0.2995,
+            "centroid": 0.4132
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3305,
+            "centroid": 0.6111
           }
         },
         "registration": {
@@ -24175,15 +24175,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6147,
-            "hd95": 1.0,
-            "assd": 0.264
-          },
           "spleen": {
-            "centroid": 0.404,
             "hd95": 1.0,
-            "assd": 0.2938
+            "assd": 0.2604,
+            "centroid": 0.404
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2282,
+            "centroid": 0.6147
           }
         },
         "registration": {
@@ -24266,15 +24266,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.0974,
-            "hd95": 1.0,
-            "assd": 0.3208
-          },
           "spleen": {
-            "centroid": 0.2257,
             "hd95": 1.0,
-            "assd": 0.3217
+            "assd": 0.2917,
+            "centroid": 0.2257
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2922,
+            "centroid": 0.0974
           }
         },
         "registration": {
@@ -24357,15 +24357,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4007,
-            "hd95": 1.1719,
-            "assd": 0.3118
-          },
           "spleen": {
-            "centroid": 0.3478,
             "hd95": 1.0,
-            "assd": 0.3077
+            "assd": 0.2727,
+            "centroid": 0.3478
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2765,
+            "centroid": 0.4007
           }
         },
         "registration": {
@@ -24448,15 +24448,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3202,
-            "hd95": 1.159,
-            "assd": 0.3157
-          },
           "spleen": {
-            "centroid": 0.2751,
             "hd95": 1.0,
-            "assd": 0.34
+            "assd": 0.3129,
+            "centroid": 0.2751
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.2995,
+            "centroid": 0.3202
           }
         },
         "registration": {
@@ -24539,15 +24539,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2015,
-            "hd95": 0.5859,
-            "assd": 0.1695
-          },
           "spleen": {
-            "centroid": 0.1778,
-            "hd95": 1.0,
-            "assd": 0.1572
+            "hd95": 0.5859,
+            "assd": 0.1523,
+            "centroid": 0.1778
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.158,
+            "centroid": 0.2015
           }
         },
         "registration": {
@@ -24630,15 +24630,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6033,
-            "hd95": 1.0,
-            "assd": 0.4419
-          },
           "spleen": {
-            "centroid": 0.358,
             "hd95": 1.0,
-            "assd": 0.4018
+            "assd": 0.3811,
+            "centroid": 0.358
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.4328,
+            "centroid": 0.6033
           }
         },
         "registration": {
@@ -24721,15 +24721,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.1166,
-            "hd95": 1.159,
-            "assd": 0.4239
-          },
           "spleen": {
-            "centroid": 0.0795,
             "hd95": 1.0,
-            "assd": 0.3804
+            "assd": 0.3573,
+            "centroid": 0.0795
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.411,
+            "centroid": 0.1166
           }
         },
         "registration": {
@@ -24812,15 +24812,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6426,
-            "hd95": 1.1719,
-            "assd": 0.3419
-          },
           "spleen": {
-            "centroid": 0.2417,
             "hd95": 1.0,
-            "assd": 0.3698
+            "assd": 0.3465,
+            "centroid": 0.2417
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.319,
+            "centroid": 0.6426
           }
         },
         "registration": {
@@ -24903,15 +24903,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4308,
-            "hd95": 1.0,
-            "assd": 0.4301
-          },
           "spleen": {
-            "centroid": 0.2686,
             "hd95": 1.0,
-            "assd": 0.395
+            "assd": 0.3774,
+            "centroid": 0.2686
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.4186,
+            "centroid": 0.4308
           }
         },
         "registration": {
@@ -24994,15 +24994,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.279,
-            "hd95": 1.1719,
-            "assd": 0.4041
-          },
           "spleen": {
-            "centroid": 0.4045,
             "hd95": 1.0,
-            "assd": 0.3852
+            "assd": 0.36,
+            "centroid": 0.4045
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3832,
+            "centroid": 0.279
           }
         },
         "registration": {
@@ -25085,15 +25085,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.5369,
-            "hd95": 1.1719,
-            "assd": 0.4178
-          },
           "spleen": {
-            "centroid": 0.5605,
             "hd95": 1.0,
-            "assd": 0.3945
+            "assd": 0.3607,
+            "centroid": 0.5605
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3997,
+            "centroid": 0.5369
           }
         },
         "registration": {
@@ -25176,15 +25176,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 1.0249,
-            "hd95": 1.0,
-            "assd": 0.2633
-          },
           "spleen": {
-            "centroid": 0.2953,
             "hd95": 1.0,
-            "assd": 0.3146
+            "assd": 0.2692,
+            "centroid": 0.2953
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.227,
+            "centroid": 1.0249
           }
         },
         "registration": {
@@ -25267,15 +25267,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6972,
-            "hd95": 1.159,
-            "assd": 0.4009
-          },
           "spleen": {
-            "centroid": 0.3169,
             "hd95": 1.0,
-            "assd": 0.3873
+            "assd": 0.3607,
+            "centroid": 0.3169
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3838,
+            "centroid": 0.6972
           }
         },
         "registration": {
@@ -25358,15 +25358,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.7853,
-            "hd95": 1.1719,
-            "assd": 0.462
-          },
           "spleen": {
-            "centroid": 0.235,
             "hd95": 1.0,
-            "assd": 0.4066
+            "assd": 0.39,
+            "centroid": 0.235
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4512,
+            "centroid": 0.7853
           }
         },
         "registration": {
@@ -25449,15 +25449,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.1997,
-            "hd95": 1.0,
-            "assd": 0.2882
-          },
           "spleen": {
-            "centroid": 0.1852,
+            "hd95": 0.5859,
+            "assd": 0.2265,
+            "centroid": 0.1852
+          },
+          "aorta": {
             "hd95": 0.8286,
-            "assd": 0.2256
+            "assd": 0.2738,
+            "centroid": 0.1997
           }
         },
         "registration": {
@@ -25540,15 +25540,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 1.0894,
-            "hd95": 1.0,
-            "assd": 0.4502
-          },
           "spleen": {
-            "centroid": 0.4438,
             "hd95": 1.0,
-            "assd": 0.4225
+            "assd": 0.4018,
+            "centroid": 0.4438
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.435,
+            "centroid": 1.0894
           }
         },
         "registration": {
@@ -25631,15 +25631,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2444,
-            "hd95": 1.1719,
-            "assd": 0.3143
-          },
           "spleen": {
-            "centroid": 0.588,
-            "hd95": 1.159,
-            "assd": 0.3198
+            "hd95": 1.0,
+            "assd": 0.3171,
+            "centroid": 0.588
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2992,
+            "centroid": 0.2444
           }
         },
         "registration": {
@@ -25722,15 +25722,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2275,
-            "hd95": 1.0,
-            "assd": 0.4267
-          },
           "spleen": {
-            "centroid": 0.2712,
             "hd95": 1.0,
-            "assd": 0.3944
+            "assd": 0.3762,
+            "centroid": 0.2712
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.4167,
+            "centroid": 0.2275
           }
         },
         "registration": {
@@ -25813,15 +25813,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2147,
-            "hd95": 1.1719,
-            "assd": 0.4047
-          },
           "spleen": {
-            "centroid": 0.4077,
             "hd95": 1.0,
-            "assd": 0.3884
+            "assd": 0.362,
+            "centroid": 0.4077
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3852,
+            "centroid": 0.2147
           }
         },
         "registration": {
@@ -25904,15 +25904,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4162,
-            "hd95": 1.1719,
-            "assd": 0.4169
-          },
           "spleen": {
-            "centroid": 0.5584,
             "hd95": 1.0,
-            "assd": 0.394
+            "assd": 0.3603,
+            "centroid": 0.5584
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4,
+            "centroid": 0.4162
           }
         },
         "registration": {
@@ -25995,15 +25995,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.727,
-            "hd95": 1.0,
-            "assd": 0.2554
-          },
           "spleen": {
-            "centroid": 0.2831,
             "hd95": 1.0,
-            "assd": 0.3121
+            "assd": 0.2673,
+            "centroid": 0.2831
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2224,
+            "centroid": 0.727
           }
         },
         "registration": {
@@ -26086,15 +26086,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3488,
-            "hd95": 1.159,
-            "assd": 0.3963
-          },
           "spleen": {
-            "centroid": 0.3311,
             "hd95": 1.0,
-            "assd": 0.3884
+            "assd": 0.3622,
+            "centroid": 0.3311
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3812,
+            "centroid": 0.3488
           }
         },
         "registration": {
@@ -26177,15 +26177,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6381,
-            "hd95": 1.1719,
-            "assd": 0.4625
-          },
           "spleen": {
-            "centroid": 0.253,
             "hd95": 1.159,
-            "assd": 0.4091
+            "assd": 0.3927,
+            "centroid": 0.253
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.4519,
+            "centroid": 0.6381
           }
         },
         "registration": {
@@ -26268,15 +26268,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.1721,
-            "hd95": 1.0,
-            "assd": 0.2861
-          },
           "spleen": {
-            "centroid": 0.1796,
-            "hd95": 1.0,
-            "assd": 0.2269
+            "hd95": 0.5859,
+            "assd": 0.2277,
+            "centroid": 0.1796
+          },
+          "aorta": {
+            "hd95": 0.5859,
+            "assd": 0.2731,
+            "centroid": 0.1721
           }
         },
         "registration": {
@@ -26359,15 +26359,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3676,
-            "hd95": 1.1719,
-            "assd": 0.4095
-          },
           "spleen": {
-            "centroid": 0.2993,
-            "hd95": 1.159,
-            "assd": 0.388
+            "hd95": 1.0,
+            "assd": 0.3611,
+            "centroid": 0.2993
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3754,
+            "centroid": 0.3676
           }
         },
         "registration": {
@@ -26450,15 +26450,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2345,
-            "hd95": 1.1719,
-            "assd": 0.3171
-          },
           "spleen": {
-            "centroid": 0.5994,
-            "hd95": 1.1719,
-            "assd": 0.3243
+            "hd95": 1.0,
+            "assd": 0.3222,
+            "centroid": 0.5994
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.3025,
+            "centroid": 0.2345
           }
         },
         "registration": {
@@ -26541,15 +26541,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.327,
-            "hd95": 1.1719,
-            "assd": 0.3962
-          },
           "spleen": {
-            "centroid": 0.283,
-            "hd95": 1.159,
-            "assd": 0.3644
+            "hd95": 1.0,
+            "assd": 0.3398,
+            "centroid": 0.283
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.371,
+            "centroid": 0.327
           }
         },
         "registration": {
@@ -26632,15 +26632,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2948,
-            "hd95": 1.1719,
-            "assd": 0.3908
-          },
           "spleen": {
-            "centroid": 0.2931,
-            "hd95": 1.159,
-            "assd": 0.3632
+            "hd95": 1.0,
+            "assd": 0.3377,
+            "centroid": 0.2931
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3661,
+            "centroid": 0.2948
           }
         },
         "registration": {
@@ -26723,15 +26723,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.5032,
-            "hd95": 1.1719,
-            "assd": 0.3822
-          },
           "spleen": {
-            "centroid": 0.2805,
-            "hd95": 1.159,
-            "assd": 0.3629
+            "hd95": 1.0,
+            "assd": 0.3373,
+            "centroid": 0.2805
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3583,
+            "centroid": 0.5032
           }
         },
         "registration": {
@@ -26814,15 +26814,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2979,
-            "hd95": 1.1719,
-            "assd": 0.3893
-          },
           "spleen": {
-            "centroid": 0.2819,
-            "hd95": 1.159,
-            "assd": 0.3623
+            "hd95": 1.0,
+            "assd": 0.3366,
+            "centroid": 0.2819
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3647,
+            "centroid": 0.2979
           }
         },
         "registration": {
@@ -26905,15 +26905,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.263,
-            "hd95": 1.1719,
-            "assd": 0.388
-          },
           "spleen": {
-            "centroid": 0.2508,
             "hd95": 1.0,
-            "assd": 0.3594
+            "assd": 0.333,
+            "centroid": 0.2508
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3629,
+            "centroid": 0.263
           }
         },
         "registration": {
@@ -26996,15 +26996,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2552,
-            "hd95": 1.1719,
-            "assd": 0.384
-          },
           "spleen": {
-            "centroid": 0.2648,
             "hd95": 1.0,
-            "assd": 0.3593
+            "assd": 0.3333,
+            "centroid": 0.2648
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3588,
+            "centroid": 0.2552
           }
         },
         "registration": {
@@ -27087,15 +27087,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2355,
-            "hd95": 1.1719,
-            "assd": 0.3802
-          },
           "spleen": {
-            "centroid": 0.2549,
             "hd95": 1.0,
-            "assd": 0.3585
+            "assd": 0.3329,
+            "centroid": 0.2549
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3543,
+            "centroid": 0.2355
           }
         },
         "registration": {
@@ -27178,15 +27178,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2321,
-            "hd95": 1.1719,
-            "assd": 0.3802
-          },
           "spleen": {
-            "centroid": 0.2288,
             "hd95": 1.0,
-            "assd": 0.3544
+            "assd": 0.3283,
+            "centroid": 0.2288
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3548,
+            "centroid": 0.2321
           }
         },
         "registration": {
@@ -27269,15 +27269,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2267,
-            "hd95": 1.1719,
-            "assd": 0.3794
-          },
           "spleen": {
-            "centroid": 0.2298,
             "hd95": 1.0,
-            "assd": 0.3561
+            "assd": 0.3298,
+            "centroid": 0.2298
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3531,
+            "centroid": 0.2267
           }
         },
         "registration": {
@@ -27360,15 +27360,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2291,
-            "hd95": 1.1719,
-            "assd": 0.2878
-          },
           "spleen": {
-            "centroid": 0.2635,
             "hd95": 1.0,
-            "assd": 0.3288
+            "assd": 0.2824,
+            "centroid": 0.2635
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2584,
+            "centroid": 0.2291
           }
         },
         "registration": {
@@ -27451,15 +27451,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4501,
-            "hd95": 1.1719,
-            "assd": 0.289
-          },
           "spleen": {
-            "centroid": 0.2135,
             "hd95": 1.0,
-            "assd": 0.3271
+            "assd": 0.2814,
+            "centroid": 0.2135
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2589,
+            "centroid": 0.4501
           }
         },
         "registration": {
@@ -27542,15 +27542,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2969,
-            "hd95": 1.1719,
-            "assd": 0.2867
-          },
           "spleen": {
-            "centroid": 0.2861,
             "hd95": 1.0,
-            "assd": 0.3285
+            "assd": 0.2822,
+            "centroid": 0.2861
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2596,
+            "centroid": 0.2969
           }
         },
         "registration": {
@@ -27633,15 +27633,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2971,
-            "hd95": 1.1719,
-            "assd": 0.2831
-          },
           "spleen": {
-            "centroid": 0.2776,
             "hd95": 1.0,
-            "assd": 0.3321
+            "assd": 0.2855,
+            "centroid": 0.2776
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2564,
+            "centroid": 0.2971
           }
         },
         "registration": {
@@ -27724,15 +27724,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2684,
-            "hd95": 1.1719,
-            "assd": 0.2819
-          },
           "spleen": {
-            "centroid": 0.2917,
             "hd95": 1.0,
-            "assd": 0.3318
+            "assd": 0.2866,
+            "centroid": 0.2917
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2541,
+            "centroid": 0.2684
           }
         },
         "registration": {
@@ -27815,15 +27815,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3059,
-            "hd95": 1.1719,
-            "assd": 0.2957
-          },
           "spleen": {
-            "centroid": 0.2664,
             "hd95": 1.0,
-            "assd": 0.3349
+            "assd": 0.2898,
+            "centroid": 0.2664
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.268,
+            "centroid": 0.3059
           }
         },
         "registration": {
@@ -27906,15 +27906,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3758,
-            "hd95": 1.1719,
-            "assd": 0.2901
-          },
           "spleen": {
-            "centroid": 0.283,
             "hd95": 1.0,
-            "assd": 0.335
+            "assd": 0.2902,
+            "centroid": 0.283
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2624,
+            "centroid": 0.3758
           }
         },
         "registration": {
@@ -27997,15 +27997,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4262,
-            "hd95": 1.1719,
-            "assd": 0.286
-          },
           "spleen": {
-            "centroid": 0.2839,
             "hd95": 1.0,
-            "assd": 0.3376
+            "assd": 0.2927,
+            "centroid": 0.2839
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2584,
+            "centroid": 0.4262
           }
         },
         "registration": {
@@ -28088,15 +28088,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2804,
-            "hd95": 1.1719,
-            "assd": 0.2948
-          },
           "spleen": {
-            "centroid": 0.319,
             "hd95": 1.0,
-            "assd": 0.3409
+            "assd": 0.2964,
+            "centroid": 0.319
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2694,
+            "centroid": 0.2804
           }
         },
         "registration": {
@@ -28179,15 +28179,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4638,
-            "hd95": 1.1719,
-            "assd": 0.2841
-          },
           "spleen": {
-            "centroid": 0.2733,
             "hd95": 1.0,
-            "assd": 0.3269
+            "assd": 0.2804,
+            "centroid": 0.2733
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2565,
+            "centroid": 0.4638
           }
         },
         "registration": {
@@ -28270,15 +28270,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3163,
-            "hd95": 1.1719,
-            "assd": 0.2859
-          },
           "spleen": {
-            "centroid": 0.2284,
             "hd95": 1.0,
-            "assd": 0.3265
+            "assd": 0.2802,
+            "centroid": 0.2284
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2591,
+            "centroid": 0.3163
           }
         },
         "registration": {
@@ -28361,15 +28361,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6101,
-            "hd95": 1.1719,
-            "assd": 0.2936
-          },
           "spleen": {
-            "centroid": 0.2241,
             "hd95": 1.0,
-            "assd": 0.3254
+            "assd": 0.2798,
+            "centroid": 0.2241
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2622,
+            "centroid": 0.6101
           }
         },
         "registration": {
@@ -28452,15 +28452,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3958,
-            "hd95": 1.1719,
-            "assd": 0.281
-          },
           "spleen": {
-            "centroid": 0.2351,
             "hd95": 1.0,
-            "assd": 0.3259
+            "assd": 0.2797,
+            "centroid": 0.2351
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2554,
+            "centroid": 0.3958
           }
         },
         "registration": {
@@ -28543,15 +28543,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.5944,
-            "hd95": 1.1719,
-            "assd": 0.2932
-          },
           "spleen": {
-            "centroid": 0.2759,
             "hd95": 1.0,
-            "assd": 0.3292
+            "assd": 0.2833,
+            "centroid": 0.2759
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2646,
+            "centroid": 0.5944
           }
         },
         "registration": {
@@ -28634,15 +28634,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2748,
-            "hd95": 1.1719,
-            "assd": 0.287
-          },
           "spleen": {
-            "centroid": 0.2739,
             "hd95": 1.0,
-            "assd": 0.3298
+            "assd": 0.2843,
+            "centroid": 0.2739
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2605,
+            "centroid": 0.2748
           }
         },
         "registration": {
@@ -28725,15 +28725,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.364,
-            "hd95": 1.1719,
-            "assd": 0.2858
-          },
           "spleen": {
-            "centroid": 0.2702,
             "hd95": 1.0,
-            "assd": 0.3324
+            "assd": 0.2872,
+            "centroid": 0.2702
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2608,
+            "centroid": 0.364
           }
         },
         "registration": {
@@ -28816,15 +28816,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4827,
-            "hd95": 1.1719,
-            "assd": 0.2839
-          },
           "spleen": {
-            "centroid": 0.2747,
             "hd95": 1.0,
-            "assd": 0.3297
+            "assd": 0.2843,
+            "centroid": 0.2747
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2584,
+            "centroid": 0.4827
           }
         },
         "registration": {
@@ -28907,15 +28907,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.5955,
-            "hd95": 1.1719,
-            "assd": 0.2997
-          },
           "spleen": {
-            "centroid": 0.2741,
             "hd95": 1.0,
-            "assd": 0.3351
+            "assd": 0.2902,
+            "centroid": 0.2741
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.272,
+            "centroid": 0.5955
           }
         },
         "registration": {
@@ -28998,15 +28998,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4127,
-            "hd95": 1.1719,
-            "assd": 0.3884
-          },
           "spleen": {
-            "centroid": 0.3066,
             "hd95": 1.0,
-            "assd": 0.3921
+            "assd": 0.3603,
+            "centroid": 0.3066
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3671,
+            "centroid": 0.4127
           }
         },
         "registration": {
@@ -29089,15 +29089,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3646,
-            "hd95": 1.1719,
-            "assd": 0.3929
-          },
           "spleen": {
-            "centroid": 0.2795,
-            "hd95": 1.159,
-            "assd": 0.3607
+            "hd95": 1.0,
+            "assd": 0.3358,
+            "centroid": 0.2795
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3657,
+            "centroid": 0.3646
           }
         },
         "registration": {
@@ -29180,15 +29180,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2954,
-            "hd95": 1.1719,
-            "assd": 0.2721
-          },
           "spleen": {
-            "centroid": 0.1892,
             "hd95": 1.0,
-            "assd": 0.1971
+            "assd": 0.1939,
+            "centroid": 0.1892
+          },
+          "aorta": {
+            "hd95": 1.159,
+            "assd": 0.2471,
+            "centroid": 0.2954
           }
         },
         "registration": {
@@ -29271,15 +29271,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2681,
-            "hd95": 1.1719,
-            "assd": 0.3861
-          },
           "spleen": {
-            "centroid": 0.2833,
-            "hd95": 1.159,
-            "assd": 0.36
+            "hd95": 1.0,
+            "assd": 0.335,
+            "centroid": 0.2833
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.36,
+            "centroid": 0.2681
           }
         },
         "registration": {
@@ -29362,15 +29362,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.1993,
-            "hd95": 1.1719,
-            "assd": 0.2645
-          },
           "spleen": {
-            "centroid": 0.1657,
             "hd95": 1.0,
-            "assd": 0.1985
+            "assd": 0.1945,
+            "centroid": 0.1657
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2411,
+            "centroid": 0.1993
           }
         },
         "registration": {
@@ -29453,15 +29453,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4356,
-            "hd95": 1.1719,
-            "assd": 0.378
-          },
           "spleen": {
-            "centroid": 0.2753,
-            "hd95": 1.159,
-            "assd": 0.3613
+            "hd95": 1.0,
+            "assd": 0.3359,
+            "centroid": 0.2753
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3534,
+            "centroid": 0.4356
           }
         },
         "registration": {
@@ -29544,15 +29544,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.1644,
-            "hd95": 1.1719,
-            "assd": 0.2624
-          },
           "spleen": {
-            "centroid": 0.1715,
             "hd95": 1.0,
-            "assd": 0.1958
+            "assd": 0.1919,
+            "centroid": 0.1715
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2365,
+            "centroid": 0.1644
           }
         },
         "registration": {
@@ -29635,15 +29635,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3231,
-            "hd95": 1.1719,
-            "assd": 0.3879
-          },
           "spleen": {
-            "centroid": 0.2666,
             "hd95": 1.0,
-            "assd": 0.3594
+            "assd": 0.3341,
+            "centroid": 0.2666
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3642,
+            "centroid": 0.3231
           }
         },
         "registration": {
@@ -29726,15 +29726,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.1732,
-            "hd95": 1.1719,
-            "assd": 0.2698
-          },
           "spleen": {
-            "centroid": 0.213,
             "hd95": 1.0,
-            "assd": 0.1996
+            "assd": 0.1956,
+            "centroid": 0.213
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.242,
+            "centroid": 0.1732
           }
         },
         "registration": {
@@ -29817,15 +29817,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2363,
-            "hd95": 1.1719,
-            "assd": 0.3837
-          },
           "spleen": {
-            "centroid": 0.2455,
             "hd95": 1.0,
-            "assd": 0.3575
+            "assd": 0.3317,
+            "centroid": 0.2455
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3576,
+            "centroid": 0.2363
           }
         },
         "registration": {
@@ -29908,15 +29908,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2258,
-            "hd95": 1.159,
-            "assd": 0.2596
-          },
           "spleen": {
-            "centroid": 0.1631,
             "hd95": 1.0,
-            "assd": 0.1938
+            "assd": 0.1901,
+            "centroid": 0.1631
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.235,
+            "centroid": 0.2258
           }
         },
         "registration": {
@@ -29999,15 +29999,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2908,
-            "hd95": 1.1719,
-            "assd": 0.3829
-          },
           "spleen": {
-            "centroid": 0.2527,
             "hd95": 1.0,
-            "assd": 0.3561
+            "assd": 0.3305,
+            "centroid": 0.2527
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3575,
+            "centroid": 0.2908
           }
         },
         "registration": {
@@ -30090,15 +30090,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4086,
-            "hd95": 1.1719,
-            "assd": 0.258
-          },
           "spleen": {
-            "centroid": 0.1465,
             "hd95": 1.0,
-            "assd": 0.1927
+            "assd": 0.1893,
+            "centroid": 0.1465
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2338,
+            "centroid": 0.4086
           }
         },
         "registration": {
@@ -30181,15 +30181,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.285,
-            "hd95": 1.1719,
-            "assd": 0.3831
-          },
           "spleen": {
-            "centroid": 0.2483,
             "hd95": 1.0,
-            "assd": 0.3552
+            "assd": 0.3293,
+            "centroid": 0.2483
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3566,
+            "centroid": 0.285
           }
         },
         "registration": {
@@ -30272,15 +30272,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.1358,
-            "hd95": 1.1719,
-            "assd": 0.2623
-          },
           "spleen": {
-            "centroid": 0.1767,
             "hd95": 1.0,
-            "assd": 0.1938
+            "assd": 0.1896,
+            "centroid": 0.1767
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2373,
+            "centroid": 0.1358
           }
         },
         "registration": {
@@ -30363,15 +30363,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2152,
-            "hd95": 1.1719,
-            "assd": 0.3792
-          },
           "spleen": {
-            "centroid": 0.2157,
             "hd95": 1.0,
-            "assd": 0.3507
+            "assd": 0.3249,
+            "centroid": 0.2157
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.3532,
+            "centroid": 0.2152
           }
         },
         "registration": {
@@ -30454,15 +30454,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.1479,
-            "hd95": 1.1719,
-            "assd": 0.2646
-          },
           "spleen": {
-            "centroid": 0.1357,
             "hd95": 1.0,
-            "assd": 0.1918
+            "assd": 0.1888,
+            "centroid": 0.1357
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.239,
+            "centroid": 0.1479
           }
         },
         "registration": {
@@ -30545,15 +30545,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.2422,
-            "hd95": 1.1719,
-            "assd": 0.3763
-          },
           "spleen": {
-            "centroid": 0.2214,
             "hd95": 1.0,
-            "assd": 0.354
+            "assd": 0.3279,
+            "centroid": 0.2214
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.349,
+            "centroid": 0.2422
           }
         },
         "registration": {
@@ -30636,15 +30636,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3153,
-            "hd95": 1.0,
-            "assd": 0.2564
-          },
           "spleen": {
-            "centroid": 0.1549,
             "hd95": 1.0,
-            "assd": 0.1869
+            "assd": 0.1837,
+            "centroid": 0.1549
+          },
+          "aorta": {
+            "hd95": 1.0,
+            "assd": 0.2311,
+            "centroid": 0.3153
           }
         },
         "registration": {
@@ -30727,15 +30727,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.5456,
-            "hd95": 1.1719,
-            "assd": 0.2786
-          },
           "spleen": {
-            "centroid": 0.2715,
             "hd95": 1.0,
-            "assd": 0.3298
+            "assd": 0.2825,
+            "centroid": 0.2715
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2512,
+            "centroid": 0.5456
           }
         },
         "registration": {
@@ -30818,15 +30818,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3771,
-            "hd95": 1.1719,
-            "assd": 0.2853
-          },
           "spleen": {
-            "centroid": 0.2315,
             "hd95": 1.0,
-            "assd": 0.3286
+            "assd": 0.2821,
+            "centroid": 0.2315
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2583,
+            "centroid": 0.3771
           }
         },
         "registration": {
@@ -30909,15 +30909,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6877,
-            "hd95": 1.1719,
-            "assd": 0.2911
-          },
           "spleen": {
-            "centroid": 0.2507,
             "hd95": 1.0,
-            "assd": 0.3269
+            "assd": 0.2808,
+            "centroid": 0.2507
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2604,
+            "centroid": 0.6877
           }
         },
         "registration": {
@@ -31000,15 +31000,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4321,
-            "hd95": 1.1719,
-            "assd": 0.2807
-          },
           "spleen": {
-            "centroid": 0.2371,
             "hd95": 1.0,
-            "assd": 0.3276
+            "assd": 0.2811,
+            "centroid": 0.2371
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2549,
+            "centroid": 0.4321
           }
         },
         "registration": {
@@ -31091,15 +31091,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.6698,
-            "hd95": 1.1719,
-            "assd": 0.2929
-          },
           "spleen": {
-            "centroid": 0.2742,
             "hd95": 1.0,
-            "assd": 0.332
+            "assd": 0.2854,
+            "centroid": 0.2742
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2643,
+            "centroid": 0.6698
           }
         },
         "registration": {
@@ -31182,15 +31182,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3273,
-            "hd95": 1.1719,
-            "assd": 0.2857
-          },
           "spleen": {
-            "centroid": 0.2661,
             "hd95": 1.0,
-            "assd": 0.3321
+            "assd": 0.2862,
+            "centroid": 0.2661
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2591,
+            "centroid": 0.3273
           }
         },
         "registration": {
@@ -31273,15 +31273,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.3973,
-            "hd95": 1.1719,
-            "assd": 0.285
-          },
           "spleen": {
-            "centroid": 0.2627,
             "hd95": 1.0,
-            "assd": 0.3323
+            "assd": 0.2867,
+            "centroid": 0.2627
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2585,
+            "centroid": 0.3973
           }
         },
         "registration": {
@@ -31364,15 +31364,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.4962,
-            "hd95": 1.1719,
-            "assd": 0.2847
-          },
           "spleen": {
-            "centroid": 0.2793,
             "hd95": 1.0,
-            "assd": 0.3322
+            "assd": 0.2868,
+            "centroid": 0.2793
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2588,
+            "centroid": 0.4962
           }
         },
         "registration": {
@@ -31455,15 +31455,15 @@ window.DATASETS = {
           }
         },
         "residual": {
-          "aorta": {
-            "centroid": 0.7219,
-            "hd95": 1.1719,
-            "assd": 0.2977
-          },
           "spleen": {
-            "centroid": 0.2613,
             "hd95": 1.0,
-            "assd": 0.3373
+            "assd": 0.2918,
+            "centroid": 0.2613
+          },
+          "aorta": {
+            "hd95": 1.1719,
+            "assd": 0.2688,
+            "centroid": 0.7219
           }
         },
         "registration": {
