@@ -41496,13 +41496,13 @@ window.DATASETS = {
               "components": 2,
               "largest_fraction": 0.9944,
               "small_volume_mm3": 183.3,
-              "raw_assd": 8.5929,
-              "largest_assd": 0.2671,
-              "raw_mssd": 5.2511,
-              "largest_mssd": 0.2654
+              "raw_assd": 8.5681,
+              "largest_assd": 0.2435,
+              "raw_mssd": 5.2258,
+              "largest_mssd": 0.2409
             }
           },
-          "summary": "Sağ böbrek: 2 bileşen, ~183 mm³ adacık; ASSD 8.59→0.27 mm"
+          "summary": "Sağ böbrek: 2 bileşen, ~183 mm³ adacık; ASSD 8.57→0.24 mm"
         }
       },
       {
@@ -41902,13 +41902,13 @@ window.DATASETS = {
               "components": 2,
               "largest_fraction": 0.9975,
               "small_volume_mm3": 83.4,
-              "raw_assd": 4.7817,
-              "largest_assd": 0.2952,
-              "raw_mssd": 3.1049,
-              "largest_mssd": 0.308
+              "raw_assd": 4.7952,
+              "largest_assd": 0.317,
+              "raw_mssd": 2.9371,
+              "largest_mssd": 0.326
             }
           },
-          "summary": "Sağ böbrek: 2 bileşen, ~83 mm³ adacık; ASSD 4.78→0.30 mm"
+          "summary": "Sağ böbrek: 2 bileşen, ~83 mm³ adacık; ASSD 4.80→0.32 mm"
         }
       },
       {
@@ -42371,13 +42371,13 @@ window.DATASETS = {
               "components": 2,
               "largest_fraction": 0.9967,
               "small_volume_mm3": 108.1,
-              "raw_assd": 6.1426,
-              "largest_assd": 0.2811,
-              "raw_mssd": 4.1098,
-              "largest_mssd": 0.2783
+              "raw_assd": 6.1219,
+              "largest_assd": 0.2614,
+              "raw_mssd": 4.0877,
+              "largest_mssd": 0.2567
             }
           },
-          "summary": "Sağ böbrek: 2 bileşen, ~108 mm³ adacık; ASSD 6.14→0.28 mm"
+          "summary": "Sağ böbrek: 2 bileşen, ~108 mm³ adacık; ASSD 6.12→0.26 mm"
         }
       },
       {
@@ -42777,13 +42777,13 @@ window.DATASETS = {
               "components": 2,
               "largest_fraction": 0.9952,
               "small_volume_mm3": 161.7,
-              "raw_assd": 8.3914,
-              "largest_assd": 0.3038,
-              "raw_mssd": 5.057,
-              "largest_mssd": 0.3169
+              "raw_assd": 8.4167,
+              "largest_assd": 0.3271,
+              "raw_mssd": 5.0772,
+              "largest_mssd": 0.3359
             }
           },
-          "summary": "Sağ böbrek: 2 bileşen, ~162 mm³ adacık; ASSD 8.39→0.30 mm"
+          "summary": "Sağ böbrek: 2 bileşen, ~162 mm³ adacık; ASSD 8.42→0.33 mm"
         }
       },
       {
