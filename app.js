@@ -4,7 +4,13 @@
   const data = window.CASES;
   if (!data) throw new Error("data.js yüklenemedi");
 
-  const ORGAN_LABEL = { aorta: "Aorta", spleen: "Spleen" };
+  const ORGAN_LABEL = {
+    aorta: "Aorta",
+    spleen: "Dalak",
+    kidney_right: "Böbrek sağ",
+    kidney_left: "Böbrek sol",
+  };
+  const ORGAN_SHORT = { aorta: "A", spleen: "S", kidney_right: "BR", kidney_left: "BL" };
   const PLANE_LABEL = { axial: "Aksiyel", coronal: "Koronal" };
   const state = {
     view: "gallery",
@@ -14,7 +20,7 @@
     sliceMode: "all",
     sliceIndex: 1,
     allIndex: 0,
-    mode: (data.beforeLabel || "").toLowerCase().includes("identity") ? "slider" : "three",
+    mode: (data.beforeLabel || "").toLowerCase().includes("identity") ? "slider" : "four",
     split: 50,
     galleryQuery: "",
     gallerySort: "date",
@@ -68,8 +74,10 @@
   imgBefore: $("#imgBefore"),
   imgAfter: $("#imgAfter"),
   imgRaw: $("#imgRaw"),
+  imgIdentity: $("#imgIdentity"),
   tagBefore: $("#tagBefore"),
   tagAfter: $("#tagAfter"),
+  tagIdentity: $("#tagIdentity"),
     splitRange: $("#splitRange"),
     sliderRow: $("#sliderRow"),
     modeToggle: $("#modeToggle"),
@@ -141,8 +149,9 @@
     let best = { delta: -Infinity, organ: "aorta", item: null };
     let low = { after: Infinity, organ: "aorta", item: null };
     data.cases.filter((item) => !item.qc).forEach((item) => {
-      ["aorta", "spleen"].forEach((organ) => {
-        const scores = item.scores[organ];
+      Object.keys(ORGAN_LABEL).forEach((organ) => {
+        const scores = item.scores?.[organ];
+        if (!scores) return;
         const delta = scores.after - scores.before;
         if (delta > best.delta) best = { delta, organ, item };
         if (scores.after < low.after) low = { after: scores.after, organ, item };
@@ -157,6 +166,58 @@
     refs.fixedRef.textContent = data.fixed;
   }
 
+  function renderArtifacts() {
+    const panel = document.getElementById("artifactPanel");
+    const list = document.getElementById("artifactList");
+    const count = document.getElementById("artifactCount");
+    const breakdown = document.getElementById("artifactBreakdown");
+    if (!panel || !list || !count || !breakdown || !window.DATASETS) return;
+    const labels = { sep: "SEP", pcct: "PCCT", zurich: "Zürich" };
+    const current = new URLSearchParams(location.search).get("dataset") || "sep";
+    const rows = [];
+    Object.entries(window.DATASETS).forEach(([key, dataset]) => {
+      (dataset.cases || []).forEach((item) => {
+        if (!item.artifact && !item.segFailure) return;
+        const info = item.artifact || item.segFailure;
+        rows.push({
+          key,
+          label: labels[key] || key.toUpperCase(),
+          id: item.id,
+          series: item.series,
+          summary: info.summary,
+          kind: item.segFailure ? "failure" : "island",
+          order: item.order ?? 0,
+        });
+      });
+    });
+    rows.sort((a, b) => a.key.localeCompare(b.key) || a.order - b.order);
+    const islands = rows.filter((row) => row.kind === "island").length;
+    const failures = rows.filter((row) => row.kind === "failure").length;
+    count.textContent = String(rows.length);
+    breakdown.textContent = `${islands} adacık + ${failures} hata`;
+    panel.hidden = rows.length === 0;
+    list.innerHTML = rows.map((row) => `
+      <div class="artifact-row ${row.kind}" data-case-id="${row.id}" data-dataset="${row.key}">
+        <a class="artifact-ds" href="?dataset=${row.key}">${row.label}</a>
+        <span class="artifact-case">${row.series}</span>
+        <span class="artifact-summary">${row.summary}</span>
+        <span class="artifact-kind">${row.kind === "failure" ? "SEG HATASI" : "ADACIK"}</span>
+      </div>
+    `).join("");
+    list.querySelectorAll(".artifact-row").forEach((row) => {
+      row.addEventListener("click", (event) => {
+        if (event.target.closest(".artifact-ds")) return;
+        const key = row.dataset.dataset;
+        if (key === current) {
+          openCase(row.dataset.caseId);
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        } else {
+          location.href = `?dataset=${key}`;
+        }
+      });
+    });
+  }
+
   function renderCaseTabs() {
     refs.caseTabs.innerHTML = "";
     const featured = data.cases.filter((item) => item.featured);
@@ -166,12 +227,16 @@
       const button = document.createElement("button");
       button.type = "button";
       button.className = "case-tab";
+      const flagged = Boolean(item.artifact || item.segFailure);
+      const badge = item.segFailure
+        ? "SEG HATASI"
+        : item.artifact ? "SEG ADACIK" : displayTag(item);
       button.dataset.caseId = item.id;
-      button.dataset.tone = item.tone;
+      button.dataset.tone = flagged ? "amber" : item.tone;
       button.innerHTML = `
         <div class="tab-kicker">
           <span class="tab-title">${item.title}</span>
-          <span class="tab-badge">${displayTag(item)}</span>
+          <span class="tab-badge">${badge}</span>
         </div>
         <div class="tab-series">${item.series} · ${data.fixed}</div>
         <span class="tab-bar"></span>
@@ -198,16 +263,22 @@
         .toLowerCase()
         .includes(query);
     });
-    const averageGain = (item) => (
-      (item.scores.aorta.after - item.scores.aorta.before)
-      + (item.scores.spleen.after - item.scores.spleen.before)
-    ) / 2;
-    const minFinal = (item) => Math.min(item.scores.aorta.after, item.scores.spleen.after);
+    const averageGain = (item) => {
+      const values = Object.values(item.scores || {});
+      const total = values.reduce((sum, s) => sum + (s.after - s.before), 0);
+      return total / Math.max(1, values.length);
+    };
+    const minFinal = (item) => Math.min(
+      ...Object.values(item.scores || {}).map((s) => s.after)
+    );
+    const finalOf = (item, organ) => item.scores?.[organ]?.after ?? -Infinity;
     const sorters = {
       date: (a, b) => a.order - b.order,
       gain: (a, b) => averageGain(b) - averageGain(a),
-      aortaFinal: (a, b) => b.scores.aorta.after - a.scores.aorta.after,
-      spleenFinal: (a, b) => b.scores.spleen.after - a.scores.spleen.after,
+      aortaFinal: (a, b) => finalOf(b, "aorta") - finalOf(a, "aorta"),
+      spleenFinal: (a, b) => finalOf(b, "spleen") - finalOf(a, "spleen"),
+      kidneyRightFinal: (a, b) => finalOf(b, "kidney_right") - finalOf(a, "kidney_right"),
+      kidneyLeftFinal: (a, b) => finalOf(b, "kidney_left") - finalOf(a, "kidney_left"),
       low: (a, b) => minFinal(a) - minFinal(b),
     };
     return items.sort(sorters[state.gallerySort] ?? sorters.date);
@@ -217,8 +288,16 @@
     const items = galleryCases();
     const total = data.cases.length;
     refs.galleryGrid.innerHTML = items.map((item) => {
-      const aorta = item.scores.aorta;
-      const spleen = item.scores.spleen;
+      const scoreRows = Object.keys(ORGAN_LABEL).map((organ) => {
+        const score = item.scores?.[organ];
+        if (!score) return "";
+        const short = ORGAN_SHORT[organ] || organ[0].toUpperCase();
+        return `
+            <div class="take-score">
+              <span>${short}</span><b>${formatScore(score.before)}</b><i>→</i><b>${formatScore(score.after)}</b>
+              <em class="${score.after >= score.before ? "pos" : "neg"}">${formatDelta(score.after - score.before)}</em>
+            </div>`;
+      }).join("");
       return `
         <button class="take-card${item.featured ? " featured" : ""}${item.qc ? " qc" : ""}" type="button"
                 data-case-id="${item.id}" aria-label="${item.series} detayını aç">
@@ -227,20 +306,15 @@
               <span class="take-series">${item.series}</span>
               <span class="take-date">${item.day} · take ${item.take}${item.qc ? " · QC" : ""}</span>
             </div>
-            <span class="take-tag" data-tone="${displayTone(item)}">${displayTag(item)}</span>
+            ${item.artifact || item.segFailure
+              ? `<span class="take-tag" data-tone="amber" title="${(item.artifact || item.segFailure).summary.replace(/"/g, "&quot;")}">${item.segFailure ? "SEG HATASI" : "SEG ADACIK"}</span>`
+              : `<span class="take-tag" data-tone="${displayTone(item)}">${displayTag(item)}</span>`}
           </div>
           <div class="take-composite">
-            <img src="${item.gallery}" alt="${item.series} · Aorta ve Spleen önce/sonra">
+            <img src="${item.gallery}" alt="${item.series} · Aorta / Dalak / Böbrek önce-sonra">
           </div>
           <div class="take-scores">
-            <div class="take-score">
-              <span>A</span><b>${formatScore(aorta.before)}</b><i>→</i><b>${formatScore(aorta.after)}</b>
-              <em class="${aorta.after >= aorta.before ? "pos" : "neg"}">${formatDelta(aorta.after - aorta.before)}</em>
-            </div>
-            <div class="take-score">
-              <span>S</span><b>${formatScore(spleen.before)}</b><i>→</i><b>${formatScore(spleen.after)}</b>
-              <em class="${spleen.after >= spleen.before ? "pos" : "neg"}">${formatDelta(spleen.after - spleen.before)}</em>
-            </div>
+            ${scoreRows}
           </div>
         </button>
       `;
@@ -274,15 +348,26 @@
     const item = getCase();
     refs.caseTitle.textContent = item.title;
     refs.caseSeries.textContent = `${item.series} → ${data.fixed}`;
-    refs.caseNote.textContent = item.note;
+    const artifact = item.artifact || item.segFailure;
+    refs.caseNote.textContent = artifact
+      ? `${item.note} ⚠ ${artifact.summary}`
+      : item.note;
     refs.caseTags.innerHTML = `
       <span class="pill tone">${displayTag(item)}</span>
-      <span class="pill">${ORGAN_LABEL.aorta} + ${ORGAN_LABEL.spleen}</span>
+      <span class="pill">${Object.values(ORGAN_LABEL).join(" + ")}</span>
       <span class="pill">fixed ${data.fixed}</span>
+      ${item.artifact ? `<span class="pill artifact-pill">⚠ Seg adacık</span>` : ""}
+      ${item.segFailure ? `<span class="pill failure-pill">⚠ Seg hatası</span>` : ""}
     `;
 
     refs.organTabs.innerHTML = "";
-    Object.entries(ORGAN_LABEL).forEach(([organ, label]) => {
+    const available = Object.keys(item.views || {});
+    if (available.length && !available.includes(state.organ)) {
+      state.organ = available[0];
+    }
+    Object.entries(ORGAN_LABEL)
+      .filter(([organ]) => item.views?.[organ])
+      .forEach(([organ, label]) => {
       const button = document.createElement("button");
       button.type = "button";
       button.textContent = label;
@@ -358,8 +443,8 @@
     const index = activeIndex();
     const view = list[index] ?? list[0];
     const organLabel = ORGAN_LABEL[state.organ];
-    refs.viewEyebrow.textContent = state.mode === "three"
-      ? "Ham / centroid / rigid"
+    refs.viewEyebrow.textContent = state.mode === "four"
+      ? "Ham / identity / centroid / rigid"
       : isAllMode()
         ? "Tüm kesitler"
         : state.mode === "side" ? "Yan yana" : "Önce / sonra";
@@ -368,11 +453,14 @@
     refs.imgBefore.src = view.before;
     refs.imgAfter.src = view.after;
     refs.imgRaw.src = view.raw || view.before;
+    if (refs.imgIdentity) refs.imgIdentity.src = view.identity || view.raw || view.before;
     const isIdentityBefore = (data.beforeLabel || "").toLowerCase().includes("identity");
     if (refs.tagBefore) refs.tagBefore.textContent = `ÖNCE · ${isIdentityBefore ? "identity" : "centroid"}`;
+    if (refs.tagIdentity) refs.tagIdentity.textContent = "IDENTITY · çakıştırma öncesi";
     if (refs.tagAfter) refs.tagAfter.textContent = `SONRA · ${(data.afterLabel || "").toLowerCase().includes("registered") ? "registered" : "rigid"}`;
     refs.imgBefore.alt = `${item.series} · ${organLabel} · ${view.label} · önce`;
     refs.imgAfter.alt = `${item.series} · ${organLabel} · ${view.label} · sonra`;
+    if (refs.imgIdentity) refs.imgIdentity.alt = `${item.series} · ${organLabel} · ${view.label} · identity`;
 
     if (isAllMode()) {
       refs.allSliceRange.value = String(index);
@@ -408,20 +496,22 @@
     refs.compare.classList.toggle("slider", state.mode === "slider");
     refs.compare.classList.toggle("side", state.mode === "side");
     refs.compare.classList.toggle("three", state.mode === "three");
+    refs.compare.classList.toggle("four", state.mode === "four");
     refs.compareDivider.style.display = state.mode === "slider" ? "" : "none";
     refs.splitRange.disabled = state.mode !== "slider";
     refs.sliderRow.style.display = state.mode === "slider" ? "" : "none";
   }
 
   function averageGainOf(item) {
-    return (
-      (item.scores.aorta.after - item.scores.aorta.before)
-      + (item.scores.spleen.after - item.scores.spleen.before)
-    ) / 2;
+    const values = Object.values(item.scores || {});
+    const total = values.reduce((sum, s) => sum + (s.after - s.before), 0);
+    return total / Math.max(1, values.length);
   }
 
   function limitingOrgan(item) {
-    return item.scores.aorta.after <= item.scores.spleen.after ? "aorta" : "spleen";
+    const organs = Object.entries(item.scores || {});
+    if (!organs.length) return "aorta";
+    return organs.reduce((a, b) => (b[1].after < a[1].after) ? b : a)[0];
   }
 
   function afterPrefix(item) {
@@ -499,8 +589,9 @@
     const item = getCase();
     refs.methodText.textContent = item.method;
     refs.metricRows.innerHTML = "";
-    ["aorta", "spleen"].forEach((organ) => {
-      const scores = item.scores[organ];
+    Object.keys(ORGAN_LABEL).forEach((organ) => {
+      const scores = item.scores?.[organ];
+      if (!scores) return;
       const delta = scores.after - scores.before;
       const residual = item.residual?.[organ];
       const row = document.createElement("div");
@@ -526,18 +617,18 @@
       refs.metricRows.appendChild(row);
     });
 
-    const gainAorta = item.scores.aorta.after - item.scores.aorta.before;
-    const gainSpleen = item.scores.spleen.after - item.scores.spleen.before;
-    const averageGain = (gainAorta + gainSpleen) / 2;
-    const minFinal = Math.min(item.scores.aorta.after, item.scores.spleen.after);
-    const noChange = Math.abs(gainAorta) < 0.001 && Math.abs(gainSpleen) < 0.001;
+    const scoresList = Object.values(item.scores || {});
+    const deltas = scoresList.map((s) => s.after - s.before);
+    const averageGain = deltas.reduce((sum, d) => sum + d, 0) / Math.max(1, deltas.length);
+    const minFinal = Math.min(...scoresList.map((s) => s.after));
+    const noChange = deltas.every((d) => Math.abs(d) < 0.001);
     const isLow = item.qc || minFinal < 0.93 || (averageGain < 0.015 && !noChange);
     refs.insightText.textContent = item.qc
       ? `QC işaretli take (${item.qcReason}); metrikler ve overlay yine de gösteriliyor, yorumda dikkat.`
       : noChange
         ? "Aynı fixed günü / aynı geometri: centroid baseline ile rigid sonuç aynı; konturlar değişmiyor."
         : averageGain > 0.08
-          ? "Belirgin kazanç: centroid kayması rigid ile büyük ölçüde düzeliyor; iki organda da örtüşme artıyor."
+          ? "Belirgin kazanç: centroid kayması rigid ile büyük ölçüde düzeliyor; organların tamamında örtüşme artıyor."
           : averageGain > 0.03
             ? "Orta düzey kazanç: rigid konturları toparlıyor; organdaki kalan fark şekil/boundary kaynaklı."
             : "Kazanç sınırlı: centroid zaten yakın. Kalan açık boundary/shape farkı; rigid ile daha fazlası gelmiyor.";
@@ -652,7 +743,9 @@
       event.preventDefault();
     }
     if (event.key === "ArrowUp" || event.key === "ArrowDown") {
-      state.organ = state.organ === "aorta" ? "spleen" : "aorta";
+      const organs = Object.keys(ORGAN_LABEL);
+      const position = organs.indexOf(state.organ);
+      state.organ = organs[(position + 1) % organs.length];
       resetSlicePositions();
       render();
       event.preventDefault();
@@ -663,6 +756,7 @@
 
   state.allIndex = middleAllIndex();
   renderStats();
+  renderArtifacts();
   renderCaseTabs();
   render();
 })();

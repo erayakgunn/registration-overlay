@@ -51,7 +51,7 @@
       </article>
       <article class="stat-card stat-quiet">
         <span class="stat-label">Galeri sırası</span>
-        <strong>Ham → Centroid → Rigid</strong>
+        <strong id="galleryOrder">Ham → Identity → Centroid → Rigid</strong>
         <span class="stat-caption">Kartlarda soldan sağa</span>
       </article>
     </section>
@@ -60,8 +60,8 @@
       <div class="gallery-head">
         <div>
           <p class="eyebrow">Tüm take’ler</p>
-          <h2><span id="galleryTotal">67</span> take · 2 organ · 6 görüntü / kart (ham | centroid | rigid)</h2>
-          <p class="gallery-sub">Her take için Aorta ve Spleen’in ham, centroid ve rigid konturları. Kartlar aynı fixed referansa göre sıralanır.</p>
+          <h2><span id="galleryTotal">67</span> take · <span id="galleryMeta">4 organ · 16 görüntü / kart (ham | identity | centroid | rigid)</span></h2>
+          <p class="gallery-sub" id="gallerySub">Her take için Aorta, Dalak, sağ ve sol böbreğin ham, identity (çakıştırma öncesi), centroid ve rigid konturları. Kartlar aynı fixed referansa göre sıralanır.</p>
         </div>
         <div class="gallery-controls">
           <label class="search-box">
@@ -72,11 +72,30 @@
             <option value="date">Tarih sırası</option>
             <option value="gain">Ortalama kazanç ↓</option>
             <option value="aortaFinal">Aorta final ↓</option>
-            <option value="spleenFinal">Spleen final ↓</option>
+            <option value="spleenFinal">Dalak final ↓</option>
+            <option value="kidneyRightFinal">Böbrek sağ final ↓</option>
+            <option value="kidneyLeftFinal">Böbrek sol final ↓</option>
             <option value="low">En düşük final ↑</option>
           </select>
         </div>
       </div>
+
+      <details class="artifact-panel" id="artifactPanel">
+        <summary>
+          <span class="artifact-dot" aria-hidden="true"></span>
+          Böbrek segmentasyon adacıkları:
+          <strong id="artifactCount">0</strong> vaka
+          <span class="artifact-breakdown" id="artifactBreakdown"></span>
+        </summary>
+        <div class="artifact-body">
+          <p class="artifact-hint">
+            Uzak küçük bileşenler registration hatası değildir; ASSD/MSSD/HD95'i
+            şişirir. Largest-component değerleri tanısaldır, kaynak maskeler
+            değiştirilmedi.
+          </p>
+          <div id="artifactList"></div>
+        </div>
+      </details>
 
       <div class="gallery-meta">
         <span id="galleryCount">67 take</span>
@@ -108,7 +127,7 @@
         <div class="panel-section">
           <div class="control-head">
             <span class="mini-label">Organ</span>
-            <span class="control-hint">Aorta / Spleen</span>
+            <span class="control-hint">Aorta / Dalak / Böbrek sağ / Böbrek sol</span>
           </div>
           <div class="segmented" id="organTabs" role="tablist" aria-label="Organ"></div>
         </div>
@@ -156,7 +175,7 @@
             <h3 id="viewLabel">Aorta · aksiyel · z 82</h3>
           </div>
           <div class="mode-toggle" id="modeToggle" role="group" aria-label="Görünüm modu">
-            <button type="button" data-mode="three">Ham | Centroid | Rigid</button>
+            <button type="button" data-mode="four">Ham | Identity | Centroid | Rigid</button>
             <button type="button" data-mode="slider">Slider</button>
             <button type="button" data-mode="side">Yan yana</button>
           </div>
@@ -166,6 +185,10 @@
           <div class="pane raw-pane">
             <img id="imgRaw" alt="Ham: işlenmemiş moving görüntü" draggable="false">
             <span class="image-tag tag-raw">HAM · işlenmemiş</span>
+          </div>
+          <div class="pane identity-pane">
+            <img id="imgIdentity" alt="Identity: çakıştırma öncesi, transform yok" draggable="false">
+            <span class="image-tag tag-identity" id="tagIdentity">IDENTITY · çakıştırma öncesi</span>
           </div>
           <div class="pane before-pane">
             <img id="imgBefore" alt="Önce: centroid öteleme sonrası çakıştırma" draggable="false">
@@ -229,7 +252,7 @@
     </div>
 
     <footer class="footer">
-      <span id="footerLeft">SEP Phantom · Aorta label 52 · Spleen label 1 · Fixed 20260805_t1</span>
+      <span id="footerLeft">SEP Phantom · Aorta 52 · Dalak 1 · Böbrek sağ 2 · Böbrek sol 3 · Fixed 20260805_t1</span>
       <span id="footerRight">Önce görüntüsü centroid-öteleme baseline’ıdır; sonra üretim rigid transformu.</span>
     </footer>
   </div>
@@ -255,13 +278,25 @@
       if (footerLeft && window.CASES) {
         footerLeft.textContent = key === "zurich"
           ? `${label} · Test-retest · Fixed ${window.CASES.fixed}`
-          : `${label} Phantom · Aorta label 52 · Spleen label 1 · Fixed ${window.CASES.fixed}`;
+          : `${label} Phantom · Aorta 52 · Dalak 1 · Böbrek sağ 2 · Böbrek sol 3 · Fixed ${window.CASES.fixed}`;
+      }
+      const galleryMeta = document.getElementById("galleryMeta");
+      const gallerySub = document.getElementById("gallerySub");
+      const galleryOrder = document.getElementById("galleryOrder");
+      if (key === "zurich") {
+        if (galleryMeta) galleryMeta.textContent = "2 organ · 4 görüntü / kart (önce | sonra)";
+        if (gallerySub) gallerySub.textContent = "Her take için Aorta ve Dalak'ın önce/sonra konturları; test-retest karşılaştırması.";
+        if (galleryOrder) galleryOrder.textContent = "Önce → Sonra";
+      } else {
+        if (galleryMeta) galleryMeta.textContent = "4 organ · 16 görüntü / kart (ham | identity | centroid | rigid)";
+        if (gallerySub) gallerySub.textContent = "Her take için Aorta, Dalak, sağ ve sol böbreğin ham, identity (çakıştırma öncesi), centroid ve rigid konturları. Kartlar aynı fixed referansa göre sıralanır.";
+        if (galleryOrder) galleryOrder.textContent = "Ham → Identity → Centroid → Rigid";
       }
       const scopeNote = document.getElementById("scopeNote");
       if (scopeNote && window.CASES) {
         scopeNote.innerHTML = key === "zurich"
           ? `<strong>Zürich test-retest.</strong> Aynı oturumdaki 1 test + 9 retest, take1 referansına göre karşılaştırıldı; before = identity, after = rigid/landmark. Test-retest verisi zaten hizalı olduğundan Dice değişimi küçüktür; asıl fark cross-date karşılaştırmasında ortaya çıkar. VOI Dice registration QC metriği değildir. Metrikler: Dice; HD95 (max); ASSD (yönlü); MSSD (pooled); NSD@1mm; clDice — Metrics Reloaded uyumlu.`
-          : `<strong>Rigid sonrası sınır ve sonraki adım.</strong> Galeri kartlarında soldan sağa ham (işlenmemiş) → centroid → rigid gösterilir. Bu çalışmada fixed ${window.CASES.fixed} referansına ${window.CASES.cases.length} moving take için centroid-öteleme ön hizalaması ve rigid (bone/landmark) registration uygulandı; Dice, centroid farkı, HD95 (max), ASSD, MSSD, NSD@1mm ve clDice hesaplandı. Rigid sonrası global hizalama çoğu vakada 1 mm altında kaldı; kalan Dice farkı ağırlıklı olarak boundary/şekil ve segmentasyon kaynaklı. Daha yüksek doğruluk için iki yol öne çıkar: deformable registration veya segmentasyon düzeltmesi/re-segmentation. Deformable farklı bir yöntemdir; Dice’ı yükseltse bile rigid başarısıyla doğrudan karşılaştırılamaz. Re-segmentation ise ground truth’u değiştirir; tüm fixed/moving veriye aynı protokolle uygulanmalı ve observer variability/ek maliyet getirir. Metrikler: Dice; HD95 (max); ASSD (yönlü ortalamalar); MSSD (pooled); NSD@1mm; clDice — Metrics Reloaded uyumlu.`;
+          : `<strong>Rigid sonrası sınır ve sonraki adım.</strong> Galeri kartlarında soldan sağa ham (işlenmemiş) → identity (çakıştırma öncesi) → centroid → rigid gösterilir; satırlar aorta, dalak, sağ böbrek ve sol böbrektir. Bu çalışmada fixed ${window.CASES.fixed} referansına ${window.CASES.cases.length} moving take için centroid-öteleme ön hizalaması ve rigid (bone/landmark) registration uygulandı; Dice, centroid farkı, HD95 (max), ASSD, MSSD, NSD@1mm ve clDice hesaplandı. Rigid sonrası global hizalama çoğu vakada 1 mm altında kaldı; kalan Dice farkı ağırlıklı olarak boundary/şekil ve segmentasyon kaynaklı. Daha yüksek doğruluk için iki yol öne çıkar: deformable registration veya segmentasyon düzeltmesi/re-segmentation. Deformable farklı bir yöntemdir; Dice’ı yükseltse bile rigid başarısıyla doğrudan karşılaştırılamaz. Re-segmentation ise ground truth’u değiştirir; tüm fixed/moving veriye aynı protokolle uygulanmalı ve observer variability/ek maliyet getirir. Metrikler: Dice; HD95 (max); ASSD (yönlü ortalamalar); MSSD (pooled); NSD@1mm; clDice — Metrics Reloaded uyumlu.`;
       }
     })();
   </script>
