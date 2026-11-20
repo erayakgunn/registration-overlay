@@ -91,7 +91,8 @@
           <p class="artifact-hint">
             Uzak küçük bileşenler registration hatası değildir; ASSD/MSSD/HD95'i
             şişirir. Largest-component değerleri tanısaldır, kaynak maskeler
-            değiştirilmedi.
+            değiştirilmedi. Böbrek primary analizi 1 mm'dir; 3 mm ayrı
+            duyarlılık olarak tutulur ve pooled edilmez.
           </p>
           <div id="artifactList"></div>
         </div>
@@ -296,7 +297,7 @@
       if (scopeNote && window.CASES) {
         scopeNote.innerHTML = key === "zurich"
           ? `<strong>Zürich test-retest.</strong> Aynı oturumdaki 1 test + 9 retest, take1 referansına göre karşılaştırıldı; before = identity, after = rigid/landmark. Test-retest verisi zaten hizalı olduğundan Dice değişimi küçüktür; asıl fark cross-date karşılaştırmasında ortaya çıkar. VOI Dice registration QC metriği değildir. Metrikler: Dice; HD95 (max); ASSD (yönlü); MSSD (pooled); NSD@1mm; clDice — Metrics Reloaded uyumlu.`
-          : `<strong>Rigid sonrası sınır ve sonraki adım.</strong> Galeri kartlarında soldan sağa ham (işlenmemiş) → identity (çakıştırma öncesi) → centroid → rigid gösterilir; satırlar aorta, dalak, sağ böbrek ve sol böbrektir. Bu çalışmada fixed ${window.CASES.fixed} referansına ${window.CASES.cases.length} moving take için centroid-öteleme ön hizalaması ve rigid (bone/landmark) registration uygulandı; Dice, centroid farkı, HD95 (max), ASSD, MSSD, NSD@1mm ve clDice hesaplandı. Rigid sonrası global hizalama çoğu vakada 1 mm altında kaldı; kalan Dice farkı ağırlıklı olarak boundary/şekil ve segmentasyon kaynaklı. Daha yüksek doğruluk için iki yol öne çıkar: deformable registration veya segmentasyon düzeltmesi/re-segmentation. Deformable farklı bir yöntemdir; Dice’ı yükseltse bile rigid başarısıyla doğrudan karşılaştırılamaz. Re-segmentation ise ground truth’u değiştirir; tüm fixed/moving veriye aynı protokolle uygulanmalı ve observer variability/ek maliyet getirir. Metrikler: Dice; HD95 (max); ASSD (yönlü ortalamalar); MSSD (pooled); NSD@1mm; clDice — Metrics Reloaded uyumlu.`;
+          : `<strong>Rigid sonrası sınır ve sonraki adım.</strong> Galeri kartlarında soldan sağa ham (işlenmemiş) → identity (çakıştırma öncesi) → centroid → rigid gösterilir; satırlar aorta, dalak, sağ böbrek ve sol böbrektir. Bu çalışmada fixed ${window.CASES.fixed} referansına ${window.CASES.cases.length} moving take için centroid-öteleme ön hizalaması ve rigid (bone/landmark) registration uygulandı; Dice, centroid farkı, HD95 (max), ASSD, MSSD, NSD@1mm ve clDice hesaplandı. Rigid sonrası global hizalama çoğu vakada 1 mm altında kaldı; kalan Dice farkı ağırlıklı olarak boundary/şekil ve segmentasyon kaynaklı. Daha yüksek doğruluk için iki yol öne çıkar: deformable registration veya segmentasyon düzeltmesi/re-segmentation. Deformable farklı bir yöntemdir; Dice’ı yükseltse bile rigid başarısıyla doğrudan karşılaştırılamaz. Re-segmentation ise ground truth’u değiştirir; tüm fixed/moving veriye aynı protokolle uygulanmalı ve observer variability/ek maliyet getirir. Metrikler: Dice; HD95 (max); ASSD (yönlü ortalamalar); MSSD (pooled); NSD@1mm; clDice — Metrics Reloaded uyumlu. Böbrek primary analizi 1 mm; 3 mm ayrı duyarlılık, pooled değil.`;
       }
     })();
   </script>
